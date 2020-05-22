@@ -1,0 +1,107 @@
+footer {
+  background-color: #343a40;
+  color: white;
+}
+
+footer .widget {
+  margin-bottom: 30px;
+}
+
+.widget ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* druga Footer */
+
+/*----------------------
+ FOOTER
+-----------------------*/
+#footer {
+  padding: 80px 0px;
+  position: relative;
+}
+
+#footer .footer-brand {
+  font-size: 30px;
+}
+
+#footer .footer-links {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+#footer {
+  /* background: url("../images/bg/10.jpg"); */
+  background-size: cover;
+}
+
+.footer-overlay {
+  background: #111;
+  opacity: 0.94;
+}
+
+.footer-widget p {
+  color: #888;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 32px;
+  font-size: 14px;
+}
+
+.footer-widget h3 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.footer-links a {
+  color: #888;
+  line-height: 38px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.footer-links i {
+  width: 25px;
+}
+
+.footer-copy {
+  color: #888;
+  font-size: 16px;
+  position: relative;
+}
+
+.footer-copy:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 12px;
+  width: 66%;
+  height: 1px;
+  background: #94959a;
+}
+
+.current-year {
+  color: #21c87a !important;
+}
+
+.footer-links img {
+  /* background: #94959a */
+  color: #94959a !important;
+}
+
+.facebook {
+  background-image: url("../img/icons/facebook-f-brands.svg");
+  background-color: #94959a;
+}
+
+.social {
+  color: #888 !important;
+  margin-top: -3px;
+  background-repeat: no-repeat;
+  background-size:contain;
+    background-position:top;
+    background: cover;
+
+}
