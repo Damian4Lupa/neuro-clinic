@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/Footer.css";
 
+
+
 import facebook from "../img/icons/facebook-f-brands.svg";
 import facebook2 from "../img/icons/facebook-square-brands.svg";
 import twitter from "../img/icons/twitter-brands.svg";
@@ -9,6 +11,8 @@ import pinterest from "../img/icons/pinterest-p-brands.svg";
 import pinterest2 from "../img/icons/pinterest-square-brands.svg";
 import linkedin from "../img/icons/linkedin-brands.svg";
 import YouTube from "../img/icons/youtube-brands.svg";
+
+
 
 function Footer() {
   return (
@@ -88,33 +92,53 @@ function Footer() {
                   <li>
                     <a href="#">
                       <img
-                        src={facebook}
+                        src={facebook2}
                         alt=""
                         height="15"
-                        style={{color: "red !important"}}
+                        class="mr-2"
                       />
-                      {/* <i class="facebook"></i> */}
+                 
                       Facebook
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fab fa-twitter"></i>Twitter
+                    <img
+                        src={twitter2}
+                        alt=""
+                        height="15"
+                        class="mr-2"
+                      />Twitter
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fab fa-pinterest-p"></i>Pinterest
+                    <img
+                        src={pinterest2}
+                        alt=""
+                        height="15"
+                        class="mr-2"
+                      />Pinterest
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fab fa-linkedin"></i>linkedin
+                    <img
+                        src={linkedin}
+                        alt=""
+                        height="15"
+                        class="mr-2"
+                      />linkedin
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fab fa-youtube"></i>YouTube
+                    <img
+                        src={YouTube}
+                        alt=""
+                        height="15"
+                        class="mr-2"
+                      />YouTube
                     </a>
                   </li>
                 </ul>

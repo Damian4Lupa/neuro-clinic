@@ -13,6 +13,7 @@ function App() {
     
         <Nav />
         <Navigation />
+       
         <HomePage />
         <Footer />
      

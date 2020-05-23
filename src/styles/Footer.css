@@ -1,24 +1,7 @@
+
 footer {
   background-color: #343a40;
   color: white;
-}
-
-footer .widget {
-  margin-bottom: 30px;
-}
-
-.widget ul {
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0;
-}
-
-/* druga Footer */
-
-/*----------------------
- FOOTER
------------------------*/
-#footer {
   padding: 80px 0px;
   position: relative;
 }
@@ -62,7 +45,7 @@ footer .widget {
   text-transform: capitalize;
 }
 
-.footer-links i {
+.footer-links img {
   width: 25px;
 }
 
@@ -87,21 +70,15 @@ footer .widget {
 }
 
 .footer-links img {
-  /* background: #94959a */
-  color: #94959a !important;
+  margin-top: -2.5px;
+  filter: invert(0.5)
 }
 
-.facebook {
-  background-image: url("../img/icons/facebook-f-brands.svg");
-  background-color: #94959a;
-}
 
 .social {
   color: #888 !important;
   margin-top: -3px;
   background-repeat: no-repeat;
-  background-size:contain;
-    background-position:top;
-    background: cover;
-
+  background-size: contain;
+  background-position: top;
 }

@@ -1,53 +1,66 @@
-/* Header area
-================================================== */
-
-.header {
-  background: #fff;
-  position: relative;
-  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+:root {
+  --glowny-kolor-tla: #343a40;
+  --kolor-liter: #f8f9fa;
+  --hoover-color: #6c757d;
 }
 
-.navbar-fixed {
-  z-index: 99999;
-  position: fixed;
-  opacity: 0.98;
+.stroke {
   width: 100%;
-  top: 0;
-  animation: fadeInDown 800ms;
-  /* -webkit-backface-visibility: hidden; */
+  margin: 0 auto;
+  background-color: var(--glowny-kolor-tla);
+  padding: 15px 0 5px 0;
+  box-shadow: 0px 5px 0px #dedede;
 }
 
-@-webkit-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
+nav ul {
+  list-style: none;
+  /* text-align: center;  */
 }
 
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-20px);
-    -ms-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: var(--kolor-liter);
+  font-weight: 600;
+  /* text-transform: uppercase; */
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.5s;
+}
+nav ul li a:hover {
+  color: var(--hoover-color);
+  text-decoration: none;
 }
 
-.fadeInDown {
-  -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: var(--hoover-color);
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
 }
