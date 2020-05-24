@@ -1,54 +1,8 @@
-/* .header-uper {
-  padding: 40px 0px;
+:root {
+  --glowny-kolor-tla: #2e3236;
+  --kolor-liter: #f8f9fa;
+  --hoover-color: #6c757d;
 }
-
-.header-uper .logo {
-  float: left;
-}
-
-.logo {
-  display: inline-block;
-}
-
-.header-uper .right-side {
-  margin-left: 45vh;
-}
-
-.header-uper .contact-info {
-  float: left;
-}
-
-.header-uper .contact-info .item {
-  position: relative;
-  display: inline-block;
-  padding-left: 70px;
-  margin-right: 40px;
-}
-
-.header-uper .contact-info .item .icon-box {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 53px;
-  height: 53px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 53px;
-  border: 1px solid #5ec5cc;
-}
-
-.header-uper .right-side .link-btn {
-  margin-left: 20px;
-  margin-top: 5px;
-}
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-} */
-
-/* drugir nav */
 
 .header-socials {
   line-height: 22px;
@@ -59,9 +13,9 @@
   padding: 8px;
 }
 
-.header-socials li a {
+/* .header-socials li a {
   color: #21c87a;
-}
+} */
 
 .logo-bar {
   padding: 40px 0px 40px;
@@ -76,12 +30,20 @@
   margin-bottom: 0px;
 }
 
+/* .top-info-block h6 {
+  color: var(--glowny-kolor-tla)
+} */
+
 .icon-block {
   margin-right: 20px;
-  color: #21c87a;
+  /* color: #21c87a; */
   font-size: 40px;
   line-height: 20px;
   font-weight: 400;
+}
+
+.icon-block img {
+  filter: invert(0.5)
 }
 
 .top-info-block:last-child {
@@ -108,6 +70,6 @@
   display: inline-block;
 }
 
-.ti-mobile {
+/* .ti-mobile {
   background-image: url("../img/icons/mobile.svg");
-}
+} */
