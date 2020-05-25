@@ -66,7 +66,7 @@ function Navigation2() {
   updateNav();
 
   return (
-    <nav class="greedy-nav mt-5">
+    <nav class="greedy-nav">
       {/* <button>
         <div class="hamburger"></div>
       </button> */}

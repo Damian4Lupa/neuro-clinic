@@ -1,0 +1,254 @@
+/* ===========================
+--- Intro
+============================ */
+
+.intro {
+  width: 100%;
+  position: relative;
+}
+
+.intro-content {
+  background-image: url("../img/HomePage/1.jpg");
+  padding-top: 10vh;
+}
+.intro-content .intro-nobg {
+  background: #fff;
+  position: relative;
+  margin: 0;
+  padding: 140px 0 60px;
+}
+
+.slogan {
+  margin-bottom: 20px;
+}
+
+.white-box {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.intro-content h2 {
+  margin-bottom: 10px;
+}
+
+h1.h-ultra,
+h2.h-ultra,
+h3.h-ultra,
+h4.h-ultra,
+h5.h-ultra,
+h6.h-ultra {
+  font-weight: 900;
+}
+
+.well.well-trans {
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: initial;
+  border-radius: 5px;
+}
+
+/* ---- lead form --- */
+
+.lead-list img {
+  filter: invert(0.5);
+  margin-top: -25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul.lead-list {
+  list-style: none;
+  margin: 30px 10px;
+  padding-top: 30px;
+
+  border-radius: 50px !important;
+  /* radius: 50px; */
+
+  /* margin-left: 0;
+	padding-left: 0;
+	margin-bottom: 20px; */
+}
+
+ul.lead-list li {
+  margin: 0 0 20px 0;
+  line-height: 1.6em;
+}
+
+ul.lead-list li span.fa {
+  margin: 5px 5px 0 0;
+  float: left;
+}
+
+ul.lead-list li span.list {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+
+p.lead-footer {
+  font-size: 16px;
+  margin: 20px 0 0;
+}
+
+.panel-heading {
+  padding: 20px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.panel.panel-skin {
+  border-color: #ddd;
+}
+
+.panel-skin > .panel-heading {
+  color: #fff;
+  background-color: #444;
+  border-color: #444;
+  box-shadow: none;
+}
+
+.panel-body {
+  padding: 20px;
+}
+
+.form-wrapper h3.panel-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form-wrapper h3.panel-title span {
+  font-size: 20px;
+  margin: 0 10px 0 0;
+}
+
+.form-wrapper h3.panel-title small {
+  font-size: 16px;
+  color: #ddd;
+}
+
+form.lead label,
+form.lead input {
+  font-size: 16px;
+}
+
+.panel-body {
+  background: #fff;
+}
+
+.panel-skin > .panel-heading .badge {
+  background-color: #fff;
+}
+
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* ===========================
+--- boxes
+============================ */
+
+.boxes.home-section {
+  padding-top: 150px;
+  display: block;
+  position: relative;
+  z-index: 120;
+  background-color: #fff;
+}
+
+.boxes.home-section.nopadding {
+  padding-top: 0;
+  padding-bottom: 0;
+  display: block;
+  position: relative;
+  z-index: 120;
+}
+.boxes.home-section.nopadding-bot {
+  padding-bottom: 0;
+}
+.boxes.home-section.nopadding-top {
+  padding-top: 0;
+}
+
+.boxes.inner-section {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.boxes.home-section.nopadd-bot {
+  padding-bottom: 0;
+}
+
+.boxes.section-heading h2 {
+  margin-bottom: 10px;
+}
+
+.boxes.section-heading p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+.boxes.color-dark .section-heading h2 {
+  color: #111;
+}
+.boxes.color-dark .section-heading p {
+  color: #444;
+}
+
+.boxes.divider-short,
+.boxes.color-dark .divider-short,
+.boxes.bg-gray .divider-short {
+  background: #aaa;
+}
+
+.boxes .color-light .divider-short {
+  background: #fefefe;
+}
+
+.color-light .section-heading h2 {
+  color: #fff;
+}
+.color-light .section-heading p {
+  color: #fefefe;
+}
+
+.color-light blockquote,
+.color-light p {
+  color: #fefefe;
+}
+
+/* --- section bg var --- */
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-gray {
+  background: #fafafa;
+}
+
+.bg-dark {
+  background: #404040;
+}
+
+/* --- section color var --- */
+
+.text-light {
+  color: #fff;
+}
+
+.boxes .circled {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  background-color: lawngreen;
+  width: 7rem;
+  height: 7rem;
+  text-align: center;
+  line-height: 7rem;
+  border-radius: 50%;
+}
