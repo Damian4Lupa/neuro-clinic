@@ -1,3 +1,9 @@
+:root {
+  --glowny-kolor-tla: #2e3236;
+  --kolor-liter: #f8f9fa;
+  --hoover-color: #6c757d;
+}
+
 /* ===========================
 --- Intro
 ============================ */
@@ -47,6 +53,11 @@ h6.h-ultra {
   box-shadow: none;
   border: initial;
   border-radius: 5px;
+}
+
+.doctor img {
+  width: 100%;
+  margin-left: 5vw;
 }
 
 /* ---- lead form --- */
@@ -153,7 +164,8 @@ form.lead input {
 ============================ */
 
 .boxes.home-section {
-  padding-top: 150px;
+  margin: 10vh 0;
+  /* padding-top: 10vh; */
   display: block;
   position: relative;
   z-index: 120;
@@ -242,13 +254,26 @@ form.lead input {
   color: #fff;
 }
 
+.boxes img {
+   filter: invert(1);
+   padding: 15px;
+   /* transform: scale(.5); */
+}
+
 .boxes .circled {
   display: inline-block;
-  color: rgb(255, 255, 255);
-  background-color: lawngreen;
+  /* color: var(--kolor-liter); */
+ 
+  background-color: var(--glowny-kolor-tla);
   width: 7rem;
   height: 7rem;
-  text-align: center;
-  line-height: 7rem;
+  /* text-align: center; */
+  /* line-height: 7rem; */
+  /* border-radius: 50%; */
+  margin-bottom: 3vh;
   border-radius: 50%;
+}
+
+.boxes h4 {
+  margin-bottom: 2vh;
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/HomePage.css";
-// import '../styles/style.css'
-// import '../styles/animate.css'
+
 import doctor from "../img/HomePage/img-3.png";
 import check from "../img/HomePage/check3.svg";
 
@@ -10,6 +9,9 @@ import notesMedical from '../img/HomePage/notes-medical.svg'
 import tasks from '../img/HomePage/tasks.svg'
 import thList from '../img/HomePage/th-list.svg'
 import userMd from '../img/HomePage/user-md.svg'
+import bookMedical from '../img/HomePage/book-medical.svg'
+import fileMedical from '../img/HomePage/file-medical.svg'
+
 
 
 function HomePage() {
@@ -70,20 +72,21 @@ function HomePage() {
                       </li>
                     </ul>
                     <p class="text-right wow bounceIn" data-wow-delay="0.4s">
-                      <a href="#" class="btn btn-skin btn-lg">
-                        Learn more <i class="fa fa-angle-right"></i>
-                      </a>
+                      
+                    <button type="button" class="btn btn-dark mb-4 mr-4">Learn more</button>
+                      
+                 
                     </p>
                   </div>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div
-                  class="wow fadeInUp"
+                  class="doctor wow fadeInUp"
                   data-wow-duration="2s"
                   data-wow-delay="0.2s"
                 >
-                  <img src={doctor} class="img-responsive" alt="" />
+                  <img src={doctor} alt="" />
                 </div>
               </div>
             </div>
@@ -98,9 +101,9 @@ function HomePage() {
           <div class="row">
             <div class="col-sm-3 col-md-3">
               <div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="box text-center">
-                  {/* <i class="fa fa-check fa-3x circled bg-skin"></i> */}
-                  <img src={check} alt="" class="fa fa-check fa-3x circled bg-skin"/>
+                <div class="text-center">
+              
+                  <img src={check} alt="" class="circled"/>
                
                   <h4 class="h-bold">Make an appoinment</h4>
                   <p>
@@ -113,7 +116,7 @@ function HomePage() {
             <div class="col-sm-3 col-md-3">
               <div class="wow fadeInUp" data-wow-delay="0.2s">
                 <div class="box text-center">
-                <img src={tasks} alt="" class="fa fa-check fa-3x circled bg-skin"/>
+                <img src={fileMedical} alt="" class="circled"/>
                   <h4 class="h-bold">Choose your package</h4>
                   <p>
                     Lorem ipsum dolor sit amet, nec te mollis utroque
@@ -125,7 +128,7 @@ function HomePage() {
             <div class="col-sm-3 col-md-3">
               <div class="wow fadeInUp" data-wow-delay="0.2s">
                 <div class="box text-center">
-                <img src={userMd} alt="" class="fa fa-check fa-3x circled bg-skin"/>
+                <img src={userMd} alt="" class="circled"/>
                   <h4 class="h-bold">Help by specialist</h4>
                   <p>
                     Lorem ipsum dolor sit amet, nec te mollis utroque
@@ -137,7 +140,8 @@ function HomePage() {
             <div class="col-sm-3 col-md-3">
               <div class="wow fadeInUp" data-wow-delay="0.2s">
                 <div class="box text-center">
-                <img src={notesMedical} alt="" class="fa fa-check fa-3x circled bg-skin"/>
+                <img src={notesMedical} alt="" class="circled"/>
+
                   <h4 class="h-bold">Get diagnostic report</h4>
                   <p>
                     Lorem ipsum dolor sit amet, nec te mollis utroque
