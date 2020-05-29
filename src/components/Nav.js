@@ -1,9 +1,9 @@
 import React from "react";
+
 import "../styles/Nav.css";
 import logo from "../img/logo.png";
 import mobile from "../img/icons/mobile.svg";
-import mail1 from "../img/icons/envelope-regular.svg";
-// import mail2 from "../img/icons/envelope-solid.svg";
+import mail from "../img/icons/envelope-regular.svg";
 import clock from "../img/icons/clock.svg";
 
 function Nav() {
@@ -33,7 +33,7 @@ function Nav() {
 
             <div class="top-info-block d-inline-flex">
               <div class="icon-block">
-                <img src={mail1} alt="" height="42" />
+                <img src={mail} alt="" height="42" />
               </div>
               <div class="info-block">
                 <h6 class="font-weight-500">info@example.com</h6>

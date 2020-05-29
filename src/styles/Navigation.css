@@ -3,64 +3,136 @@
   --kolor-liter: #f8f9fa;
   --hoover-color: #6c757d;
 }
-
-.stroke {
-  width: 100%;
-  margin: 0 auto;
+.greedy-nav {
+  min-width: 320px;
+  /* padding: 30px; */
   background-color: var(--glowny-kolor-tla);
-  padding: 15px 0 5px 0;
-  /* box-shadow: 0px 5px 0px #dedede; */
+  font-family: Helvetica, sans-serif;
 }
-
-nav ul {
-  list-style: none;
-  /* text-align: center;  */
+.greedy-nav h1 {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 2rem;
+  font-size: 24px;
 }
-
-nav ul li {
-  display: inline-block;
+.greedy-nav p {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  max-width: 50ex;
 }
-nav ul li a {
-  display: block;
-  padding: 5px;
-  text-decoration: none;
-  color: var(--kolor-liter);
-  font-weight: 600;
-  /* text-transform: uppercase; */
-  margin: 0 10px;
+.greedy-nav p.large {
+  font-size: 1.2rem;
+  margin-top: 2rem;
 }
-nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
-  transition: all 0.5s;
+.greedy-nav a {
+  color: #fff;
 }
-nav ul li a:hover {
-  color: var(--hoover-color);
-  text-decoration: none;
-}
-
-/* stroke */
-nav.stroke ul li a,
-nav.fill ul li a {
+.greedy-nav {
   position: relative;
+  min-width: 250px;
+  /* background: #fff; */
 }
-nav.stroke ul li a:after,
-nav.fill ul li a:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: ".";
-  color: transparent;
-  background: var(--hoover-color);
-  height: 1px;
-}
-nav.stroke ul li a:hover:after {
-  width: 100%;
+.greedy-nav a {
+  display: block;
+  padding: 20px 30px;
+  background: var(--glowny-kolor-tla);
+  font-size: 18px;
+  color: var(--kolor-liter);
+  text-decoration: none;
 }
 
-nav.fill ul li a {
-  transition: all 2s;
+.greedy-nav ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
+
+
+.greedy-nav a:hover {
+  background-color: var(--hoover-color);
+  color: var(--kolor-liter);
+}
+.greedy-nav button {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  padding: 0 15px;
+  border: 0;
+  outline: none;
+  background-color: var(--glowny-kolor-tla);
+  color: #fff;
+  cursor: pointer;
+}
+.greedy-nav button:hover {
+  background-color: var(--hoover-color);
+}
+.greedy-nav button::after {
+  content: attr(count);
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: -16px;
+  top: 12px;
+  text-align: center;
+  background-color: var(--glowny-kolor-tla);
+  color: #fff;
+  font-size: 14px;
+  line-height: 28px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  font-weight: bold;
+}
+.greedy-nav button:hover::after {
+  transform: scale(1.075);
+}
+.greedy-nav .hamburger {
+  position: relative;
+  width: 32px;
+  height: 4px;
+  background: #fff;
+  margin: auto;
+}
+.greedy-nav .hamburger:before,
+.greedy-nav .hamburger:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 32px;
+  height: 4px;
+  background: #fff;
+}
+.greedy-nav .hamburger:before {
+  top: -8px;
+}
+.greedy-nav .hamburger:after {
+  bottom: -8px;
+}
+.greedy-nav .visible-links {
+  display: inline-table;
+}
+.greedy-nav .visible-links li {
+  display: table-cell;
+  border-left: 1px solid var(--glowny-kolor-tla);
+}
+.greedy-nav .hidden-links {
+  position: absolute;
+  right: 0px;
+  top: 100%;
+}
+.greedy-nav .hidden-links li {
+  display: block;
+  border-top: 1px solid var(--glowny-kolor-tla);
+}
+/* .greedy-nav .visible-links li:first-child {
+  font-weight: bold;
+} */
+/* .greedy-nav .visible-links li:first-child a {
+  color: var(--glowny-kolor-tla) !important;
+} */
+.greedy-nav .hidden {
+  visibility: hidden;
+}
+
+

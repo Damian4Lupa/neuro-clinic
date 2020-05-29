@@ -1,11 +1,17 @@
+/* ===========================
+Global data
+============================ */
+
 :root {
   --glowny-kolor-tla: #2e3236;
   --kolor-liter: #f8f9fa;
   --hoover-color: #6c757d;
+  --boxes-background: rgba(243, 243, 243, 0.8);
+  --boxes-callaction: rgba(128, 128, 128, 0.2);
 }
 
 /* ===========================
---- Intro
+Intro
 ============================ */
 
 .intro {
@@ -160,10 +166,10 @@ form.lead input {
 }
 
 /* ===========================
---- boxes
+Boxes
 ============================ */
 
-.boxes.home-section {
+.home-section {
   margin: 10vh 0;
   /* padding-top: 10vh; */
   display: block;
@@ -172,21 +178,21 @@ form.lead input {
   background-color: #fff;
 }
 
-.boxes.home-section.nopadding {
+.home-section.nopadding {
   padding-top: 0;
   padding-bottom: 0;
   display: block;
   position: relative;
   z-index: 120;
 }
-.boxes.home-section.nopadding-bot {
+.home-section.nopadding-bot {
   padding-bottom: 0;
 }
-.boxes.home-section.nopadding-top {
+.home-section.nopadding-top {
   padding-top: 0;
 }
 
-.boxes.inner-section {
+.inner-section {
   padding-top: 110px;
   padding-bottom: 110px;
 }
@@ -195,30 +201,30 @@ form.lead input {
   padding-bottom: 0;
 }
 
-.boxes.section-heading h2 {
+.section-heading h2 {
   margin-bottom: 10px;
 }
 
-.boxes.section-heading p {
+.section-heading p {
   font-weight: 300;
   font-size: 20px;
   line-height: 1.6em;
 }
 
-.boxes.color-dark .section-heading h2 {
+.color-dark .section-heading h2 {
   color: #111;
 }
-.boxes.color-dark .section-heading p {
+.color-dark .section-heading p {
   color: #444;
 }
 
-.boxes.divider-short,
-.boxes.color-dark .divider-short,
-.boxes.bg-gray .divider-short {
+.divider-short,
+.color-dark .divider-short,
+.bg-gray .divider-short {
   background: #aaa;
 }
 
-.boxes .color-light .divider-short {
+.color-light .divider-short {
   background: #fefefe;
 }
 
@@ -234,14 +240,12 @@ form.lead input {
   color: #fefefe;
 }
 
-/* --- section bg var --- */
-
 .bg-white {
   background: #fff;
 }
 
 .bg-gray {
-  background: #fafafa;
+  background: var(--boxes-background);
 }
 
 .bg-dark {
@@ -255,15 +259,15 @@ form.lead input {
 }
 
 .boxes img {
-   filter: invert(1);
-   padding: 15px;
-   /* transform: scale(.5); */
+  filter: invert(1);
+  padding: 15px;
+  /* transform: scale(.5); */
 }
 
 .boxes .circled {
   display: inline-block;
   /* color: var(--kolor-liter); */
- 
+
   background-color: var(--glowny-kolor-tla);
   width: 7rem;
   height: 7rem;
@@ -276,4 +280,86 @@ form.lead input {
 
 .boxes h4 {
   margin-bottom: 2vh;
+}
+
+/* ===========================
+Emergency Intro
+============================ */
+.callaction {
+  padding: 30px 30px 20px 30px;
+  border-radius: 4px;
+  border-bottom: 2px solid var(--boxes-callaction);
+}
+
+.cta-text {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.cta-text h3 {
+  font-weight: 900;
+  line-height: 1.1em;
+  margin-bottom: 20px;
+}
+.cta-btn {
+  float: right;
+  padding: 20px 10px 20px 20px;
+  margin-top: 10px;
+}
+
+/* ===========================
+Partners
+============================ */
+
+.section-heading h2 {
+  margin-bottom: 1vh;
+}
+
+.section-heading p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+.color-dark .section-heading h2 {
+  color: #111;
+}
+.color-dark .section-heading p {
+  color: #444;
+}
+
+.divider-short,
+.color-dark .divider-short,
+.bg-gray .divider-short {
+  background: #aaa;
+}
+
+.color-light .divider-short {
+  background: #fefefe;
+}
+
+.color-light .section-heading h2 {
+  color: #fff;
+}
+.color-light .section-heading p {
+  color: #fefefe;
+}
+
+.divider-short {
+  display: block;
+  width: 60px;
+  height: 1px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.partner {
+  margin: 10vh 0;
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.partner .unnamed {
+  padding-left: -50px !important;
 }
