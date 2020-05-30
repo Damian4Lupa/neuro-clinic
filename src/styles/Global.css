@@ -1,20 +1,10 @@
-html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
 
 body {
   font-family: "Muli", sans-serif;
   font-size: 15px;
   line-height: 1.75;
   margin: 0;
-  text-align: left;
+    box-sizing: border-box;
   background-color: #fff;
-  font-weight: 400;
   color: #6c757d;
-  box-sizing: border-box;
 }

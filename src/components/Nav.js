@@ -1,10 +1,11 @@
 import React from "react";
 
 import "../styles/Nav.css";
-import logo from "../img/logo.png";
-import mobile from "../img/icons/mobile.svg";
-import mail from "../img/icons/envelope-regular.svg";
-import clock from "../img/icons/clock.svg";
+
+import logo from "../img/Nav/brain.png";
+import mobile from "../img/Nav/mobile.svg";
+import mail from "../img/Nav/envelope-regular.svg";
+import clock from "../img/Nav/clock.svg";
 
 function Nav() {
   return (

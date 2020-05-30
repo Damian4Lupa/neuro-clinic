@@ -1,12 +1,11 @@
 import React from "react";
 import "../styles/HomePage.css";
 
-import bma from '../img/partners/bma.png'
-import bma2 from '../img/partners/bma2.png'
-import cleanMed from '../img/partners/CleanMed.png'
-import oneHealth from '../img/partners/one-health.png'
-import uniWroc from '../img/partners/uni-wroc.png'
-import unnamed from '../img/partners/unnamed.png'
+import bma from '../img/Partners/bma.png'
+import cleanMed from '../img/Partners/CleanMed.png'
+import oneHealth from '../img/Partners/one-health.png'
+import uniWroc from '../img/Partners/uni-wroc.png'
+import unnamed from '../img/Partners/unnamed.png'
 
 function Partners() {
   return (
