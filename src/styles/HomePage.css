@@ -259,23 +259,13 @@ Boxes
 }
 
 .boxes img {
-  filter: invert(1);
   padding: 15px;
-  /* transform: scale(.5); */
 }
 
 .boxes .circled {
   display: inline-block;
-  /* color: var(--kolor-liter); */
-
-  background-color: var(--glowny-kolor-tla);
-  width: 7rem;
-  height: 7rem;
-  /* text-align: center; */
-  /* line-height: 7rem; */
-  /* border-radius: 50%; */
+  height: 8rem;
   margin-bottom: 3vh;
-  border-radius: 50%;
 }
 
 .boxes h4 {
