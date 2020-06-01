@@ -47,6 +47,8 @@ footer {
 
 .footer-links img {
   width: 25px;
+  margin-top: -2.5px;
+  filter: invert(0.5)
 }
 
 .footer-copy {
@@ -68,12 +70,6 @@ footer {
 .current-year {
   color: #21c87a !important;
 }
-
-.footer-links img {
-  margin-top: -2.5px;
-  filter: invert(0.5)
-}
-
 
 .social {
   color: #888 !important;

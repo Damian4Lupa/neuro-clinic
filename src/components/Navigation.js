@@ -2,19 +2,20 @@ import React from "react";
 import styled from "styled-components";
 
 import "../styles/Navigation.css";
-import $ from "jquery";
+// import $ from "jquery";
 
 const Navigation = styled.nav`
-  min-width: 320px;
+  /* min-width: 320px; */
   background-color: ${(props) => props.theme.colors.blue.normal};
 `;
 
 const Wraper = styled.div`
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left: 10px;
 `;
 
 const VisibleLinks = styled.ul`
@@ -27,48 +28,70 @@ const NavigationMenu = styled.li`
 `;
 
 const Item = styled.a`
- display: block;
+  display: block;
   color: #fff;
   padding: 20px 30px;
   background: ${(props) => props.theme.colors.blue.normal};
   font-size: 18px;
   color: ${(props) => props.theme.colors.white};
   text-decoration: none;
-`
+`;
 
 function Navigation2() {
   return (
-    // <Navigation>
-    <nav class="greedy-nav">
-      {/* <button>
-        <div class="hamburger"></div>
-      </button> */}
-      <div class="container-xl">
-        <ul class="visible-links">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Doctors</a>
-          </li>
-          <li>
-            <a href="#">Pricing</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
+    // <nav class="greedy-nav">
+    //   {/* <button>
+    //     <div class="hamburger"></div>
+    //   </button> */}
+    //   <div class="container-xl">
+    //     <ul class="visible-links">
+    //       <li>
+    //         <a href="#">Home</a>
+    //       </li>
+    //       <li>
+    //         <a href="#">About</a>
+    //       </li>
+    //       <li>
+    //         <a href="#">Services</a>
+    //       </li>
+    //       <li>
+    //         <a href="#">Doctors</a>
+    //       </li>
+    //       <li>
+    //         <a href="#">Pricing</a>
+    //       </li>
+    //       <li>
+    //         <a href="#">Contact</a>
+    //       </li>
+    //     </ul>
+    //   </div>
 
-      <ul class="hidden-links hidden"></ul>
-    </nav>
-    /* </Navigation> */
+    //   <ul class="hidden-links hidden"></ul>
+    // </nav>
+    <Navigation>
+      <Wraper>
+        <VisibleLinks>
+          <NavigationMenu>
+            <Item>Home </Item>
+          </NavigationMenu>
+          <NavigationMenu>
+            <Item>About </Item>
+          </NavigationMenu>
+          <NavigationMenu>
+            <Item>Services </Item>
+          </NavigationMenu>
+          <NavigationMenu>
+            <Item>Doctors </Item>
+          </NavigationMenu>
+          <NavigationMenu>
+            <Item>Pricing </Item>
+          </NavigationMenu>
+          <NavigationMenu>
+            <Item>Contact </Item>
+          </NavigationMenu>
+        </VisibleLinks>
+      </Wraper>
+    </Navigation>
   );
 }
 

@@ -8,6 +8,7 @@ import theme from '../styles/theme'
 import Nav from "../components/Nav";
 import Navigation from "../components/Navigation";
 import HomePage from "./HomePage";
+import Contact from '../components/Contact'
 import Footer from "../components/Footer";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Nav />
       <Navigation />
       <HomePage />
+      <Contact />
       <Footer />
     </ThemeProvider>
   );
