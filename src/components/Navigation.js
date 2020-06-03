@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 
-import "../styles/Navigation.css";
+// import "../styles/Navigation.css";
 // import $ from "jquery";
 
 const Navigation = styled.nav`
-  /* min-width: 320px; */
+  overflow: hidden;
   background-color: ${(props) => props.theme.colors.blue.normal};
 `;
 
@@ -13,13 +13,15 @@ const Wraper = styled.div`
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  max-width: 960px;
+  max-width: 1140px;
   padding-right: 10px;
   padding-left: 10px;
 `;
 
 const VisibleLinks = styled.ul`
   display: inline-table;
+  padding: 0;
+  margin: 0;
 `;
 
 const NavigationMenu = styled.li`
@@ -27,47 +29,29 @@ const NavigationMenu = styled.li`
   border-left: 1px solid ${(props) => props.theme.colors.blue.normal};
 `;
 
-const Item = styled.a`
+const Item = styled.button`
   display: block;
-  color: #fff;
   padding: 20px 30px;
   background: ${(props) => props.theme.colors.blue.normal};
   font-size: 18px;
-  color: ${(props) => props.theme.colors.white};
-  text-decoration: none;
+  color: ${(props) => props.theme.colors.white.normal};
+  /* text-decoration: none; */
+  border: 0;
+
+  &:active,
+  &:focus,
+  &:hover {
+    background: ${(props) => props.theme.colors.blue.light};
+    /* border: 0; */
+    /* border-radius: 0; */
+    /* border-color: transparent; */
+    /* border-style: none; */
+    outline: none;
+  }
 `;
 
 function Navigation2() {
   return (
-    // <nav class="greedy-nav">
-    //   {/* <button>
-    //     <div class="hamburger"></div>
-    //   </button> */}
-    //   <div class="container-xl">
-    //     <ul class="visible-links">
-    //       <li>
-    //         <a href="#">Home</a>
-    //       </li>
-    //       <li>
-    //         <a href="#">About</a>
-    //       </li>
-    //       <li>
-    //         <a href="#">Services</a>
-    //       </li>
-    //       <li>
-    //         <a href="#">Doctors</a>
-    //       </li>
-    //       <li>
-    //         <a href="#">Pricing</a>
-    //       </li>
-    //       <li>
-    //         <a href="#">Contact</a>
-    //       </li>
-    //     </ul>
-    //   </div>
-
-    //   <ul class="hidden-links hidden"></ul>
-    // </nav>
     <Navigation>
       <Wraper>
         <VisibleLinks>

@@ -8,8 +8,12 @@ import theme from '../styles/theme'
 import Nav from "../components/Nav";
 import Navigation from "../components/Navigation";
 import HomePage from "./HomePage";
+import Equipment from '../components/Equipment'
 import Contact from '../components/Contact'
+
 import Footer from "../components/Footer";
+
+
 
 function App() {
   return (
@@ -17,6 +21,7 @@ function App() {
       <Nav />
       <Navigation />
       <HomePage />
+      <Equipment />
       <Contact />
       <Footer />
     </ThemeProvider>
