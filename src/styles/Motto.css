@@ -1,0 +1,8 @@
+#motto {
+  /* background-color: rgb(1, 144, 176); */
+  background-image: url(../img//Motto/motto2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+}

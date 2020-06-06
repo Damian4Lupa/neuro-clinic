@@ -9,7 +9,7 @@ import Nav from "../components/Nav";
 import Navigation from "../components/Navigation";
 import HomePage from "./HomePage";
 import Equipment from '../components/Equipment'
-import Contact from '../components/Contact'
+// import Contact from '../components/Contact'
 
 import Footer from "../components/Footer";
 
@@ -21,8 +21,7 @@ function App() {
       <Nav />
       <Navigation />
       <HomePage />
-      <Equipment />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </ThemeProvider>
   );

@@ -22,14 +22,23 @@ function Equipment() {
             <div
             // class="wow fadeInDown" data-wow-delay="0.1s"
             >
-              <div class="section-heading text-center">
+
+<div class="col-md-12">
+                <h2 class="ser-title">Our facilities</h2>
+                <hr class="botm-line" />
+              </div>
+
+
+              {/* <div class="section-heading text-center">
                 <h2 class="h-bold">Our facilities</h2>
                 <p>
                   Ea melius ceteros oportere quo, pri habeo viderer facilisi ei
                 </p>
-              </div>
+              </div> */}
+
+
             </div>
-            <div class="divider-short"></div>
+            {/* <div class="divider-short"></div> */}
           </div>
         </div>
       </div>
