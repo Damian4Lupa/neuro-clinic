@@ -1,0 +1,43 @@
+/* ===========================
+Global data
+============================ */
+
+:root {
+    --gray-light: rgb(238, 238, 238);
+    --gray-normal: rgb(222, 220, 220);
+    --gray-dark: rgb(212, 212, 212);
+  
+    --blue-light: rgb(0, 181, 221);
+    --blue-normal: rgb(0, 165, 203);
+    --blue-dark: rgb(1, 144, 176);
+  
+    --white-normal: rgb(248, 249, 250);
+  }
+  
+  .home-section {
+    margin: 10vh 0;
+    display: block;
+    position: relative;
+    background-color: #fff;
+  }
+  
+  hr.botm-line {
+    height: 3px;
+    width: 60px;
+    background: var(--blue-dark);
+    position: relative;
+    border: 0;
+    margin: 20px 0 20px 0;
+  }
+  
+  .blue-btn {
+    background-color: var(--blue-normal);
+    outline: var(--blue-normal);
+    color: var(--white-normal);
+  }
+  
+  .blue-btn:hover {
+    background-color: var(--blue-light);
+    outline: var(--blue-light);
+    color: var(--white-normal);
+  }

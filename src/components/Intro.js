@@ -1,4 +1,6 @@
 import React from "react";
+
+import "../styles/GlobalStyle.css";
 import "../styles/HomePage.css";
 
 import doctor from "../img/HomePage/doctor-bg.png";

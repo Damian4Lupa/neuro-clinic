@@ -1,4 +1,6 @@
 import React from "react";
+
+import "../styles/GlobalStyle.css";
 import "../styles/Footer.css";
 
 import facebook from "../img/Footer/facebook.svg";
@@ -10,15 +12,15 @@ import youTube from "../img/Footer/youtube.svg";
 function Footer() {
   return (
    
-      <footer class="section " id="footer">
-        <div class="overlay footer-overlay"></div>
+      <footer class="section" id="footer">
+        {/* <div class="overlay footer-overlay"></div> */}
 
         <div class="container">
           <div class="row justify-content-start">
             <div class="col-lg-4 col-sm-12">
               <div class="footer-widget">
                 <a href="#" class="footer-brand text-white">
-                  Rapoo
+                  NeuroClinic
                 </a>
                 <p>
                   Each theme featured at the Bootstrap marketplace has been
@@ -142,7 +144,7 @@ function Footer() {
           <div class="row text-right pt-5">
             <div class="col-lg-12">
               <p class="footer-copy ">
-                &copy; Copyright <span class="current-year">Themefisher</span>
+                &copy; Copyright <span class="current-year">NeuroClinic</span>.
                 All rights reserved.
               </p>
             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/GlobalStyle.css";
 import "../styles/Contact.css";
 
 import mobile from "../img/Nav/mobile.svg";
