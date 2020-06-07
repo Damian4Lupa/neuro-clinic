@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/News.css";
+import "../styles/HomePage.css";
 import test from "../img/test.jpg";
 
 function NewsShortInfo() {
@@ -16,18 +16,14 @@ function NewsShortInfo() {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua..
               </p>
 
-              <center>
-                <a href="#" class="btn btn-primary">
-                  Read more
-                </a>
-              </center>
+              <button class="btn blue-btn">Read more</button>
             </div>
           </div>
 
           <div class="col-9">
             <div class="row">
               <div class="col">
-                <div class="card aaba">
+                <div class="card article-width">
                   <img class="card-img-top" src={test} alt="Card image cap" />
                   <div class="card-header">
                     <small>
@@ -46,7 +42,7 @@ function NewsShortInfo() {
               </div>
 
               <div class="col">
-                <div class="card aaba">
+                <div class="card article-width">
                   <img class="card-img-top" src={test} alt="Card image cap" />
                   <div class="card-header">
                     <small>
@@ -65,7 +61,7 @@ function NewsShortInfo() {
               </div>
 
               <div class="col">
-                <div class="card aaba">
+                <div class="card article-width">
                   <img class="card-img-top" src={test} alt="Card image cap" />
                   <div class="card-header">
                     <small>

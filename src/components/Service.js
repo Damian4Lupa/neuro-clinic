@@ -1,21 +1,21 @@
 import React from "react";
 
-import '../styles/Service.css'
+import "../styles/HomePage.css";
 
-import app from '../img/Service/app.svg'
-import counseling from '../img/Service/counseling.svg'
-import emergency1 from '../img/Service/emergency1.svg'
-import emergency2 from '../img/Service/emergency2.svg'
-import lab1 from '../img/Service/lab1.svg'
-import lab2 from '../img/Service/lab2.svg'
-import online1 from '../img/Service/online1.svg'
-import online2 from '../img/Service/online2.svg'
+
 import premium from '../img/Service/premium.svg'
 import support1 from '../img/Service/support1.svg'
-import support2 from '../img/Service/support2.svg'
+import lab1 from '../img/Service/lab1.svg'
+import counseling from '../img/Service/counseling.svg'
+import emergency1 from '../img/Service/emergency1.svg'
 import surgery from '../img/Service/surgery.svg'
 
-
+// import emergency2 from '../img/Service/emergency2.svg'
+// import app from '../img/Service/app.svg'
+// import lab2 from '../img/Service/lab2.svg'
+// import online1 from '../img/Service/online1.svg'
+// import online2 from '../img/Service/online2.svg'
+// import support2 from '../img/Service/support2.svg'
 
 function Service() {
   return (

@@ -1,14 +1,14 @@
 import React from "react";
-import '../styles/Motto.css'
+import "../styles/HomePage.css";
 
 function Motto() {
   return (
-    <section id="motto" class="section-padding abccc">
+    <section id="motto" class="section-padding">
       <div class="container">
         <div class=" row">
           <div class="col-md-2"></div>
           <div class="text-right-md col-md-4 col-sm-4">
-            <h2 class="section-title white lg-line">
+            <h2 class="section-title lg-line">
               « A few words
               <br /> about us »
             </h2>
@@ -18,7 +18,7 @@ function Motto() {
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a typek
-            <p class="text-right text-primary">
+            <p class="text-right">
               <i>— Medilap Healthcare</i>
             </p>
           </div>

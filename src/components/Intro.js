@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/HomePage.css";
 
-import doctor from "../img/HomePage/img-3.png";
+import doctor from "../img/HomePage/doctor-bg.png";
 import check from "../img/HomePage/check3.svg";
 
 function Intro() {
@@ -59,8 +59,8 @@ function Intro() {
                       </span>
                     </li>
                   </ul>
-                  <p class="text-right wow bounceIn" data-wow-delay="0.4s">
-                    <button type="button" class="btn btn-dark mb-4 mr-4">
+                  <p class="text-right">
+                    <button type="button" class="btn blue-btn mb-4 mr-4">
                       Learn more
                     </button>
                   </p>
@@ -70,8 +70,8 @@ function Intro() {
             <div class="col-lg-6">
               <div
                 class="doctor wow fadeInUp"
-                data-wow-duration="2s"
-                data-wow-delay="0.2s"
+                // data-wow-duration="2s"
+                // data-wow-delay="0.2s"
               >
                 <img src={doctor} alt="" />
               </div>
