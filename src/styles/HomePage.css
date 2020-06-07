@@ -272,30 +272,51 @@ Boxes
   margin-bottom: 2vh;
 }
 
+
+
 /* ===========================
 Emergency Intro
 ============================ */
-.callaction {
-  padding: 30px 30px 20px 30px;
-  border-radius: 4px;
-  border-bottom: 2px solid var(--boxes-callaction);
+
+.emergency {
+  /* position: absolute !important; */
+  margin: 50px 0;
+  padding: 50px 0;
+  background-color: rgb(1, 144, 176);
+  color: #fff;
+  background: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative !important;
+  z-index: 1;
 }
 
-.cta-text {
-  margin-top: 10px;
-  text-align: left;
+.emergency:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top right, rgba(1, 144, 176,0.7), rgba(0, 181, 221,0.7));
+  z-index: -1;
 }
 
-.cta-text h3 {
+.emergency h2 {
+  /* color: #222; */
+  font-family: "Ubuntu",sans-serif;
+  font-size: 36px !important;
+  font-weight: 700;
+}
+
+.emergency span {
+  font-size: 56px;
+  font-family: "Roboto",sans-serif;
   font-weight: 900;
-  line-height: 1.1em;
-  margin-bottom: 20px;
 }
-.cta-btn {
-  float: right;
-  padding: 20px 10px 20px 20px;
-  margin-top: 10px;
-}
+
+
 
 /* ===========================
 Partners

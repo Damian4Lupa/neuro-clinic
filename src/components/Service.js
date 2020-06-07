@@ -2,10 +2,19 @@ import React from "react";
 
 import '../styles/Service.css'
 
-import test1 from '../img/Service/10.svg'
-import test2 from '../img/Service/22.svg'
-import test3 from '../img/Service/55.svg'
-import test4 from '../img/Service/77.svg'
+import app from '../img/Service/app.svg'
+import counseling from '../img/Service/counseling.svg'
+import emergency1 from '../img/Service/emergency1.svg'
+import emergency2 from '../img/Service/emergency2.svg'
+import lab1 from '../img/Service/lab1.svg'
+import lab2 from '../img/Service/lab2.svg'
+import online1 from '../img/Service/online1.svg'
+import online2 from '../img/Service/online2.svg'
+import premium from '../img/Service/premium.svg'
+import support1 from '../img/Service/support1.svg'
+import support2 from '../img/Service/support2.svg'
+import surgery from '../img/Service/surgery.svg'
+
 
 
 function Service() {
@@ -27,7 +36,7 @@ function Service() {
           <div class="col-4">
             <div class="service-info">
               <div class="icon">
-                <img src={test1} alt="" />
+                <img src={support1} alt="" />
               </div>
               <div class="icon-info">
                 <h4>24 Hour Support</h4>
@@ -40,7 +49,7 @@ function Service() {
 
             <div class="service-info">
               <div class="icon">
-              <img src={test2} alt="" />
+              <img src={emergency1} alt="" />
               </div>
               <div class="icon-info">
                 <h4>Emergency Services</h4>
@@ -53,7 +62,7 @@ function Service() {
 
             <div class="service-info">
               <div class="icon">
-              <img src={test3} alt="" />
+              <img src={lab1} alt="" />
               </div>
               <div class="icon-info">
                 <h4>Medical Lab</h4>
@@ -68,7 +77,7 @@ function Service() {
           <div class="col-4">
             <div class="service-info">
               <div class="icon">
-              <img src={test4} alt="" />
+              <img src={counseling} alt="" />
               </div>
               <div class="icon-info">
                 <h4>Medical Counseling</h4>
@@ -81,7 +90,7 @@ function Service() {
 
             <div class="service-info">
               <div class="icon">
-              <img src={test4} alt="" />
+              <img src={surgery} alt="" />
               </div>
               <div class="icon-info">
                 <h4>Surgery</h4>
@@ -94,7 +103,7 @@ function Service() {
 
             <div class="service-info">
               <div class="icon">
-              <img src={test4} alt="" />
+              <img src={premium} alt="" />
               </div>
               <div class="icon-info">
                 <h4>Premium Healthcare</h4>
