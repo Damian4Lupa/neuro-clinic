@@ -17,30 +17,30 @@ import equipment8 from "../img/Equipment/equipment8.jpg";
 import arrowLeft from "../img/Equipment/double-left.png";
 import arrowRight from "../img/Equipment/double-right.png";
 
-const DoubleLeft = <img src={arrowLeft} class="carousel-arrow-left" />;
-const DoubleRight = <img src={arrowRight} class="carousel-arrow-rigth" />;
+const DoubleLeft = <img src={arrowLeft} className="carousel-arrow-left" />;
+const DoubleRight = <img src={arrowRight} className="carousel-arrow-rigth" />;
 
 function Equipment() {
   return (
-    <section id="equipment" class="home-section">
-      <div class="container">
-        <div class="row">
-          <div class="col">
+    <section id="equipment" className="home-section">
+      <div className="container">
+        <div className="row">
+          <div className="col">
             <div
             // class="wow fadeInDown" data-wow-delay="0.1s"
             >
-              <div class="col-md-12">
-                <h2 class="ser-title">Our equipment</h2>
-                <hr class="botm-line" />
+              <div className="col-md-12">
+                <h2 className="ser-title">Our equipment</h2>
+                <hr className="botm-line" />
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col mt-5">
+      <div className="container">
+        <div className="row">
+          <div className="col mt-5">
             <Carousel
               arrowLeft={DoubleLeft}
               arrowRight={DoubleRight}
@@ -51,14 +51,14 @@ function Equipment() {
               autoPlay={3500}
               animationSpeed={1000}
             >
-              <img src={equipment1} class="carouselImg" />
-              <img src={equipment2} class="carouselImg" />
-              <img src={equipment3} class="carouselImg" />
-              <img src={equipment4} class="carouselImg" />
-              <img src={equipment5} class="carouselImg" />
-              <img src={equipment6} class="carouselImg" />
-              <img src={equipment7} class="carouselImg" />
-              <img src={equipment8} class="carouselImg" />
+              <img src={equipment1} className="carouselImg" />
+              <img src={equipment2} className="carouselImg" />
+              <img src={equipment3} className="carouselImg" />
+              <img src={equipment4} className="carouselImg" />
+              <img src={equipment5} className="carouselImg" />
+              <img src={equipment6} className="carouselImg" />
+              <img src={equipment7} className="carouselImg" />
+              <img src={equipment8} className="carouselImg" />
             </Carousel>
           </div>
         </div>

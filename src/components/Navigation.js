@@ -1,8 +1,17 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-// import "../styles/Navigation.css";
-// import $ from "jquery";
+const NewLink = styled(Link)`
+  text-decoration: none;
+
+  &:active,
+  &:focus,
+  &:hover,
+  &:link {
+    text-decoration: none;
+  }
+`;
 
 const Navigation = styled.nav`
   overflow: hidden;
@@ -35,17 +44,17 @@ const Item = styled.button`
   background: ${(props) => props.theme.colors.blue.normal};
   font-size: 18px;
   color: ${(props) => props.theme.colors.white.normal};
-  /* text-decoration: none; */
+  /* text-decoration: none;
+  list-style: none; */
   border: 0;
 
   &:active,
   &:focus,
-  &:hover {
+  &:hover,
+  &:link {
     background: ${(props) => props.theme.colors.blue.light};
-    /* border: 0; */
-    /* border-radius: 0; */
-    /* border-color: transparent; */
-    /* border-style: none; */
+    /* text-decoration: none;
+    list-style: none; */
     outline: none;
   }
 `;
@@ -56,22 +65,39 @@ function Navigation2() {
       <Wraper>
         <VisibleLinks>
           <NavigationMenu>
-            <Item>Home </Item>
+            <NewLink to="/">
+              <Item>Home </Item>
+            </NewLink>
           </NavigationMenu>
           <NavigationMenu>
-            <Item>About </Item>
+            <NewLink to="/About">
+              <Item>About </Item>
+            </NewLink>
           </NavigationMenu>
           <NavigationMenu>
-            <Item>Services </Item>
+            <NewLink to="/News">
+              <Item>News </Item>
+            </NewLink>
           </NavigationMenu>
           <NavigationMenu>
-            <Item>Doctors </Item>
+            <NewLink to="/Service">
+              <Item>Service </Item>
+            </NewLink>
           </NavigationMenu>
           <NavigationMenu>
-            <Item>Pricing </Item>
+            <NewLink to="/Doctors">
+              <Item>Doctors </Item>
+            </NewLink>
           </NavigationMenu>
           <NavigationMenu>
-            <Item>Contact </Item>
+            <NewLink to="/Pricing">
+              <Item>Pricing </Item>
+            </NewLink>
+          </NavigationMenu>
+          <NavigationMenu>
+            <NewLink to="/Contact">
+              <Item>Contact </Item>
+            </NewLink>
           </NavigationMenu>
         </VisibleLinks>
       </Wraper>
@@ -80,65 +106,3 @@ function Navigation2() {
 }
 
 export default Navigation2;
-
-// var $nav = $(".greedy-nav");
-//   var $btn = $(".greedy-nav button");
-//   var $vlinks = $(".greedy-nav .visible-links");
-//   var $hlinks = $(".greedy-nav .hidden-links");
-
-//   var breaks = [];
-
-//   function updateNav() {
-//     var availableSpace = $btn.hasClass("hidden")
-//       ? $nav.width()
-//       : $nav.width() - $btn.width() - 30;
-
-//     // The visible list is overflowing the nav
-//     if ($vlinks.width() > availableSpace) {
-//       // Record the width of the list
-//       breaks.push($vlinks.width());
-
-//       // Move item to the hidden list
-//       $vlinks.children().last().prependTo($hlinks);
-
-//       // Show the dropdown btn
-//       if ($btn.hasClass("hidden")) {
-//         $btn.removeClass("hidden");
-//       }
-
-//       // The visible list is not overflowing
-//     } else {
-//       // There is space for another item in the nav
-//       if (availableSpace > breaks[breaks.length - 1]) {
-//         // Move the item to the visible list
-//         $hlinks.children().first().appendTo($vlinks);
-//         breaks.pop();
-//       }
-
-//       // Hide the dropdown btn if hidden list is empty
-//       if (breaks.length < 1) {
-//         $btn.addClass("hidden");
-//         $hlinks.addClass("hidden");
-//       }
-//     }
-
-//     // Keep counter updated
-//     $btn.attr("count", breaks.length);
-
-//     // Recur if the visible list is still overflowing the nav
-//     if ($vlinks.width() > availableSpace) {
-//       updateNav();
-//     }
-//   }
-
-//   // Window listeners
-
-//   $(window).resize(function () {
-//     updateNav();
-//   });
-
-//   $btn.on("click", function () {
-//     $hlinks.toggleClass("hidden");
-//   });
-
-//   updateNav();

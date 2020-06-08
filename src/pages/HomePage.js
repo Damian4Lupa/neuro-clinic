@@ -17,10 +17,10 @@ function HomePage() {
       <Boxes />
       <AboutShortInfo />
       <Motto />
-      <NewsShortInfo />
       <Service />
-      <EmergencyIntro />
       <Equipment />
+      <EmergencyIntro />
+      <NewsShortInfo />
       <Partners />
     </>
   );

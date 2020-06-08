@@ -2,24 +2,24 @@ import React from "react";
 import "../styles/GlobalStyle.css";
 import "../styles/HomePage.css";
 
-import checkmark from '../img/HomePage/checkmark.png'
-import databaseSearch from '../img/HomePage/database-search.png'
-import prognosis from '../img/HomePage/prognosis.png'
-import stethoscope from '../img/HomePage/stethoscope.png'
+import checkmark from '../img/Boxes/checkmark.png'
+import databaseSearch from '../img/Boxes/database-search.png'
+import prognosis from '../img/Boxes/prognosis.png'
+import stethoscope from '../img/Boxes/stethoscope.png'
 
 function Boxes() {
   return (
-    <section id="boxes" class="boxes home-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-3 col-md-3">
+    <section id="boxes" className="boxes home-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-3 col-md-3">
             <div 
             // class="wow fadeInUp" data-wow-delay="0.2s"
             >
-              <div class="text-center">
-                <img src={checkmark} alt="" class="circled" />
+              <div className="text-center">
+                <img src={checkmark} alt="" className="circled" />
 
-                <h4 class="h-bold">Make an appoinment</h4>
+                <h4 className="h-bold">Make an appoinment</h4>
                 <p>
                   Lorem ipsum dolor sit amet, nec te mollis utroque honestatis,
                   ut utamur molestiae vix, graecis eligendi ne.
@@ -27,13 +27,13 @@ function Boxes() {
               </div>
             </div>
           </div>
-          <div class="col-sm-3 col-md-3">
+          <div className="col-sm-3 col-md-3">
             <div 
             // class="wow fadeInUp" data-wow-delay="0.2s"
             >
-              <div class="box text-center">
-                <img src={databaseSearch} alt="" class="circled" />
-                <h4 class="h-bold">Choose your package</h4>
+              <div className="box text-center">
+                <img src={databaseSearch} alt="" className="circled" />
+                <h4 className="h-bold">Choose your package</h4>
                 <p>
                   Lorem ipsum dolor sit amet, nec te mollis utroque honestatis,
                   ut utamur molestiae vix, graecis eligendi ne.
@@ -41,13 +41,13 @@ function Boxes() {
               </div>
             </div>
           </div>
-          <div class="col-sm-3 col-md-3">
+          <div className="col-sm-3 col-md-3">
             <div 
             // class="wow fadeInUp" data-wow-delay="0.2s"
             >
-              <div class="box text-center">
-                <img src={stethoscope} alt="" class="circled" />
-                <h4 class="h-bold">Help by specialist</h4>
+              <div className="box text-center">
+                <img src={stethoscope} alt="" className="circled" />
+                <h4 className="h-bold">Help by specialist</h4>
                 <p>
                   Lorem ipsum dolor sit amet, nec te mollis utroque honestatis,
                   ut utamur molestiae vix, graecis eligendi ne.
@@ -55,14 +55,14 @@ function Boxes() {
               </div>
             </div>
           </div>
-          <div class="col-sm-3 col-md-3">
+          <div className="col-sm-3 col-md-3">
             <div 
             // class="wow fadeInUp" data-wow-delay="0.2s"
             >
-              <div class="box text-center">
-                <img src={prognosis} alt="" class="circled" />
+              <div className="box text-center">
+                <img src={prognosis} alt="" className="circled" />
 
-                <h4 class="h-bold">Get diagnostic report</h4>
+                <h4 className="h-bold">Get diagnostic report</h4>
                 <p>
                   Lorem ipsum dolor sit amet, nec te mollis utroque honestatis,
                   ut utamur molestiae vix, graecis eligendi ne.
