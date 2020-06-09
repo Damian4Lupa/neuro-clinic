@@ -7,12 +7,12 @@ import test from "../img/test.jpg";
 
 function NewsShortInfo() {
   return (
-    <section id="news" className="section-padding">
+    <section id="news" className="home-section">
       <div className="container mt-5">
         <div className="row">
           <div className="col-3">
             <div className="section-title">
-              <h2 className="head-title lg-line">The News</h2>
+              <h2 className="ser-title">The news</h2>
               <hr className="botm-line" />
               <p className="sec-para">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

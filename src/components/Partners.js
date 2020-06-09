@@ -11,14 +11,14 @@ import unnamed from "../img/Partners/unnamed.png";
 
 function Partners() {
   return (
-    <section id="partner" className="partner-section">
+    <section id="partner" className="home-section">
       <div className="container">
         <div className="row">
-          <div className="col">
-            <div className="col-md-12">
+          <div className="col-3">
+          <div className="section-title">
               <h2 className="ser-title">Our partner</h2>
               <hr className="botm-line" />
-            </div>
+              </div>
           </div>
         </div>
       </div>

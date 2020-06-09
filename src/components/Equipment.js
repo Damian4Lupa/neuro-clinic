@@ -25,16 +25,12 @@ function Equipment() {
     <section id="equipment" className="home-section">
       <div className="container">
         <div className="row">
-          <div className="col">
-            <div
-            // class="wow fadeInDown" data-wow-delay="0.1s"
-            >
-              <div className="col-md-12">
+              <div className="col-3 mr-4">
+              <div className="section-title">
                 <h2 className="ser-title">Our equipment</h2>
                 <hr className="botm-line" />
               </div>
-            </div>
-          </div>
+              </div>
         </div>
       </div>
 

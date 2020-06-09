@@ -20,11 +20,12 @@ import surgery from '../img/Service/surgery.svg'
 
 function Service() {
   return (
-    <section id="service" className="section-padding">
+    <section id="service" className="home-section">
       <div className="container">
         <div className="row">
           <div className="col-3 mr-4">
-            <h2 className="ser-title">Our Service</h2>
+          <div className="section-title">
+            <h2 className="ser-title">Our service</h2>
             <hr className="botm-line" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -36,7 +37,7 @@ function Service() {
             <Link to="/Service">
                 <button className="btn blue-btn">Read more</button>
               </Link>
-
+              </div>
           </div>
 
           <div className="col-4">

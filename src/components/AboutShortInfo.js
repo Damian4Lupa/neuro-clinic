@@ -10,7 +10,7 @@ function AboutShortInfo() {
         <div className="row">
           <div className="col-md-3 col-sm-4 col-xs-12">
             <div className="section-title">
-              <h2 className="head-title lg-line">About NeuroClinic</h2>
+              <h2 className="ser-title">About NeuroClinic</h2>
               <hr className="botm-line" />
               <p className="sec-para">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
