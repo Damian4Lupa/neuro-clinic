@@ -16,7 +16,7 @@ import Nav from "../components/Nav";
 import Navigation from "../components/Navigation";
 // import Footer from "../components/Footer";
 
-// import HomePage from "./HomePage";
+import HomePage from "./HomePage";
 // import About from "./About";
 // import News from "./News";
 // import Service from "./Service";
@@ -25,13 +25,13 @@ import Navigation from "../components/Navigation";
 // import Contact from "./Contact";
 // import ErrorPage from "./ErrorPage";
 
-const HomePage = lazy(() => import("./HomePage"));
+// const HomePage = lazy(() => import("./HomePage"));
 const About = lazy(() => import("./About"));
 const News = lazy(() => import("./News"));
 const Service = lazy(() => import("./Service"));
 const Doctors = lazy(() => import("./Doctors"));
 const Pricing = lazy(() => import("./Pricing"));
-const Contact = lazy(() => import("./Contact"));
+const Contact = lazy(() => import("./Contact2"));
 const ErrorPage = lazy(() => import("./ErrorPage"));
 
 const Footer = lazy(() => import("../components/Footer"));
@@ -58,7 +58,6 @@ function App() {
             <Footer />
           </Suspense>
 
-          
         </ThemeProvider>
       </HashRouter>
     </Router>

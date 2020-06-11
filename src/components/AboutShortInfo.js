@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/GlobalStyle.css";
-import "../styles/HomePage.css";
+import "../styles/pages/HomePage.css";
 
 function AboutShortInfo() {
   return (
-    <section id="about" className="section-padding">
+    <section id="aboutShortInfo" className="section-padding">
       <div className="container">
         <div className="row">
           <div className="col-md-3 col-sm-4 col-xs-12">

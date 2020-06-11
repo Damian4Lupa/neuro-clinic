@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "../styles/GlobalStyle.css";
-import "../styles/Footer.css";
+import "../styles/pages/Footer.css";
 
 import facebook from "../img/Footer/facebook.svg";
 import twitter from "../img/Footer/twitter.svg";

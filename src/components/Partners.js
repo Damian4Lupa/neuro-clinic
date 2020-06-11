@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../styles/GlobalStyle.css";
-import "../styles/HomePage.css";
+import "../styles/pages/HomePage.css";
 
 import bma from "../img/Partners/bma.png";
 import cleanMed from "../img/Partners/CleanMed.png";
@@ -11,7 +11,7 @@ import unnamed from "../img/Partners/unnamed.png";
 
 function Partners() {
   return (
-    <section id="partner" className="home-section">
+    <section id="partners" className="home-section">
       <div className="container">
         <div className="row">
           <div className="col-3">

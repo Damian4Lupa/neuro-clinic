@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "../styles/GlobalStyle.css";
-import "../styles/HomePage.css";
+import "../styles/pages/HomePage.css";
 
 import support1 from '../img/Service/support1.svg'
 import counseling from '../img/Service/counseling.svg'

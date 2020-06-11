@@ -2,7 +2,8 @@
 footer {
   padding: 80px 0px;
   color: var(--white-normal);
-  background: url(../img/Footer/footer1.png);
+  /* background: url(../img/Footer/footer1.png); */
+  background-image: url(../../img/Footer/footer1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

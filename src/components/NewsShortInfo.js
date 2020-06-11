@@ -2,12 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "../styles/GlobalStyle.css";
-import "../styles/HomePage.css";
+import "../styles/pages/HomePage.css";
+
 import test from "../img/test.jpg";
 
 function NewsShortInfo() {
   return (
-    <section id="news" className="home-section">
+    <section id="newsShortInfo" className="home-section">
       <div className="container mt-5">
         <div className="row">
           <div className="col-3">

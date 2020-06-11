@@ -3,7 +3,7 @@ import "../styles/GlobalStyle.css";
 
 function News() {
   return (
-    <section id="about" className="section-padding">
+    <section id="about" className="home-section">
       <div className="container">
         <div className="row">
           <div className="col">

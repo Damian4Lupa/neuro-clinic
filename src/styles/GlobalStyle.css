@@ -21,19 +21,19 @@ Global data
   background-color: #fff;
 }
 
-h2.ser-title {
+.ser-title {
   line-height: 20px;
   margin: 0;
   font-size: 28px;
 }
 
-hr.botm-line {
-  height: 3px !important;
+.botm-line {
+  height: 3px;
   width: 60px;
   background: var(--blue-dark);
   position: relative;
   border: 0;
-  margin: 20px 0 20px 0 !important;
+  margin: 20px 0 20px 0;
 }
 
 .blue-btn {
@@ -46,4 +46,8 @@ hr.botm-line {
   background-color: var(--blue-light);
   outline: var(--blue-light);
   color: var(--white-normal);
+}
+
+.section-title {
+  margin-bottom: 30px;
 }

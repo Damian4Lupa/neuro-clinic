@@ -3,7 +3,7 @@ import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 
 import "../styles/GlobalStyle.css";
-import "../styles/HomePage.css";
+import "../styles/pages/HomePage.css";
 
 import equipment1 from "../img/Equipment/equipment1.jpg";
 import equipment2 from "../img/Equipment/equipment2.jpg";

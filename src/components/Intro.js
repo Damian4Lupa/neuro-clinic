@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "../styles/GlobalStyle.css";
-import "../styles/HomePage.css";
+import "../styles/pages/HomePage.css";
 
 import doctor from "../img/Intro/doctor-bg.png";
 import check from "../img/Intro/check.svg";

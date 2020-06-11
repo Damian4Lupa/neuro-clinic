@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/GlobalStyle.css";
-import "../styles/HomePage.css";
+import "../styles/pages/HomePage.css";
 
 function EmergencyIntro() {
   return (
