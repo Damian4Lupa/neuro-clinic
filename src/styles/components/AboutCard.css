@@ -1,0 +1,19 @@
+#AboutCard .card-footer {
+    padding: 0.75rem 1.25rem;
+    background-color: var(--blue-normal);
+    /* border-top: 1px solid rgba(0, 0, 0, 0.125); */
+}
+
+#AboutCard .card-footer:hover {
+    padding: 0.75rem 1.25rem;
+    background-color: var(--blue-light);
+    color: var(--white-normal);
+    /* border-top: 1px solid rgba(0, 0, 0, 0.125); */
+}
+
+#AboutCard span {
+    color: var(--white-normal);
+}
+#AboutCard p {
+    text-align: justify;
+}

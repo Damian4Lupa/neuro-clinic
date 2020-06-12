@@ -1,17 +1,22 @@
 import React from "react";
 import "../styles/GlobalStyle.css";
+import "../styles/pages/About.css";
+
+import AboutHistory from "../components/AboutHistory";
+import MeetUs from "../components/MeetUs";
+import AboutCard from "../components/AboutCard";
 
 function About() {
   return (
-    <section id="about" className="home-section">
-      <div className="container">
-        <div className="row">
-          <div className="col">
-            <h1>About</h1>
-          </div>
+    <>
+      <section id="about" className="home-section">
+        <div className="container">
+          <AboutHistory />
         </div>
-      </div>
-    </section>
+      </section>
+      <MeetUs />
+      <AboutCard />
+    </>
   );
 }
 

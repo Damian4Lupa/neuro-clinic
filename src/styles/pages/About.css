@@ -1,0 +1,19 @@
+
+
+#about img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#about h2 {
+  margin-bottom: 3vh;
+}
+
+#about .col-5,
+#about .col-7 {
+  margin-top: 5vh !important;
+}
+
+.bbgg {
+    margin-top: 8vh;
+}

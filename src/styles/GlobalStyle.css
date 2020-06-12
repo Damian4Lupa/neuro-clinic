@@ -3,8 +3,8 @@ Global data
 ============================ */
 
 :root {
-  --gray-light: rgb(238, 238, 238);
-  --gray-normal: rgb(222, 220, 220);
+  --gray-light: rgba(238, 238, 238, 0.5);
+  --gray-normal: rgb(222, 220, 220, 0.3);
   --gray-dark: rgb(212, 212, 212);
 
   --blue-light: rgb(0, 181, 221);
@@ -46,6 +46,19 @@ Global data
   background-color: var(--blue-light);
   outline: var(--blue-light);
   color: var(--white-normal);
+}
+
+
+.white-btn {
+  background-color: var(--gray-light);
+  outline: var(--gray-light);
+  color:var(--white-normal);
+}
+
+.white-btn:hover {
+  background-color: var(--gray-normal);
+  outline: var(--gray-normal);
+  color:var(--white-normal);
 }
 
 .section-title {
