@@ -18,7 +18,7 @@ Global data
   margin: 10vh 0;
   display: block;
   position: relative;
-  background-color: #fff;
+  background-color: #f8f9fa;
 }
 
 .ser-title {
@@ -48,17 +48,16 @@ Global data
   color: var(--white-normal);
 }
 
-
 .white-btn {
   background-color: var(--gray-light);
   outline: var(--gray-light);
-  color:var(--white-normal);
+  color: var(--white-normal);
 }
 
 .white-btn:hover {
   background-color: var(--gray-normal);
   outline: var(--gray-normal);
-  color:var(--white-normal);
+  color: var(--white-normal);
 }
 
 .section-title {
