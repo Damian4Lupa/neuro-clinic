@@ -94,7 +94,7 @@ AboutShortInfo
 }
 
 #about {
-  background-color: rgba(238, 238, 238, 0.15);
+  /* background-color: rgba(238, 238, 238, 0.15); */
 }
 
 .lg-line {
@@ -210,14 +210,14 @@ Emergency Intro
 }
 
 .emergency h2 {
-  font-family: "Ubuntu", sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
   font-size: 36px !important;
   font-weight: 700;
 }
 
 .emergency span {
   font-size: 56px;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   font-weight: 900;
 }
 
@@ -253,7 +253,7 @@ Partners
 
 .partner-section {
   margin: 15vh 0 4vh 0;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .partner {

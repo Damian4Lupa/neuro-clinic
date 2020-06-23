@@ -5,6 +5,8 @@
 
 #contact .card {
   width: 250px !important;
+  /* box-shadow: 0 0 20px rgba(214, 215, 216, 0.5); */
+  box-shadow: 3px 3px 3px 1px rgba(214, 215, 216, 0.5);
 }
 
 #contact img {
@@ -13,3 +15,5 @@
   height: 40px;
   filter: invert(0.5);
 }
+
+

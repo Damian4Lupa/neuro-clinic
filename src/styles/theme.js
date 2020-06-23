@@ -1,8 +1,3 @@
-// :root {
-//   --glowny-kolor-tla: #2e3236;
-//   --kolor-liter: #f8f9fa;
-//   --hoover-color: #6c757d;
-// }
 
 export default {
   spacing: {
@@ -22,7 +17,7 @@ export default {
       dark: "rgb(1,144,176)",
     },
     white: {
-      normal: "rgb(248, 249, 250)" //litery
+      normal: "rgb(248, 249, 250)"
     }
   },
 };

@@ -1,8 +1,8 @@
-#meet-us {
-  margin-top: 50px;
-  padding: 15vh 0;
+#meet-us .col {
+  margin: 2vh 0;
+  padding: 20vh 0;
+  width: 50%;
   color: var(--white-normal);
-  background: url(../../img/MeetUs/team.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -10,7 +10,19 @@
   z-index: 1;
 }
 
-#meet-us:after {
+#meet-us .col.team {
+  background: url(../../img/MeetUs/team.jpg);
+}
+
+#meet-us .col.service {
+  background: url(../../img/MeetUs/service1.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#meet-us .service:after,
+#meet-us .team:after {
   content: "";
   position: absolute;
   top: 0;
@@ -19,26 +31,18 @@
   height: 100%;
   background-image: linear-gradient(
     to top right,
-    rgba(1, 144, 176, 0.8),
-    rgba(0, 181, 221, 0.4)
+    rgba(1, 144, 176, 0.5),
+    rgba(0, 181, 221, 0.5)
   );
   z-index: -1;
 }
 
-#meet-us button{
-    padding: 10px 25px;
-    /* position: relative;
-    bottom: -50px; */
-}
-
 #meet-us h2 {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 36px !important;
-  font-weight: 700;
-}
-
-#meet-us span {
-  font-size: 56px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  font-weight: 750;
+  color: var(--white-normal);
 }

@@ -5,20 +5,18 @@ import "../styles/components/MeetUs.css";
 
 function MeetUs() {
   return (
-    <section id="meet-us" className="text-center">
-      <div className="container">
-        <div className="row">
-          <div className="col">
-              
-            <Link to="/Doctors">
-              <button className="btn white-btn">meet our team</button>
-            </Link>
-          </div>
-          <div className="col">
-            <Link to="/Service">
-              <button className="btn white-btn">see our services</button>
-            </Link>
-          </div>
+    <section id="meet-us">
+      <div className="row">
+        <div className="col team">
+          <Link to="/Doctors">
+            <h2>meet our team</h2>
+          </Link>
+        </div>
+
+        <div className="col service">
+          <Link to="/Service">
+            <h2>see our services</h2>
+          </Link>
         </div>
       </div>
     </section>
