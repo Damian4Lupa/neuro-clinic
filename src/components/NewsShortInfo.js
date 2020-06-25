@@ -3,8 +3,27 @@ import { Link } from "react-router-dom";
 
 import "../styles/GlobalStyle.css";
 import "../styles/pages/HomePage.css";
+import '../styles/components/Card.css'
 
-import test from "../img/test.jpg";
+import Card from "../components/Card";
+import articles from "../data/articles";
+
+let data = articles.map((item) => (
+  <Card
+    id={item.id}
+    foto={item.foto}
+    day={item.day}
+    month={item.month}
+    year={item.year}
+    title={item.title}
+    admission={item.admission}
+    content={item.content}
+    linkTo={item.linkTo}
+    cardMini={true}
+  />
+));
+
+// import test from "../img/test.jpg";
 
 function NewsShortInfo() {
   return (
@@ -29,7 +48,10 @@ function NewsShortInfo() {
 
           <div className="col-9">
             <div className="row">
-              <div className="col">
+
+{data}
+
+              {/* <div className="col">
                 <div className="card article-width">
                   <img className="card-img-top" src={test} alt="Card image cap" />
                   <div className="card-header">
@@ -84,7 +106,9 @@ function NewsShortInfo() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
+
+
             </div>
           </div>
         </div>
