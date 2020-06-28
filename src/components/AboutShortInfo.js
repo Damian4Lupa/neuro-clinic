@@ -5,7 +5,7 @@ import "../styles/pages/HomePage.css";
 
 function AboutShortInfo() {
   return (
-    <section id="aboutShortInfo" className="section-padding">
+    <section id="about-short-info" className="section-padding">
       <div className="container">
         <div className="row">
           <div className="col-md-3 col-sm-4 col-xs-12">

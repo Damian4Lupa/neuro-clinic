@@ -7,7 +7,7 @@ import test3 from '../img/AboutCard/22.jpg'
 
 function AboutCard() {
   return (
-    <section id="AboutCard" className="home-section">
+    <section id="about-card" className="home-section">
       <div className="container">
         <div className="card-deck text-center">
 

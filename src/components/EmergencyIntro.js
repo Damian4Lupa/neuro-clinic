@@ -4,7 +4,7 @@ import "../styles/pages/HomePage.css";
 
 function EmergencyIntro() {
   return (
-    <section className="emergency text-center">
+    <section id="emergency-intro" className="emergency text-center">
       <div className="container">
         <div className="row">
           <div className="col">

@@ -25,7 +25,7 @@ let data = articles.splice(0, 3).map((item) => (
 
 function NewsShortInfo() {
   return (
-    <section id="newsShortInfo" className="home-section">
+    <section id="news-short-info" className="home-section">
       <div className="container mt-5">
         <div className="row">
           <div className="col-3">
