@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 import "../styles/GlobalStyle.css";
 import "../styles/pages/HomePage.css";
-import '../styles/components/Card.css'
+import "../styles/components/Card.css";
 
 import Card from "../components/Card";
 import articles from "../data/articles";
 
-let data = articles.map((item) => (
+let data = articles.splice(0, 3).map((item) => (
   <Card
     id={item.id}
     foto={item.foto}
@@ -22,8 +22,6 @@ let data = articles.map((item) => (
     cardMini={true}
   />
 ));
-
-// import test from "../img/test.jpg";
 
 function NewsShortInfo() {
   return (
@@ -42,74 +40,11 @@ function NewsShortInfo() {
               <Link to="/News">
                 <button className="btn blue-btn">Read more</button>
               </Link>
-
             </div>
           </div>
 
           <div className="col-9">
-            <div className="row">
-
-{data}
-
-              {/* <div className="col">
-                <div className="card article-width">
-                  <img className="card-img-top" src={test} alt="Card image cap" />
-                  <div className="card-header">
-                    <small>
-                      <b>Date:</b> April 12, 2018
-                      <b className="ml-2">By:</b> Dr. J. Williams
-                    </small>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col">
-                <div className="card article-width">
-                  <img className="card-img-top" src={test} alt="Card image cap" />
-                  <div className="card-header">
-                    <small>
-                      <b>Date:</b> April 12, 2018
-                      <b className="ml-2">By:</b> Dr. J. Williams
-                    </small>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col">
-                <div className="card article-width">
-                  <img className="card-img-top" src={test} alt="Card image cap" />
-                  <div className="card-header">
-                    <small>
-                      <b>Date:</b> April 12, 2018
-                      <b className="ml-2">By:</b> Dr. J. Williams
-                    </small>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div> */}
-
-
-            </div>
+            <div className="row">{data}</div>
           </div>
         </div>
       </div>
