@@ -1,0 +1,16 @@
+#partners .partner-position .col {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#partners .partner-section {
+  margin: 10vh 0 4vh 0;
+}
+
+#partners .partner {
+  display: inline-block;
+}
+
+#partners .partner a img {
+  margin: 5vh 0vh 5vh 0vh;
+}

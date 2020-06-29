@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/GlobalStyle.css";
-import "../styles/pages/HomePage.css";
+import '../styles/components/EmergencyIntro.css'
 
 function EmergencyIntro() {
   return (
-    <section id="emergency-intro" className="emergency text-center">
+    <section id="emergency-intro" className="text-center">
       <div className="container">
         <div className="row">
           <div className="col">

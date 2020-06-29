@@ -1,0 +1,11 @@
+#service-short-info .service-info .icon {
+  display: block;
+  float: left;
+}
+
+#service-short-info .service-info .icon img {
+  width: 50px;
+  padding: 0;
+  margin-right: 15px;
+  margin-bottom: 70px;
+}

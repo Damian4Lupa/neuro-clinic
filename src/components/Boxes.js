@@ -1,73 +1,57 @@
 import React from "react";
 import "../styles/GlobalStyle.css";
-import "../styles/pages/HomePage.css";
+import "../styles/components/Boxes.css";
 
-import checkmark from '../img/Boxes/checkmark.png'
-import databaseSearch from '../img/Boxes/database-search.png'
-import prognosis from '../img/Boxes/prognosis.png'
-import stethoscope from '../img/Boxes/stethoscope.png'
+import checkmark from "../img/Boxes/checkmark.png";
+import databaseSearch from "../img/Boxes/database-search.png";
+import prognosis from "../img/Boxes/prognosis.png";
+import stethoscope from "../img/Boxes/stethoscope.png";
 
 function Boxes() {
   return (
-    <section id="boxes" className="boxes home-section">
+    <section id="boxes" className="home-section">
       <div className="container">
         <div className="row">
           <div className="col-sm-3 col-md-3">
-            <div 
-            // class="wow fadeInUp" data-wow-delay="0.2s"
-            >
-              <div className="text-center">
-                <img src={checkmark} alt="" className="circled" />
+            <div className="text-center">
+              <img src={checkmark} alt="" className="circled" />
 
-                <h4 className="h-bold">Make an appoinment</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, nec te mollis utroque honestatis,
-                  ut utamur molestiae vix, graecis eligendi ne.
-                </p>
-              </div>
+              <h4 className="h-bold">Make an appoinment</h4>
+              <p>
+                Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut
+                utamur molestiae vix, graecis eligendi ne.
+              </p>
             </div>
           </div>
           <div className="col-sm-3 col-md-3">
-            <div 
-            // class="wow fadeInUp" data-wow-delay="0.2s"
-            >
-              <div className="box text-center">
-                <img src={databaseSearch} alt="" className="circled" />
-                <h4 className="h-bold">Choose your package</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, nec te mollis utroque honestatis,
-                  ut utamur molestiae vix, graecis eligendi ne.
-                </p>
-              </div>
+            <div className="box text-center">
+              <img src={databaseSearch} alt="" className="circled" />
+              <h4 className="h-bold">Choose your package</h4>
+              <p>
+                Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut
+                utamur molestiae vix, graecis eligendi ne.
+              </p>
             </div>
           </div>
           <div className="col-sm-3 col-md-3">
-            <div 
-            // class="wow fadeInUp" data-wow-delay="0.2s"
-            >
-              <div className="box text-center">
-                <img src={stethoscope} alt="" className="circled" />
-                <h4 className="h-bold">Help by specialist</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, nec te mollis utroque honestatis,
-                  ut utamur molestiae vix, graecis eligendi ne.
-                </p>
-              </div>
+            <div className="box text-center">
+              <img src={stethoscope} alt="" className="circled" />
+              <h4 className="h-bold">Help by specialist</h4>
+              <p>
+                Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut
+                utamur molestiae vix, graecis eligendi ne.
+              </p>
             </div>
           </div>
           <div className="col-sm-3 col-md-3">
-            <div 
-            // class="wow fadeInUp" data-wow-delay="0.2s"
-            >
-              <div className="box text-center">
-                <img src={prognosis} alt="" className="circled" />
+            <div className="box text-center">
+              <img src={prognosis} alt="" className="circled" />
 
-                <h4 className="h-bold">Get diagnostic report</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, nec te mollis utroque honestatis,
-                  ut utamur molestiae vix, graecis eligendi ne.
-                </p>
-              </div>
+              <h4 className="h-bold">Get diagnostic report</h4>
+              <p>
+                Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut
+                utamur molestiae vix, graecis eligendi ne.
+              </p>
             </div>
           </div>
         </div>

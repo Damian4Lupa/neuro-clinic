@@ -3,7 +3,7 @@ import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 
 import "../styles/GlobalStyle.css";
-import "../styles/pages/HomePage.css";
+import '../styles/components/Equipment.css'
 
 import equipment1 from "../img/Equipment/equipment1.jpg";
 import equipment2 from "../img/Equipment/equipment2.jpg";
@@ -36,7 +36,7 @@ function Equipment() {
 
       <div className="container">
         <div className="row">
-          <div className="col mt-5">
+          <div className="col">
             <Carousel
               arrowLeft={DoubleLeft}
               arrowRight={DoubleRight}

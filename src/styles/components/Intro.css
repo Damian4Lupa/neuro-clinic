@@ -1,0 +1,59 @@
+#intro {
+  width: 100%;
+  position: relative;
+}
+
+#intro .intro-content {
+  background-image: url(../../img/Intro/bg.jpg);
+  padding-top: 10vh;
+}
+
+#intro .intro-content h2 {
+  margin-bottom: 10px;
+}
+
+h1.h-ultra,
+h2.h-ultra,
+h3.h-ultra,
+h4.h-ultra,
+h5.h-ultra,
+h6.h-ultra {
+  font-weight: 900;
+}
+
+#intro .box {
+  background-color: rgba(255, 255, 255, 0.6);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: initial;
+  border-radius: 5px;
+}
+
+#intro .doctor img {
+  width: 100%;
+  margin-left: 5vw;
+}
+
+#intro .lead-list img {
+  filter: invert(0.5);
+  margin-top: -25px;
+  margin-left: 20px;
+  margin-right: 8px;
+}
+
+#intro ul.lead-list {
+  list-style: none;
+  margin: 30px 10px;
+  padding: 35px 0 0 0;
+  border-radius: 50px;
+}
+
+#intro ul.lead-list li {
+  margin: 0 0 20px 0;
+  line-height: 1.6em;
+}
+
+#intro ul.lead-list li span.list {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}

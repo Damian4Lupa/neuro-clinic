@@ -13,15 +13,10 @@ import youTube from "../img/Footer/youtube.svg";
 function Footer() {
   return (
     <footer className="section">
-      {/* <div class="overlay footer-overlay"></div> */}
-
       <div className="container">
         <div className="row justify-content-start">
           <div className="col-lg-4 col-sm-12">
             <div className="footer-widget">
-              {/* <a href="#" className="footer-brand text-white">
-                NeuroClinic
-              </a> */}
               <h3>NeuroClinic</h3>
               <p>
                 Each theme featured at the Bootstrap marketplace has been
@@ -34,7 +29,6 @@ function Footer() {
           <div className="col-lg-3 ml-lg-auto col-sm-12">
             <div className="footer-widget">
               <h3>Account</h3>
-
               <ul className="footer-links ">
                 <li>
                   <a href="#">Terms and conditions</a>
@@ -61,20 +55,30 @@ function Footer() {
 
               <ul className="footer-links ">
                 <li>
-                  <a href="#"><Link to="/About">About</Link></a>
+                  <a href="#">
+                    <Link to="/About">About</Link>
+                  </a>
                 </li>
                 <li>
-                  <a href="#"><Link to="/Service">Service</Link></a>
+                  <a href="#">
+                    <Link to="/Service">Service</Link>
+                  </a>
                 </li>
                 <li>
-                  <a href="#"><Link to="/Doctors">Doctors</Link></a>
+                  <a href="#">
+                    <Link to="/Doctors">Doctors</Link>
+                  </a>
                 </li>
                 <li>
-                  <a href="#"><Link to="/Pricing">Pricing</Link></a>
+                  <a href="#">
+                    <Link to="/Pricing">Pricing</Link>
+                  </a>
                 </li>
 
                 <li>
-                  <a href="#"><Link to="/Contact">Contact</Link></a>
+                  <a href="#">
+                    <Link to="/Contact">Contact</Link>
+                  </a>
                 </li>
               </ul>
             </div>

@@ -1,11 +1,11 @@
 import React from "react";
 
 import "../styles/GlobalStyle.css";
-import "../styles/pages/HomePage.css";
+import '../styles/components/Motto.css'
 
 function Motto() {
   return (
-    <section id="motto" className="section-padding">
+    <section id="motto" className="home-section">
       <div className="container">
         <div className=" row">
           <div className="col-md-2"></div>

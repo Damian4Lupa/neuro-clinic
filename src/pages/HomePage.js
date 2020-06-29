@@ -20,7 +20,7 @@ const NewsShortInfo = lazy(() => import("../components/NewsShortInfo"));
 const EmergencyIntro = lazy(() => import("../components/EmergencyIntro"));
 const Partners = lazy(() => import("../components/Partners"));
 const Equipment = lazy(() => import("../components/Equipment"));
-const Service = lazy(() => import("../components/Service"));
+const ServiceShortInfo = lazy(() => import("../components/ServiceShortInfo"));
 
 function HomePage() {
   return (
@@ -29,7 +29,7 @@ function HomePage() {
       <Boxes />
       <AboutShortInfo />
       <Motto />
-      <Service />
+      <ServiceShortInfo />
       <Equipment />
       <EmergencyIntro />
       <NewsShortInfo />

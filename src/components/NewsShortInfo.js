@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "../styles/GlobalStyle.css";
-import "../styles/pages/HomePage.css";
-import "../styles/components/Card.css";
+import '../styles/components/NewsShortInfo.css'
+import "../styles/components/Card.css"
 
 import Card from "../components/Card";
 import articles from "../data/articles";

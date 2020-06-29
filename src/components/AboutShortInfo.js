@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import "../styles/GlobalStyle.css";
-import "../styles/pages/HomePage.css";
+import '../styles/components/AboutShortInfo.css'
 
 function AboutShortInfo() {
   return (
-    <section id="about-short-info" className="section-padding">
+    <section id="about-short-info" className="home-section">
       <div className="container">
         <div className="row">
           <div className="col-md-3 col-sm-4 col-xs-12">
@@ -22,14 +23,15 @@ function AboutShortInfo() {
               </Link>
             </div>
           </div>
+
           <div className="col-md-9 col-sm-8 col-xs-12">
-            <div className=" more-features-box">
-              <div className="more-features-box-text">
-                <div className="more-features-box-text-icon">
+            <div className="features-box">
+              <div className="features-box-text">
+                <div className="features-box-icon">
                   {" "}
                   {/* <i className="fa fa-angle-right" aria-hidden="true"></i>{" "} */}
                 </div>
-                <div className="more-features-box-text-description">
+                <div className="features-box-description">
                   <h3>It's something important you want to know.</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -38,12 +40,12 @@ function AboutShortInfo() {
                   </p>
                 </div>
               </div>
-              <div className="more-features-box-text">
-                <div className="more-features-box-text-icon">
-                  {" "}
-                  <i className="fa fa-angle-right" aria-hidden="true"></i>{" "}
+              <div className="features-box-text">
+                <div className="features-box-icon">
+                  {/* {" "}
+                  <i className="fa fa-angle-right" aria-hidden="true"></i>{" "} */}
                 </div>
-                <div className="more-features-box-text-description">
+                <div className="features-box-description">
                   <h3>It's something important you want to know.</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -54,6 +56,7 @@ function AboutShortInfo() {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>

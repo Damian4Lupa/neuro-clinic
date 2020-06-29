@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../styles/GlobalStyle.css";
-import "../styles/pages/HomePage.css";
+import '../styles/components/Partners.css'
 
 import bma from "../img/Partners/bma.png";
 import cleanMed from "../img/Partners/CleanMed.png";

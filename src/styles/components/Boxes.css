@@ -1,0 +1,13 @@
+#boxes img {
+  padding: 15px;
+}
+
+#boxes .circled {
+  display: inline-block;
+  height: 8rem;
+  margin-bottom: 3vh;
+}
+
+#boxes h4 {
+  margin-bottom: 2vh;
+}
