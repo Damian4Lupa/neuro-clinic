@@ -22,7 +22,7 @@ let data = articles.map((item) => (
 ));
 
 function News() {
-  console.log(articles);
+  
   return (
     <section id="news" className="home-section">
       <div className="container">
