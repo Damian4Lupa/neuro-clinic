@@ -17,6 +17,12 @@
   position: relative;
 }
 
+.home-section-two {
+  margin-top: 10vh;
+  display: block;
+  position: relative;
+}
+
 .ser-title {
   line-height: 20px;
   margin: 0;

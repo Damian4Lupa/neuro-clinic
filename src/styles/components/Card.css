@@ -8,6 +8,13 @@
   display: block;
 }
 
+.card-img {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
 .blog-entry {
   margin: 2vh 0 10vh 0;
 }

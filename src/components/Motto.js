@@ -5,7 +5,7 @@ import '../styles/components/Motto.css'
 
 function Motto() {
   return (
-    <section id="motto" className="home-section">
+    <section id="motto" >
       <div className="container">
         <div className=" row">
           <div className="col-md-2"></div>

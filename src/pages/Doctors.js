@@ -3,6 +3,7 @@ import "../styles/GlobalStyle.css";
 import "../styles/components/Doctor.css";
 
 import Doctor from "../components/Doctor";
+import Motto from '../components/Motto'
 import doctors from "../data/doctors";
 
 const data = doctors.map((item) => (
@@ -16,10 +17,11 @@ const data = doctors.map((item) => (
 
 function Doctors() {
   return (
-    <section id="doctors" className="home-section">
+    <section id="doctors" className="home-section-two">
       <div className="container">
         <div class="row">{data}</div>
       </div>
+      <Motto />
     </section>
   );
 }

@@ -27,7 +27,7 @@ function Card(props) {
           <img
             src={foto}
             alt=""
-            className={cardMini ? "card-img-top" : "block-20"}
+            className="card-img"
           />
           <div className="meta-date">
             <span className="day">{day}</span>
