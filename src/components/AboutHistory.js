@@ -8,8 +8,8 @@ import now2 from "../img/About/now2.jpg";
 function AboutHistory() {
   return (
     <section id="about-history">
-      <div class="row">
-        <div class="col-7">
+      <div className="row">
+        <div className="col-7">
           <div className="section-title">
             <h2 className="ser-title">The beginnings...</h2>
             <hr className="botm-line" />
@@ -33,17 +33,17 @@ function AboutHistory() {
             reprehenderit!
           </p>
         </div>
-        <div class="col-5">
-          <img class="responsive bbgg" src={history1} alt="" />
+        <div className="col-5">
+          <img className="responsive bbgg" src={history1} alt="" />
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-5">
-          <img class="responsive" src={history2} alt="" />
+      <div className="row">
+        <div className="col-5">
+          <img className="responsive" src={history2} alt="" />
         </div>
 
-        <div class="col-7">
+        <div className="col-7">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum.
@@ -66,10 +66,10 @@ function AboutHistory() {
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-7">
+      <div className="row">
+        <div className="col-7">
           <div className="section-title">
-            <h2 className="ser-title">...and now</h2>
+            <h2 className="ser-title mt-4">...and now</h2>
             <hr className="botm-line" />
           </div>
 
@@ -91,17 +91,17 @@ function AboutHistory() {
             reprehenderit!
           </p>
         </div>
-        <div class="col-5">
-          <img class="responsive bbgg" src={now2} alt="" />
+        <div className="col-5">
+          <img className="responsive bbgg22 mt-5" src={now2} alt="" />
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-5">
-          <img class="responsive" src={now1} alt="" />
+      <div className="row">
+        <div className="col-5">
+          <img className="responsive" src={now1} alt="" />
         </div>
 
-        <div class="col-7">
+        <div className="col-7">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum.

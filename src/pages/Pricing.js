@@ -3,18 +3,23 @@ import "../styles/GlobalStyle.css";
 import '../styles/components/PriceTable.css'
 
 import PriceTable from '../components/PriceTable'
+import Boxes from '../components/Boxes'
+import EmergencyIntro from '../components/EmergencyIntro'
+import Equipment from '../components/Equipment'
 
 function Pricing() {
   return (
-    <section id="about" className="home-section">
+    <section id="pricing" className="home-section-top">
       <div className="container">
+         <Boxes />
         <div className="row">
           <div className="col">
-            <h1>Pricing</h1>
             <PriceTable />
           </div>
         </div>
       </div>
+      <Equipment />
+      <EmergencyIntro />
     </section>
   );
 }

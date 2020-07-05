@@ -1,8 +1,8 @@
 
 :root {
-  --gray-light: rgba(238, 238, 238, 0.5);
-  --gray-normal: rgb(222, 220, 220, 0.3);
-  --gray-dark: rgb(212, 212, 212);
+  --gray-light: rgba(238, 238, 238, 0.6);
+  --gray-normal: rgb(222, 220, 220, 0.45);
+  --gray-dark: rgb(119, 119, 119);
 
   --blue-light: rgb(0, 181, 221);
   --blue-normal: rgb(0, 165, 203);
@@ -13,6 +13,12 @@
 
 .home-section {
   margin: 10vh 0;
+  display: block;
+  position: relative;
+}
+
+.home-section-top {
+  margin-top: 10vh;
   display: block;
   position: relative;
 }

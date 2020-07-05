@@ -1,11 +1,122 @@
-.box {
 
+#price-table .box {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
 }
 
-.box h4 {
-	font-size: 24px;
+#price-table h3 {
+    font-weight: 400;
+    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray-dark);
+    background: var(--gray-normal);
 }
 
-.box i {
-	margin-bottom: 30px;
+#price-table h4 {
+    font-size: 36px;
+    color: var(--blue-normal);
+    font-weight: 600;
+    /* font-family: "Poppins", sans-serif; */
+    margin-bottom: 20px;
+}
+#price-table h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+}
+
+sub, sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+#price-table h4 span {
+    color: var(--gray-dark);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#price-table ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+#price-table ul li {
+    padding-bottom: 16px;
+}
+
+#price-table ul .na {
+    color: var(--gray-dark);
+    text-decoration: line-through;
+}
+
+#price-table .btn-wrap {
+    margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: var(--gray-light);
+    text-align: center;
+}
+
+/* #price-table .btn-buy {
+    background: var(--blue-normal);
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 4px;
+    color: var(--white-normal);
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-weight: 600;
+    transition: 0.3s;
+} */
+
+#price-table .blue-btn {
+	padding: 8px 35px 10px 35px;
+	transition: none;
+    font-size: 14px;
+}
+
+
+#price-table .featured h3 {
+    color: var(--white-normal);
+    background: var(--blue-normal);
+}
+
+/* #price-table .advanced {
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: var(--blue-normal);
+    color: var(--white-normal);
+} */
+
+#price-table .recommended {
+    width: 200px;
+    position: absolute;
+    top: 28px;
+    right: -60px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: var(--blue-normal);
+    color: var(--white-normal);
 }

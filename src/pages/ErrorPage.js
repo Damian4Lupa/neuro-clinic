@@ -3,7 +3,7 @@ import "../styles/GlobalStyle.css";
 
 function ErrorPage() {
   return (
-    <section id="about" className="home-section">
+    <section id="error-page" className="home-section">
       <div className="container">
         <div className="row">
           <div className="col">

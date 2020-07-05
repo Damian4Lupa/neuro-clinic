@@ -11,11 +11,11 @@ function Doctor(props) {
   const { id, foto, name, position } = props;
 
   return (
-    <div id={`doctor-${id}`} class="col-md-3 d-flex">
-      <div class="doctor">
-        <div class="member-img">
-          <img src={foto} class="img-fluid" alt="" />
-          <div class="social">
+    <div id={`doctor-${id}`} className="col-md-3 d-flex">
+      <div className="doctor">
+        <div className="member-img">
+          <img src={foto} className="img-fluid" alt="" />
+          <div className="social">
             <a href="">
               <img src={twitter} alt="" />
             </a>
@@ -30,7 +30,7 @@ function Doctor(props) {
             </a>
           </div>
         </div>
-        <div class="member-info">
+        <div className="member-info">
           <h4>{name}</h4>
           <span>{position}</span>
         </div>

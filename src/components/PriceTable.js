@@ -4,13 +4,11 @@ import "../styles/components/PriceTable.css";
 
 function PriceTable() {
   return (
-    <section id="price-table" className="home-section">
+    <section id="price-table" className="home-section-top">
       <div className="container">
         <div className="row">
-          <div class="col-lg-3 col-md-6">
-            <div
-              class="box aos-init aos-animate"
-            >
+          <div className="col-lg-3 col-md-6">
+            <div className="box">
               <h3>Free</h3>
               <h4>
                 <sup>$</sup>0<span> / month</span>
@@ -19,24 +17,20 @@ function PriceTable() {
                 <li>Aida dere</li>
                 <li>Nec feugiat nisl</li>
                 <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li className="na">Pharetra massa</li>
+                <li className="na">Massa ultricies mi</li>
               </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">
+              <div className="btn-wrap">
+                <button type="button" className="btn blue-btn">
                   Buy Now
-                </a>
+                </button>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-            <div
-              class="box featured aos-init aos-animate"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <h3>Business</h3>
+          <div className="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div className="box">
+              <h3>Personal</h3>
               <h4>
                 <sup>$</sup>19<span> / month</span>
               </h4>
@@ -47,21 +41,18 @@ function PriceTable() {
                 <li>Pharetra massa</li>
                 <li class="na">Massa ultricies mi</li>
               </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">
+              <div className="btn-wrap">
+                <button type="button" className="btn blue-btn">
                   Buy Now
-                </a>
+                </button>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-            <div
-              class="box aos-init aos-animate"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <h3>Developer</h3>
+          <div className="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div className="box">
+              <span className="recommended">recommend</span>
+              <h3>Family</h3>
               <h4>
                 <sup>$</sup>29<span> / month</span>
               </h4>
@@ -72,22 +63,17 @@ function PriceTable() {
                 <li>Pharetra massa</li>
                 <li>Massa ultricies mi</li>
               </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">
+              <div className="btn-wrap">
+                <button type="button" className="btn blue-btn">
                   Buy Now
-                </a>
+                </button>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-            <div
-              class="box aos-init aos-animate"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <span class="advanced">Advanced</span>
-              <h3>Ultimate</h3>
+          <div className="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div className="box">
+              <h3>Premium</h3>
               <h4>
                 <sup>$</sup>49<span> / month</span>
               </h4>
@@ -98,10 +84,10 @@ function PriceTable() {
                 <li>Pharetra massa</li>
                 <li>Massa ultricies mi</li>
               </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">
+              <div className="btn-wrap">
+                <button type="button" className="btn blue-btn">
                   Buy Now
-                </a>
+                </button>
               </div>
             </div>
           </div>

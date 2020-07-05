@@ -9,7 +9,7 @@ import stethoscope from "../img/Boxes/stethoscope.png";
 
 function Boxes() {
   return (
-    <section id="boxes" className="home-section">
+    <section id="boxes" className="home-section-top">
       <div className="container">
         <div className="row">
           <div className="col-sm-3 col-md-3">

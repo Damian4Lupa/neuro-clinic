@@ -3,24 +3,17 @@
   height: 400px;
 }
 
-#contact .space {
-  margin-top: 7vh;
-}
-
-#contact p {
-  margin-left: 5px;
-}
-
-.adress2 {
-  margin-left: 41px !important;
+#contact .card {
+  width: 250px !important;
+  /* box-shadow: 0 0 20px rgba(214, 215, 216, 0.5); */
+  box-shadow: 3px 3px 3px 1px rgba(214, 215, 216, 0.5);
 }
 
 #contact img {
-  height: 20px;
-  width: 40px;
-  margin-top: -2.5px;
+  margin: 15px 0 10px 0;
+  text-align: center;
+  height: 40px;
   filter: invert(0.5);
 }
-
 
 

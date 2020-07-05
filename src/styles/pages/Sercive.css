@@ -1,13 +1,13 @@
-#sercive2 .service-info {
+#sercive .service-info {
     margin-bottom: 10vh;
 }
 
-#sercive2 .service-info .icon {
+#sercive .service-info .icon {
   display: block;
   float: left;
 }
 
-#sercive2 .service-info .icon img {
+#sercive .service-info .icon img {
   width: 120px;
   padding: 0;
   margin-right: 15px;

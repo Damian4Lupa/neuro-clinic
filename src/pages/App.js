@@ -31,7 +31,7 @@ const News = lazy(() => import("./News"));
 const Service = lazy(() => import("./Service"));
 const Doctors = lazy(() => import("./Doctors"));
 const Pricing = lazy(() => import("./Pricing"));
-const Contact = lazy(() => import("./Contact2"));
+const Contact = lazy(() => import("./Contact"));
 const ErrorPage = lazy(() => import("./ErrorPage"));
 
 const Footer = lazy(() => import("../components/Footer"));

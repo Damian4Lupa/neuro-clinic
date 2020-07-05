@@ -1,11 +1,11 @@
 import React from "react";
-import "../styles/GlobalStyle.css";
+// import "../styles/GlobalStyle.css";
 
 import "../styles/pages/News.css";
 import "../styles/components/Card.css";
+import articles from "../data/articles";
 
 import Card from "../components/Card";
-import articles from "../data/articles";
 
 let data = articles.map((item) => (
   <Card
@@ -26,7 +26,7 @@ function News() {
   return (
     <section id="news" className="home-section">
       <div className="container">
-        <div class="row">
+        <div className="row">
           {data}
         </div>
       </div>

@@ -15,7 +15,7 @@ import lab1 from "../img/Service/lab1.svg";
 function Sercive() {
   return (
     <>
-    <section id="sercive2" className="home-section">
+    <section id="sercive" className="home-section">
       <div className="container">
         <div className="row">
 

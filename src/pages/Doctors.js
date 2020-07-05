@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/GlobalStyle.css";
 import "../styles/components/Doctor.css";
+import doctors from "../data/doctors";
 
 import Doctor from "../components/Doctor";
 import Motto from '../components/Motto'
-import doctors from "../data/doctors";
 
 const data = doctors.map((item) => (
   <Doctor
@@ -19,7 +19,7 @@ function Doctors() {
   return (
     <section id="doctors" className="home-section-two">
       <div className="container">
-        <div class="row">{data}</div>
+        <div className="row">{data}</div>
       </div>
       <Motto />
     </section>
