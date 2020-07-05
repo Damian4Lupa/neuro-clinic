@@ -24,3 +24,8 @@
   );
   z-index: -1;
 }
+
+#motto .motto-text {
+  display: flex;
+  align-items: center;
+}

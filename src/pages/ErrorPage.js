@@ -1,5 +1,8 @@
 import React from "react";
-import "../styles/GlobalStyle.css";
+import { Link } from "react-router-dom";
+
+// import "../styles/GlobalStyle.css";
+import "../styles/components/ErrorPage.css";
 
 function ErrorPage() {
   return (
@@ -7,7 +10,14 @@ function ErrorPage() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h1>ErrorPage</h1>
+            <h1>Sorry, we didn't find this page ...</h1>
+            <h5>Search is best started from the home page</h5>
+
+            <Link to="/">
+              <button type="button" className="btn blue-btn">
+                go to the home page
+              </button>
+            </Link>
           </div>
         </div>
       </div>
