@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 import "../styles/GlobalStyle.css";
 import "../styles/components/ServiceShortInfo.css";
 
-import support1 from "../img/Service/support1.svg";
+import support from "../img/Service/support.svg";
 import counseling from "../img/Service/counseling.svg";
-import emergency1 from "../img/Service/emergency1.svg";
+import emergency from "../img/Service/emergency.svg";
 import surgery from "../img/Service/surgery.svg";
 
 function ServiceShortInfo() {
@@ -34,7 +34,7 @@ function ServiceShortInfo() {
           <div className="col-4">
             <div className="service-info">
               <div className="icon">
-                <img src={support1} alt="" />
+                <img src={support} alt="support" />
               </div>
               <div className="icon-info">
                 <h4>24 Hour Support</h4>
@@ -47,7 +47,7 @@ function ServiceShortInfo() {
 
             <div className="service-info">
               <div className="icon">
-                <img src={emergency1} alt="" />
+                <img src={emergency} alt="emergency" />
               </div>
               <div className="icon-info">
                 <h4>Emergency Services</h4>
@@ -62,7 +62,7 @@ function ServiceShortInfo() {
           <div className="col-4">
             <div className="service-info">
               <div className="icon">
-                <img src={counseling} alt="" />
+                <img src={counseling} alt="counseling" />
               </div>
               <div className="icon-info">
                 <h4>Medical Counseling</h4>
@@ -75,7 +75,7 @@ function ServiceShortInfo() {
 
             <div className="service-info">
               <div className="icon">
-                <img src={surgery} alt="" />
+                <img src={surgery} alt="surgery" />
               </div>
               <div className="icon-info">
                 <h4>Surgery</h4>

@@ -29,7 +29,7 @@ function Footer() {
           <div className="col-lg-3 ml-lg-auto col-sm-12">
             <div className="footer-widget">
               <h3>Account</h3>
-              <ul className="footer-links ">
+              <ul className="footer-links">
                 <li>
                   <a href="#">Terms and conditions</a>
                 </li>
@@ -53,7 +53,7 @@ function Footer() {
             <div className="footer-widget">
               <h3>About</h3>
 
-              <ul className="footer-links ">
+              <ul className="footer-links">
                 <li>
                   <a href="#">
                     <Link to="/About">About</Link>
@@ -91,31 +91,31 @@ function Footer() {
               <ul className="list-unstyled footer-links">
                 <li>
                   <a href="#">
-                    <img src={facebook} alt="" height="15" className="mr-2" />
+                    <img src={facebook} alt="facebook" height="15" className="mr-2" />
                     Facebook
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img src={twitter} alt="" height="15" className="mr-2" />
+                    <img src={twitter} alt="twitter" height="15" className="mr-2" />
                     Twitter
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img src={pinterest} alt="" height="15" className="mr-2" />
+                    <img src={pinterest} alt="pinterest" height="15" className="mr-2" />
                     Pinterest
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img src={linkedin} alt="" height="15" className="mr-2" />
+                    <img src={linkedin} alt="linkedin" height="15" className="mr-2" />
                     linkedin
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img src={youTube} alt="" height="15" className="mr-2" />
+                    <img src={youTube} alt="youTube" height="15" className="mr-2" />
                     YouTube
                   </a>
                 </li>

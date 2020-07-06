@@ -9,6 +9,7 @@ import Motto from '../components/Motto'
 const data = doctors.map((item) => (
   <Doctor
     id={item.id}
+    key={item.id}
     foto={item.foto}
     name={item.name}
     position={item.position}
@@ -17,7 +18,7 @@ const data = doctors.map((item) => (
 
 function Doctors() {
   return (
-    <section id="doctors" className="home-section-two">
+    <section id="doctors" className="home-section-top">
       <div className="container">
         <div className="row">{data}</div>
       </div>

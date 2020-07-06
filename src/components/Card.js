@@ -26,7 +26,7 @@ function Card(props) {
         <div className="news-img">
           <img
             src={foto}
-            alt=""
+            alt={`img-card-${id}`}
             className="card-img"
           />
           <div className="meta-date">

@@ -10,6 +10,7 @@ import Card from "../components/Card";
 let data = articles.map((item) => (
   <Card
     id={item.id}
+    key={item.id}
     foto={item.foto}
     day={item.day}
     month={item.month}

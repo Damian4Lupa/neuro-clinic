@@ -5,12 +5,12 @@ import "../styles/pages/Sercive.css";
 
 import EmergencyIntro from '../components/EmergencyIntro'
 
-import support1 from "../img/Service/support1.svg";
+import support from "../img/Service/support.svg";
 import counseling from "../img/Service/counseling.svg";
-import emergency1 from "../img/Service/emergency1.svg";
+import emergency from "../img/Service/emergency.svg";
 import surgery from "../img/Service/surgery.svg";
 import premium from "../img/Service/premium.svg";
-import lab1 from "../img/Service/lab1.svg";
+import lab from "../img/Service/lab.svg";
 
 function Sercive() {
   return (
@@ -23,7 +23,7 @@ function Sercive() {
 
             <div className="service-info">
               <div className="icon">
-                <img src={support1} alt="" />
+                <img src={support} alt="support" />
               </div>
               <div className="icon-info">
                 <h4>24 Hour Support</h4>
@@ -42,7 +42,7 @@ function Sercive() {
 
             <div className="service-info">
               <div className="icon">
-                <img src={emergency1} alt="" />
+                <img src={emergency} alt="emergency" />
               </div>
               <div className="icon-info">
                 <h4>Emergency Services</h4>
@@ -61,7 +61,7 @@ function Sercive() {
 
             <div className="service-info">
               <div className="icon">
-                <img src={lab1} alt="" />
+                <img src={lab} alt="lab" />
               </div>
               <div className="icon-info">
                 <h4>Medical Lab</h4>
@@ -82,7 +82,7 @@ function Sercive() {
           <div className="col-6">
             <div className="service-info">
               <div className="icon">
-                <img src={counseling} alt="" />
+                <img src={counseling} alt="counseling" />
               </div>
               <div className="icon-info">
                 <h4>Medical Counseling</h4>
@@ -102,7 +102,7 @@ function Sercive() {
 
             <div className="service-info">
               <div className="icon">
-                <img src={surgery} alt="" />
+                <img src={surgery} alt="surgery" />
               </div>
               <div className="icon-info">
                 <h4>Surgery</h4>
@@ -121,7 +121,7 @@ function Sercive() {
 
             <div className="service-info">
               <div className="icon">
-                <img src={premium} alt="" />
+                <img src={premium} alt="premium" />
               </div>
               <div className="icon-info">
                 <h4>Premium Healthcare</h4>

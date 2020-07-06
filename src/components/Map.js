@@ -4,7 +4,9 @@ function Map() {
   return (
     <>
       <iframe
+      title="website-map"
         className="google-map"
+        samesite="none"
         frameborder="0"
         scrolling="no"
         marginheight="0"

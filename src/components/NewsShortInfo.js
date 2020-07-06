@@ -13,6 +13,7 @@ const newArticles = articles.splice(0, 3)
 let data = newArticles.map((item) => (
   <Card
     id={item.id}
+    key={item.id}
     foto={item.foto}
     day={item.day}
     month={item.month}

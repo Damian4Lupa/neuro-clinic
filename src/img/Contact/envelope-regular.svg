@@ -9,17 +9,17 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    aria-hidden="true"
    focusable="false"
-   data-prefix="fas"
-   data-icon="map-marker-alt"
-   class="svg-inline--fa fa-map-marker-alt fa-w-12"
+   data-prefix="far"
+   data-icon="envelope"
+   class="svg-inline--fa fa-envelope fa-w-16"
    role="img"
-   viewBox="0 0 384 512"
+   viewBox="0 0 512 512"
    version="1.1"
-   id="svg4530"
-   sodipodi:docname="map-marker.svg"
+   id="svg1400"
+   sodipodi:docname="envelope-regular.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
-     id="metadata4536">
+     id="metadata1406">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -31,7 +31,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs4534" />
+     id="defs1404" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -43,18 +43,18 @@
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
-     id="namedview4532"
+     id="namedview1402"
      showgrid="false"
-     inkscape:zoom="1.578125"
-     inkscape:cx="192"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="256"
      inkscape:cy="256"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4530" />
+     inkscape:current-layer="svg1400" />
   <path
      fill="currentColor"
-     d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
-     id="path4528"
+     d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"
+     id="path1398"
      style="fill:#00a5cb;fill-opacity:1" />
 </svg>

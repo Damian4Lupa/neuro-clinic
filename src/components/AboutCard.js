@@ -2,8 +2,9 @@ import React from "react";
 
 import '../styles/components/AboutCard.css'
 
-import test2 from '../img/AboutCard/11.jpg'
-import test3 from '../img/AboutCard/22.jpg'
+import about1 from '../img/AboutCard/about1.jpg'
+import about2 from '../img/AboutCard/about2.jpg'
+import about3 from '../img/AboutCard/about3.jpg'
 
 function AboutCard() {
   return (
@@ -12,7 +13,7 @@ function AboutCard() {
         <div className="card-deck text-center">
 
           <div className="card">
-            <img className="card-img-top" src={test3} alt="Card image cap" />
+            <img className="card-img-top" src={about3} alt="card title" />
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">
@@ -27,7 +28,7 @@ function AboutCard() {
           </div>
 
           <div className="card">
-            <img className="card-img-top" src={test2} alt="Card image cap" />
+            <img className="card-img-top" src={about1} alt="clinical tests" />
             <div className="card-body">
               <h5 className="card-title">Clinical tests</h5>
               <p className="card-text">
@@ -41,7 +42,7 @@ function AboutCard() {
           </div>
 
           <div className="card">
-            <img className="card-img-top" src={test3} alt="Card image cap" />
+            <img className="card-img-top" src={about2} alt="internship program" />
             <div className="card-body">
               <h5 className="card-title">Internship program</h5>
               <p className="card-text">

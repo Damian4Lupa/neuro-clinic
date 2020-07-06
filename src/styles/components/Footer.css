@@ -26,6 +26,12 @@ footer:after {
   z-index: -1;
 }
 
+footer .footer-links {
+  padding-left: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
 #footer .footer-brand {
   font-size: 30px;
 }
@@ -72,11 +78,11 @@ footer:after {
   background: var(--gray-light);
 }
 
-.current-year {
+footer .current-year {
   color: var(--blue-dark);
 }
 
-.social {
+footer .social {
   color: var(--gray-light) !important;
   margin-top: -3px;
   background-repeat: no-repeat;

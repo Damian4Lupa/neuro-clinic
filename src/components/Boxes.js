@@ -14,7 +14,7 @@ function Boxes() {
         <div className="row">
           <div className="col-sm-3 col-md-3">
             <div className="text-center">
-              <img src={checkmark} alt="" className="circled" />
+              <img src={checkmark} alt="checkmark" className="circled" />
 
               <h4 className="h-bold">Make an appoinment</h4>
               <p>
@@ -25,7 +25,7 @@ function Boxes() {
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="box text-center">
-              <img src={databaseSearch} alt="" className="circled" />
+              <img src={databaseSearch} alt="databaseSearch" className="circled" />
               <h4 className="h-bold">Choose your package</h4>
               <p>
                 Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut
@@ -35,7 +35,7 @@ function Boxes() {
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="box text-center">
-              <img src={stethoscope} alt="" className="circled" />
+              <img src={stethoscope} alt="stethoscope" className="circled" />
               <h4 className="h-bold">Help by specialist</h4>
               <p>
                 Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut
@@ -45,7 +45,7 @@ function Boxes() {
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="box text-center">
-              <img src={prognosis} alt="" className="circled" />
+              <img src={prognosis} alt="prognosis" className="circled" />
 
               <h4 className="h-bold">Get diagnostic report</h4>
               <p>

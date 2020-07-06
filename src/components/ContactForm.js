@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <form id="contact-form" action="" method="post" role="form" className="contactForm">
+    <form id="contact-form" className="contactForm">
       <div className="form-group">
         <input
           type="text"
@@ -10,8 +10,7 @@ function ContactForm() {
           className="form-control br-radius-zero"
           id="name"
           placeholder="Your Name"
-          data-rule="minlen:4"
-          // data-msg="Please enter at least 4 chars"
+         
         />
       </div>
       <div className="form-group">
@@ -21,8 +20,6 @@ function ContactForm() {
           name="email"
           id="email"
           placeholder="Your Email"
-          data-rule="email"
-          // data-msg="Please enter a valid email"
         />
       </div>
       <div className="form-group">
@@ -32,8 +29,7 @@ function ContactForm() {
           name="subject"
           id="subject"
           placeholder="Subject"
-          data-rule="minlen:4"
-          // data-msg="Please enter at least 8 chars of subject"
+
         />
       </div>
       <div className="form-group">
@@ -42,7 +38,6 @@ function ContactForm() {
           name="message"
           rows="7"
           data-rule="required"
-          // data-msg="Please write something for us"
           placeholder="Message"
         ></textarea>
       </div>

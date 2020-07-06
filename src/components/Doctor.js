@@ -14,19 +14,19 @@ function Doctor(props) {
     <div id={`doctor-${id}`} className="col-md-3 d-flex">
       <div className="doctor">
         <div className="member-img">
-          <img src={foto} className="img-fluid" alt="" />
+          <img src={foto} className="img-fluid" alt={`doctor-img-${id}`} />
           <div className="social">
-            <a href="">
-              <img src={twitter} alt="" />
+            <a href="#">
+              <img src={twitter} alt="twitter" />
             </a>
-            <a href="">
-              <img src={facebook} alt="" />
+            <a href="#">
+              <img src={facebook} alt="facebook" />
             </a>
-            <a href="">
-              <img src={pinterest} alt="" />
+            <a href="#">
+              <img src={pinterest} alt="pinterest" />
             </a>
-            <a href="">
-              <img src={linkedin} alt="" />
+            <a href="#">
+              <img src={linkedin} alt="linkedin" />
             </a>
           </div>
         </div>

@@ -14,7 +14,7 @@ function Intro() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <h2 classNamev="h-ultra">NeuroClinic medical group</h2>
+              <h2 className="h-ultra">NeuroClinic medical group</h2>
 
               <h4 className="h-light">
                 Provide best quality healthcare for you
@@ -23,7 +23,7 @@ function Intro() {
               <div className="box">
                 <ul className="lead-list">
                   <li>
-                    <img src={check} alt="" height="30" />
+                    <img src={check} alt="check" height="30" />
 
                     <span className="list">
                       <strong>Affordable monthly premium packages</strong>
@@ -33,7 +33,7 @@ function Intro() {
                     </span>
                   </li>
                   <li>
-                    <img src={check} alt="" height="30" />
+                    <img src={check} alt="check" height="30" />
                     <span className="list">
                       <strong>Choose your favourite doctor</strong>
                       <br />
@@ -42,7 +42,7 @@ function Intro() {
                     </span>
                   </li>
                   <li>
-                    <img src={check} alt="" height="30" />
+                    <img src={check} alt="check" height="30" />
                     <span className="list">
                       <strong>Only use friendly environment</strong>
                       <br />
@@ -62,7 +62,7 @@ function Intro() {
             </div>
             <div className="col-lg-6">
               <div className="doctor">
-                <img src={doctor} alt="" />
+                <img src={doctor} alt="doctor bg" />
               </div>
             </div>
           </div>
