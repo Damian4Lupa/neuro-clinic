@@ -21,7 +21,7 @@ const doctors = [
     id: 4,
     foto: require("../img/Doctors/doctor-f3.jpg"),
     name: "Emma Rogers",
-    position: "Neurosurgeon",
+    position: "Neurologist",
   },
   {
     id: 5,
@@ -46,6 +46,30 @@ const doctors = [
     foto: require("../img/Doctors/doctor-f1.jpg"),
     name: "Trisha Mccoy",
     position: "Neurologist",
+  },
+  {
+    id: 9,
+    foto: require("../img/Doctors/doctor-f5.jpg"),
+    name: "Layla Mcbride",
+    position: "Laboratory assistant",
+  },
+  {
+    id: 10,
+    foto: require("../img/Doctors/doctor-m1.jpg"),
+    name: "Adrian Ball",
+    position: "Neurosurgeon",
+  },
+  {
+    id: 11,
+    foto: require("../img/Doctors/doctor-f6.jpg"),
+    name: "Paula Perry",
+    position: "Neurosurgeon",
+  },
+  {
+    id: 12,
+    foto: require("../img/Doctors/doctor-f7.jpg"),
+    name: "Kristina Whelan",
+    position: "Laboratory assistant",
   },
 ];
 

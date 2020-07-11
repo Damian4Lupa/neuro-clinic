@@ -1,0 +1,65 @@
+
+#sercive-detailed-info .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#sercive-detailed-info .icon-box {
+    text-align: center;
+}
+
+#sercive-detailed-info .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#sercive-detailed-info .icon {
+    display: flex;
+    justify-content: center;
+}
+
+#sercive-detailed-info .icon img {
+    /* vertical-align: middle;
+    align-items: center; */
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 50%;
+    /* transition: 0.5s; */
+    /* font-size: 40px; */
+    overflow: hidden;
+    padding-top: 15px;
+    box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
+}
+
+#sercive-detailed-info .title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 18px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+#sercive-detailed-info .title::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: var(--blue-normal);
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+#sercive-detailed-info .description {
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 5vh;
+}

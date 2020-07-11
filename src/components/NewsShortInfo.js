@@ -8,7 +8,7 @@ import "../styles/components/Card.css"
 import Card from "../components/Card";
 import articles from "../data/articles";
 
-const newArticles = articles.splice(0, 3)
+const newArticles = articles.slice(0, 3)
 
 let data = newArticles.map((item) => (
   <Card
