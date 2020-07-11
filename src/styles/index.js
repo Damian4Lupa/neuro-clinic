@@ -10,7 +10,6 @@ const GlobalStyle = createGlobalStyle`
   line-height: 1.75;
   margin: 0;
     box-sizing: border-box;
-    /* background-color: rgba(238, 238, 238, 0.15) */
     background-color: #fff;
 }
 `;

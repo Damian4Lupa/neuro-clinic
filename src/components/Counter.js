@@ -12,9 +12,13 @@ function Counter() {
   const [count, setCount] = useState(false);
 
   $(window).scroll(function () {
-
     let scrollValue = $(document).scrollTop();
-    let counterIdTopValue = $("#counter").offset().top - 550;
+    let counterIdTopValue = 0
+    let counter = $("#counter");
+
+    if (counter.length) {
+      counterIdTopValue = counter.offset().top - 550;
+    }
 
     if (scrollValue > counterIdTopValue) {
       setCount(true);
