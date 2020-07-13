@@ -30,19 +30,19 @@ function Footer() {
               <h3>Account</h3>
               <ul className="footer-links">
                 <li>
-                  <a href="#">Terms and conditions</a>
+                  <Link to="#"> Terms and conditions</Link>
                 </li>
                 <li>
-                  <a href="#">Privacy policy</a>
+                  <Link to="#">Privacy policy </Link>
                 </li>
                 <li>
-                  <a href="#">Affiliate services</a>
+                  <Link to="#"> Affiliate services</Link>
                 </li>
                 <li>
-                  <a href="#">Help and support</a>
+                  <Link to="#"> Help and support</Link>
                 </li>
                 <li>
-                  <a href="#">Frequently Asked Question</a>
+                  <Link to="#"> Frequently Asked Question</Link>
                 </li>
               </ul>
             </div>
@@ -54,30 +54,20 @@ function Footer() {
 
               <ul className="footer-links">
                 <li>
-                  <a href="#">
-                    <Link to="/About">About</Link>
-                  </a>
+                  <Link to="/About">About</Link>
                 </li>
                 <li>
-                  <a href="#">
-                    <Link to="/Service">Service</Link>
-                  </a>
+                  <Link to="/Service">Service</Link>
                 </li>
                 <li>
-                  <a href="#">
-                    <Link to="/Doctors">Doctors</Link>
-                  </a>
+                  <Link to="/Doctors">Doctors</Link>
                 </li>
                 <li>
-                  <a href="#">
-                    <Link to="/Pricing">Pricing</Link>
-                  </a>
+                  <Link to="/Pricing">Pricing</Link>
                 </li>
 
                 <li>
-                  <a href="#">
-                    <Link to="/Contact">Contact</Link>
-                  </a>
+                  <Link to="/Contact">Contact</Link>
                 </li>
               </ul>
             </div>
@@ -89,34 +79,59 @@ function Footer() {
 
               <ul className="list-unstyled footer-links">
                 <li>
-                  <a href="#">
-                    <img src={facebook} alt="facebook" height="15" className="mr-2" />
+                  <Link to="#">
+                    <img
+                      src={facebook}
+                      alt="facebook"
+                      height="15"
+                      className="mr-2"
+                    />
                     Facebook
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
-                    <img src={twitter} alt="twitter" height="15" className="mr-2" />
+                  <Link to="#">
+                    <img
+                      src={twitter}
+                      alt="twitter"
+                      height="15"
+                      className="mr-2"
+                    />
                     Twitter
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
-                    <img src={pinterest} alt="pinterest" height="15" className="mr-2" />
+                  <Link to="#">
+                    <img
+                      src={pinterest}
+                      alt="pinterest"
+                      height="15"
+                      className="mr-2"
+                    />
                     Pinterest
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
-                    <img src={linkedin} alt="linkedin" height="15" className="mr-2" />
+                  <Link to="#">
+                    <img
+                      src={linkedin}
+                      alt="linkedin"
+                      height="15"
+                      className="mr-2"
+                    />
                     linkedin
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
-                    <img src={youTube} alt="youTube" height="15" className="mr-2" />
+                  <Link to="#">
+                    <img
+                      src={youTube}
+                      alt="youTube"
+                      height="15"
+                      className="mr-2"
+                    />
                     YouTube
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

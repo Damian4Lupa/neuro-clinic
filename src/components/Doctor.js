@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "../styles/components/Doctor.css";
 
@@ -16,18 +17,20 @@ function Doctor(props) {
         <div className="member-img">
           <img src={foto} className="img-fluid" alt={`doctor-img-${id}`} />
           <div className="social">
-            <a href="#">
+         
+              <Link to="#">
               <img src={twitter} alt="twitter" />
-            </a>
-            <a href="#">
+              </Link>
+        
+              <Link to="#">
               <img src={facebook} alt="facebook" />
-            </a>
-            <a href="#">
+         </Link>
+         <Link to="#">
               <img src={pinterest} alt="pinterest" />
-            </a>
-            <a href="#">
+           </Link>
+           <Link to="#">
               <img src={linkedin} alt="linkedin" />
-            </a>
+           </Link>
           </div>
         </div>
         <div className="member-info">

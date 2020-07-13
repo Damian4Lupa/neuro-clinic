@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-import '../styles/components/Partners.css'
+import "../styles/components/Partners.css";
 
 import bma from "../img/Partners/bma.png";
 import cleanMed from "../img/Partners/CleanMed.png";
@@ -14,10 +15,10 @@ function Partners() {
       <div className="container">
         <div className="row">
           <div className="col-3">
-          <div className="section-title">
+            <div className="section-title">
               <h2 className="ser-title">Our partner</h2>
               <hr className="botm-line" />
-              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -26,29 +27,29 @@ function Partners() {
         <div className="row partner-position">
           <div className="col">
             <div className="partner">
-              <a href="#">
+              <Link to="#">
                 <img src={bma} alt="bma" height="50" />
-              </a>
+              </Link>
             </div>
             <div className="partner">
-              <a href="#">
+              <Link to="#">
                 <img src={uniWroc} alt="uniWroc" height="50" />
-              </a>
+              </Link>
             </div>
             <div className="partner">
-              <a href="#">
+              <Link to="#">
                 <img src={oneHealth} alt="oneHealth" height="60" />
-              </a>
+              </Link>
             </div>
             <div className="partner">
-              <a href="#">
+              <Link to="#">
                 <img src={unnamed} alt="unnamed" height="75" />
-              </a>
+              </Link>
             </div>
             <div className="partner">
-              <a href="#">
+              <Link to="#">
                 <img src={cleanMed} alt="cleanMed" height="50" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
