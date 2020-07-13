@@ -1,6 +1,5 @@
 import React from "react";
-import "../styles/GlobalStyle.css";
-import "../styles/components/Doctor.css";
+
 import doctors from "../data/doctors";
 
 import Doctor from "../components/Doctor";

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/GlobalStyle.css";
+
 import '../styles/components/EmergencyIntro.css'
 
 function EmergencyIntro() {

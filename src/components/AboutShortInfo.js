@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "../styles/GlobalStyle.css";
 import '../styles/components/AboutShortInfo.css'
 
 function AboutShortInfo() {

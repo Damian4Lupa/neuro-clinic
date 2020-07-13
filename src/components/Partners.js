@@ -1,6 +1,5 @@
 import React from "react";
 
-import "../styles/GlobalStyle.css";
 import '../styles/components/Partners.css'
 
 import bma from "../img/Partners/bma.png";

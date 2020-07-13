@@ -1,8 +1,5 @@
 import React from "react";
-// import "../styles/GlobalStyle.css";
 
-import "../styles/pages/News.css";
-import "../styles/components/Card.css";
 import articles from "../data/articles";
 
 import Card from "../components/Card";

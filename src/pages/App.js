@@ -8,13 +8,13 @@ import {
 } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.css";
+import "../styles/GlobalStyle.css"
 import theme from "../styles/theme";
 
 import Loading from "../components/Loading";
 
 import Nav from "../components/Nav";
 import Navigation from "../components/Navigation";
-// import Footer from "../components/Footer";
 
 import HomePage from "./HomePage";
 // import About from "./About";

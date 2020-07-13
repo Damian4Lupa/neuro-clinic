@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/GlobalStyle.css";
 import "../styles/components/Boxes.css";
 
 import checkmark from "../img/Boxes/checkmark.png";

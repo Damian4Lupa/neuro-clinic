@@ -2,7 +2,6 @@ import React from "react";
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 
-import "../styles/GlobalStyle.css";
 import "../styles/components/Equipment.css";
 
 import equipment1 from "../img/Equipment/equipment1.jpg";

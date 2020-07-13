@@ -1,6 +1,4 @@
 import React from "react";
-import "../styles/GlobalStyle.css";
-import '../styles/components/PriceTable.css'
 
 import PriceTable from '../components/PriceTable'
 import Boxes from '../components/Boxes'

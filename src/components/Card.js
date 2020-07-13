@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../styles/components/Card.css";
+
 const Button = (
   <button type="button" className="btn blue-btn">
     Read More
