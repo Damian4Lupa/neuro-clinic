@@ -25,12 +25,11 @@ function AboutShortInfo() {
 
           <div className="col-md-9 col-sm-8 col-xs-12">
             <div className="features-box">
-              <div className="features-box-text">
+              <div id="about-short-info-1" className="features-box-text">
                 <div className="features-box-icon">
-                  {" "}
-                  {/* <i className="fa fa-angle-right" aria-hidden="true"></i>{" "} */}
+
                 </div>
-                <div className="features-box-description">
+                <div  className="features-box-description">
                   <h3>It's something important you want to know.</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -39,10 +38,8 @@ function AboutShortInfo() {
                   </p>
                 </div>
               </div>
-              <div className="features-box-text">
+              <div id="about-short-info-2"  className="features-box-text">
                 <div className="features-box-icon">
-                  {/* {" "}
-                  <i className="fa fa-angle-right" aria-hidden="true"></i>{" "} */}
                 </div>
                 <div className="features-box-description">
                   <h3>It's something important you want to know.</h3>

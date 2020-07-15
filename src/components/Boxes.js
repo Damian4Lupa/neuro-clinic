@@ -12,7 +12,7 @@ function Boxes() {
       <div className="container">
         <div className="row">
           <div className="col-sm-3 col-md-3">
-            <div className="text-center">
+            <div className="box text-center">
               <img src={checkmark} alt="checkmark" className="circled" />
 
               <h4 className="h-bold">Make an appoinment</h4>
@@ -24,7 +24,11 @@ function Boxes() {
           </div>
           <div className="col-sm-3 col-md-3">
             <div className="box text-center">
-              <img src={databaseSearch} alt="databaseSearch" className="circled" />
+              <img
+                src={databaseSearch}
+                alt="databaseSearch"
+                className="circled"
+              />
               <h4 className="h-bold">Choose your package</h4>
               <p>
                 Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut

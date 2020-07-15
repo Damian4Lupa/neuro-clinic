@@ -6,6 +6,7 @@
 /.pnp
 .pnp.js
 /plan.txt
+/src/styles/Animations.css
 
 # testing
 /coverage

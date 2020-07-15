@@ -12,7 +12,7 @@ function Intro() {
       <div className="intro-content">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 slideLeft">
               <h2 className="h-ultra">NeuroClinic medical group</h2>
 
               <h4 className="h-light">
@@ -60,7 +60,7 @@ function Intro() {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="doctor">
+              <div className="doctor-bg slideRight">
                 <img src={doctor} alt="doctor bg" />
               </div>
             </div>
