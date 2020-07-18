@@ -9,7 +9,7 @@ import {
 
 import "bootstrap/dist/css/bootstrap.css";
 import "../styles/GlobalStyle.css"
-import '../styles/Animations2222.css'
+import '../styles/Animations.css'
 
 import theme from "../styles/theme";
 

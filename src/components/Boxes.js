@@ -11,6 +11,7 @@ function Boxes() {
     <section id="boxes" className="home-section-top">
       <div className="container">
         <div className="row">
+
           <div className="col-sm-3 col-md-3">
             <div className="box text-center">
               <img src={checkmark} alt="checkmark" className="circled" />
@@ -22,6 +23,7 @@ function Boxes() {
               </p>
             </div>
           </div>
+
           <div className="col-sm-3 col-md-3">
             <div className="box text-center">
               <img
@@ -36,6 +38,7 @@ function Boxes() {
               </p>
             </div>
           </div>
+
           <div className="col-sm-3 col-md-3">
             <div className="box text-center">
               <img src={stethoscope} alt="stethoscope" className="circled" />
@@ -46,6 +49,7 @@ function Boxes() {
               </p>
             </div>
           </div>
+
           <div className="col-sm-3 col-md-3">
             <div className="box text-center">
               <img src={prognosis} alt="prognosis" className="circled" />
@@ -57,6 +61,7 @@ function Boxes() {
               </p>
             </div>
           </div>
+          
         </div>
       </div>
     </section>

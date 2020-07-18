@@ -64,22 +64,63 @@
   <body>
     <div id="root"></div>
 
-    <script>
+    <!-- <script>
       // boxes animation
       $(window).scroll(function () {
+        //bieżąca wysokość od górnej krawędzi okna 
         let scrollValue = $(document).scrollTop();
-        let elementScrollValue = $("#boxes").offset().top - 500;
+        let item = $("#boxes").offset().top;
+        let item2 = document.getElementById("boxes")
+        let test = item2.getBoundingClientRect()
+        // let elementScrollValue = item - 1
+
+// console.log("scrollValue:", scrollValue)
+console.log("test", test)
+
+        $("#boxes").each(function () {
+          if (scrollValue > 50) {
+            $(this).removeClass("hidden");
+          }
+        });
 
         $("img.circled").each(function () {
           if (scrollValue > elementScrollValue) {
             $(this).addClass("fadeIn");
-          } else {
-            $(this).removeClass("fadeIn");
+          }
+        });
+
+        $(".box.text-center").each(function () {
+          if (scrollValue > elementScrollValue) {
+            $(this).addClass("expandUp");
           }
         });
       });
+    </script> -->
 
+    <!-- <script>
+      // about-short-info animation
+      $(window).scroll(function () {
+        let scrollValue = $(document).scrollTop();
+        let elementScrollValue = $("#about-short-info").offset().top - 1000;
 
-    </script>
+        $("#about-short-info").each(function () {
+          if (scrollValue > elementScrollValue) {
+            $(this).removeClass("hidden");
+          }
+        });
+
+        $("#about-short-info .section-title").each(function () {
+          if (scrollValue > elementScrollValue) {
+            $(this).addClass("slideLeft");
+          }
+        });
+
+        $("").each(function () {
+          if (scrollValue > elementScrollValue) {
+            $(this).addClass("");
+          }
+        });
+      });
+    </script> -->
   </body>
 </html>

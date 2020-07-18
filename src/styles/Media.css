@@ -1,0 +1,36 @@
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+
+@media (max-width: 1024px) {
+  h2.h-ultra {
+    font-weight: 700;
+  }
+
+  #intro ul.lead-list {
+    margin: 10px 10px;
+    padding: 25px 0 0 0;
+  }
+
+  #intro .lead-list img {
+    display: inline-block;
+    margin-top: 0px !important;
+    margin-left: 8px;
+  }
+
+  #intro ul.lead-list li span.list {
+    display: inline-block;
+    margin: -30px 0 0 55px;
+  }
+
+  #intro .doctor-bg img {
+    width: 135%;
+    margin-left: -7vw;
+  }
+
+  h4 {
+    margin-bottom: 1.5rem;
+  }
+}
