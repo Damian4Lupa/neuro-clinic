@@ -17,9 +17,9 @@ function HomePage() {
     <Suspense fallback={<Loading />}>
       <Intro />
       <Boxes />
-      {/* <AboutShortInfo />
+      <AboutShortInfo />
       <Motto />
-      <ServiceShortInfo />
+      {/* <ServiceShortInfo />
       <Equipment />
       <EmergencyIntro />
       <NewsShortInfo />

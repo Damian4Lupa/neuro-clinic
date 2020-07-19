@@ -71,3 +71,24 @@
   margin-bottom: 30px;
 }
 
+@media (max-width: 1024px) {
+  .ser-title {
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 414px) {
+  .ser-title {
+    text-align: center;
+  }
+
+  .botm-line {
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+}
+
+
+

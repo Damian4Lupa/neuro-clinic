@@ -13,9 +13,15 @@ const NewLink = styled(Link)`
   }
 `;
 
+
+const NavigationBackground = styled.div`
+background-color: ${(props) => props.theme.colors.blue.normal};
+`
+
+
 const Wraper = styled.div`
   overflow: hidden;
-  background-color: ${(props) => props.theme.colors.blue.normal};
+  
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -26,6 +32,7 @@ const Wraper = styled.div`
 
 const VisibleLinks = styled.ul`
   display: inline-table;
+  max-width: 1140px;
   padding: 0;
   margin: 0;
 
@@ -74,7 +81,7 @@ const Item = styled.button`
 
 function Navigation() {
   return (
-   
+   <NavigationBackground>
       <Wraper>
         <VisibleLinks>
           <NavigationMenu>
@@ -114,7 +121,7 @@ function Navigation() {
           </NavigationMenu>
         </VisibleLinks>
       </Wraper>
-   
+   </NavigationBackground>
   );
 }
 
