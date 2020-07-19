@@ -17,13 +17,13 @@ function HomePage() {
     <Suspense fallback={<Loading />}>
       <Intro />
       <Boxes />
-      <AboutShortInfo />
+      {/* <AboutShortInfo />
       <Motto />
       <ServiceShortInfo />
       <Equipment />
       <EmergencyIntro />
       <NewsShortInfo />
-      <Partners />
+      <Partners /> */}
     </Suspense>
   );
 }

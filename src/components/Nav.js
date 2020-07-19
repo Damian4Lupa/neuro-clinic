@@ -38,10 +38,14 @@ const H6 = styled.h6`
 const NavWrapper = styled(Wraper)`
   padding: 40px 0px 40px;
   margin-bottom: 30px;
+
+  @media (max-width: 800px) {
+    margin-bottom: 40px;
+  }
 `;
 
 const NavbarBrand = styled(H1)`
-margin: 0;
+  margin: 0;
   color: ${(props) => props.theme.colors.blue.dark};
 `;
 
@@ -49,6 +53,10 @@ const Logo = styled(Img)`
   margin-top: -7px;
   margin-right: 1vw;
   height: 60px;
+
+  @media (max-width: 1024px) {
+    margin-left: 2.5vw;
+  }
 `;
 
 const Col1 = styled.div`
@@ -56,6 +64,12 @@ const Col1 = styled.div`
   width: 100%;
   flex: 0 0 16.666667%;
   max-width: 30%;
+
+  @media (max-width: 800px) {
+    max-width: 100%;
+    vertical-align: center;
+    text-align: center;
+  }
 `;
 
 const Col2 = styled.div`
@@ -65,6 +79,18 @@ const Col2 = styled.div`
   display: flex;
   max-width: 70%;
   width: 100%;
+
+  @media (max-width: 1280px) {
+    max-width: 75%;
+  }
+
+  @media (max-width: 1024px) {
+    max-width: 72%;
+  }
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 `;
 
 const Item = styled.div`
@@ -88,6 +114,13 @@ const Icon = styled(Img)`
 
 const Article = styled(H6)`
   margin-left: 4vw;
+
+  @media (max-width: 1280px) {
+    margin-left: 5vw;
+  }
+  @media (max-width: 1024px) {
+    margin-left: 6vw;
+  }
 `;
 
 const Text = styled.p`
@@ -98,45 +131,73 @@ const Text = styled.p`
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
+
+  @media (max-width: 1280px) {
+    margin-left: 5vw;
+  }
+
+  @media (max-width: 1024px) {
+    margin-left: 6vw;
+  }
+`;
+
+const ArticleFirst = styled(Article)`
+  margin-left: 3vw;
+
+  @media (max-width: 1280px) {
+    margin-left: 3.5vw;
+  }
+
+  @media (max-width: 1024px) {
+    margin-left: 4vw;
+  }
+`;
+
+const TextFirst = styled(Text)`
+  margin-left: 3vw;
+
+  @media (max-width: 1280px) {
+    margin-left: 3.5vw;
+  }
+  @media (max-width: 1024px) {
+    margin-left: 4vw;
+  }
 `;
 
 function Nav() {
   return (
-  
-      <NavWrapper>
+    <NavWrapper>
+      <Col1>
+        <Logo src={logo} />
+        <NavbarBrand>NeuroClinic</NavbarBrand>
+      </Col1>
 
-        <Col1>
-          <Logo src={logo} />
-          <NavbarBrand>NeuroClinic</NavbarBrand>
-        </Col1>
+      <Col2>
+        <Item>
+          <ItemIcon>
+            <Icon src={mobile} />
+          </ItemIcon>
+          <ArticleFirst>+7809346657</ArticleFirst>
+          <TextFirst>Call Free</TextFirst>
+        </Item>
 
-        <Col2>
-          <Item>
-            <ItemIcon>
-              <Icon src={mobile} />
-            </ItemIcon>
-            <Article>+7809346657</Article>
-            <Text>Call Free</Text>
-          </Item>
+        <Item>
+          <ItemIcon>
+            <Icon src={mail} />
+          </ItemIcon>
+          <Article>info@example.com</Article>
+          <Text>Email Us</Text>
+        </Item>
 
-          <Item>
-            <ItemIcon>
-              <Icon src={mail} />
-            </ItemIcon>
-            <Article>info@example.com</Article>
-            <Text>Email Us</Text>
-          </Item>
-
-          <Item>
-            <ItemIcon>
-              <Icon src={clock} />
-            </ItemIcon>
-            <Article>Mon-Sat 9:00-12.00</Article>
-            <Text>Sunday Closed</Text>
-          </Item>
-
-        </Col2>
-      </NavWrapper>
+        <Item>
+          <ItemIcon>
+            <Icon src={clock} />
+          </ItemIcon>
+          <Article>Mon-Sat 9:00-12.00</Article>
+          <Text>Sunday Closed</Text>
+        </Item>
+      </Col2>
+    </NavWrapper>
   );
 }
 

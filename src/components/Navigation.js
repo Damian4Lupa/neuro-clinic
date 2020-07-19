@@ -13,12 +13,9 @@ const NewLink = styled(Link)`
   }
 `;
 
-const Navigation = styled.nav`
+const Wraper = styled.div`
   overflow: hidden;
   background-color: ${(props) => props.theme.colors.blue.normal};
-`;
-
-const Wraper = styled.div`
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -31,11 +28,19 @@ const VisibleLinks = styled.ul`
   display: inline-table;
   padding: 0;
   margin: 0;
+
+  @media (max-width: 414px) {
+    text-align: center;
+  }
 `;
 
 const NavigationMenu = styled.li`
   display: table-cell;
   border-left: 1px solid ${(props) => props.theme.colors.blue.normal};
+
+  @media (max-width: 414px) {
+    display: inherit;
+  }
 `;
 
 const Item = styled.button`
@@ -44,8 +49,6 @@ const Item = styled.button`
   background: ${(props) => props.theme.colors.blue.normal};
   font-size: 18px;
   color: ${(props) => props.theme.colors.white.normal};
-  /* text-decoration: none;
-  list-style: none; */
   border: 0;
 
   &:active,
@@ -53,15 +56,25 @@ const Item = styled.button`
   &:hover,
   &:link {
     background: ${(props) => props.theme.colors.blue.light};
-    /* text-decoration: none;
-    list-style: none; */
     outline: none;
+  }
+
+  @media (max-width: 800px) {
+    padding: 20px 27px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 20px 25px;
+  }
+
+  @media (max-width: 720px) {
+    font-size: 15px;
   }
 `;
 
-function Navigation2() {
+function Navigation() {
   return (
-    <Navigation>
+   
       <Wraper>
         <VisibleLinks>
           <NavigationMenu>
@@ -101,8 +114,8 @@ function Navigation2() {
           </NavigationMenu>
         </VisibleLinks>
       </Wraper>
-    </Navigation>
+   
   );
 }
 
-export default Navigation2;
+export default Navigation;

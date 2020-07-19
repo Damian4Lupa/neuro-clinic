@@ -1,5 +1,6 @@
 #intro {
   width: 100%;
+  overflow: hidden;
   position: relative;
 }
 
@@ -143,3 +144,8 @@ h6.h-ultra {
   }
 }
 
+@media (max-width: 449px) {
+  #intro {
+    display: none;
+  }
+}
