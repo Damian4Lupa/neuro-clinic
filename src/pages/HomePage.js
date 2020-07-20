@@ -19,9 +19,9 @@ function HomePage() {
       <Boxes />
       <AboutShortInfo />
       <Motto />
-      {/* <ServiceShortInfo />
+      <ServiceShortInfo />
       <Equipment />
-      <EmergencyIntro />
+      {/* <EmergencyIntro />
       <NewsShortInfo />
       <Partners /> */}
     </Suspense>
