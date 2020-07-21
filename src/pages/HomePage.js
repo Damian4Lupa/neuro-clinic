@@ -21,9 +21,9 @@ function HomePage() {
       <Motto />
       <ServiceShortInfo />
       <Equipment />
-      {/* <EmergencyIntro />
+      <EmergencyIntro />
       <NewsShortInfo />
-      <Partners /> */}
+      {/* <Partners /> */}
     </Suspense>
   );
 }

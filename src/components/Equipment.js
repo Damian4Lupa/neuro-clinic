@@ -43,7 +43,7 @@ function Equipment() {
               slidesPerScroll={1}
               slidesPerPage={4}
               infinite
-              autoPlay={3500}
+              autoPlay={4000}
               animationSpeed={1000}
             >
               <img src={equipment1} className="carouselImg" alt="equipment1" />

@@ -1,5 +1,4 @@
 #emergency-intro {
-  /* margin: 50px 0; */
   padding: 50px 0;
   color: var(--white-normal);
   background: url(../../img/Emergency/bg.jpg);
@@ -26,13 +25,50 @@
 }
 
 #emergency-intro h2 {
-  /* font-family: "Ubuntu", sans-serif; */
-  font-size: 36px !important;
+  font-size: 36px;
   font-weight: 700;
 }
 
 #emergency-intro span {
   font-size: 56px;
-  /* font-family: "Roboto", sans-serif; */
   font-weight: 900;
+}
+
+@media (max-width: 800px) {
+  #emergency-intro h2 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  #emergency-intro span {
+    font-size: 46px;
+    font-weight: 800;
+  }
+}
+
+@media (max-width: 414px) {
+  #emergency-intro h2 {
+    font-size: 20px;
+    font-weight: 550;
+  }
+  #emergency-intro span {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  #emergency-intro p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  #emergency-intro h2 {
+    font-size: 18px;
+    font-weight: 550;
+  }
+  #emergency-intro span {
+    font-size: 28px;
+    font-weight: 800;
+  }
+  #emergency-intro p {
+    font-size: 10px;
+  }
 }

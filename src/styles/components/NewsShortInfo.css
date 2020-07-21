@@ -1,3 +1,20 @@
 #news-short-info .article-width {
   width: 16rem;
 }
+
+@media (max-width: 720px) {
+  #news-short-info .col-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  #news-short-info .col-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  #news-short-info button {
+    display: none;
+  }
+  #news-short-info .news-img {
+    margin-top: 5vh;
+  }
+}
