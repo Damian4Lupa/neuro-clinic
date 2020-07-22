@@ -23,7 +23,7 @@ function HomePage() {
       <Equipment />
       <EmergencyIntro />
       <NewsShortInfo />
-      {/* <Partners /> */}
+      <Partners />
     </Suspense>
   );
 }

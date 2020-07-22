@@ -27,27 +27,27 @@ function Partners() {
         <div className="row partner-position">
           <div className="col">
             <div className="partner">
-              <Link to="#">
+              <Link to="#" className="link">
                 <img src={bma} alt="bma" height="50" />
               </Link>
             </div>
             <div className="partner">
-              <Link to="#">
+              <Link to="#" className="link">
                 <img src={uniWroc} alt="uniWroc" height="50" />
               </Link>
             </div>
             <div className="partner">
-              <Link to="#">
+              <Link to="#" className="link">
                 <img src={oneHealth} alt="oneHealth" height="60" />
               </Link>
             </div>
             <div className="partner">
-              <Link to="#">
+              <Link to="#" className="link">
                 <img src={unnamed} alt="unnamed" height="75" />
               </Link>
             </div>
             <div className="partner">
-              <Link to="#">
+              <Link to="#" className="link">
                 <img src={cleanMed} alt="cleanMed" height="50" />
               </Link>
             </div>
