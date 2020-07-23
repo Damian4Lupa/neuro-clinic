@@ -13,8 +13,6 @@
 
 #partners .link {
   width: 100%;
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
 #partners .partner a img {
@@ -56,13 +54,7 @@
 }
 
 @media (max-width: 375px) {
-  #partners .partner a img {
-    transform: scale(0.8);
-  }
-
-  #partners .container {
-    width: 100%;
-    padding-right: -20px !important;
-    padding-left: -20px !important;
+  #partners {
+    display: none;
   }
 }

@@ -15,8 +15,8 @@ function Footer() {
       <div className="container">
         <div className="row justify-content-start">
           <div className="col-lg-4 col-sm-12">
-            <div className="footer-widget">
-              <h3>NeuroClinic</h3>
+            <div className="footer-heading">
+              <h3 className="title">NeuroClinic</h3>
               <p>
                 Each theme featured at the Bootstrap marketplace has been
                 reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet,
@@ -140,7 +140,7 @@ function Footer() {
 
         <div className="row text-right pt-5">
           <div className="col-lg-12">
-            <p className="footer-copy ">
+            <p className="footer-copy">
               &copy; Copyright <span className="current-year">NeuroClinic</span>
               . All rights reserved.
             </p>
