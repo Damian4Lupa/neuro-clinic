@@ -12,9 +12,48 @@
   margin-top: 5vh !important;
 }
 
-.bbgg {
+#about .img-right {
   margin-top: 8vh;
 }
-.bbgg22 {
+#about .img-right-2 {
   margin-top: 18vh;
+}
+
+@media (max-width: 1024px) {
+  #about .img-right {
+    margin-top: 17vh;
+  }
+
+  #about .img-right-2 {
+    margin-top: 20vh;
+  }
+
+  #about .img-left {
+    margin-top: 8vh;
+  }
+
+  #about .img-left-2 {
+    margin-top: 0vh;
+  }
+}
+
+@media (max-width: 800px) {
+  #about .col-5,
+  #about .col-7 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #about .img-right,
+  #about .img-right-2,
+  #about .img-left,
+  #about .img-left-2 {
+    margin-top: 0vh;
+  }
+}
+
+@media (max-width: 414px) {
+  #about .img-left {
+    display: none;
+  }
 }

@@ -34,13 +34,13 @@ function AboutHistory() {
           </p>
         </div>
         <div className="col-5">
-          <img className="responsive bbgg" src={history1} alt="" />
+          <img className="responsive img-right" src={history1} alt="" />
         </div>
       </div>
 
       <div className="row">
         <div className="col-5">
-          <img className="responsive" src={history2} alt="" />
+          <img className="responsive img-left" src={history2} alt="" />
         </div>
 
         <div className="col-7">
@@ -65,6 +65,11 @@ function AboutHistory() {
           </p>
         </div>
       </div>
+
+
+
+
+
 
       <div className="row">
         <div className="col-7">
@@ -92,13 +97,13 @@ function AboutHistory() {
           </p>
         </div>
         <div className="col-5">
-          <img className="responsive bbgg22 mt-5" src={now2} alt="" />
+          <img className="responsive img-right-2" src={now2} alt="" />
         </div>
       </div>
 
       <div className="row">
         <div className="col-5">
-          <img className="responsive" src={now1} alt="" />
+          <img className="responsive img-left" src={now1} alt="" />
         </div>
 
         <div className="col-7">

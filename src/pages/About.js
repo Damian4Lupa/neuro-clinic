@@ -1,5 +1,5 @@
 import React from "react";
-// import "../styles/GlobalStyle.css";
+
 import "../styles/pages/About.css";
 
 import AboutHistory from "../components/AboutHistory";
