@@ -1,19 +1,49 @@
-#AboutCard .card-footer {
-    padding: 0.75rem 1.25rem;
-    background-color: var(--blue-normal);
-    /* border-top: 1px solid rgba(0, 0, 0, 0.125); */
+#about-card .card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: var(--blue-normal);
 }
 
-#AboutCard .card-footer:hover {
-    padding: 0.75rem 1.25rem;
-    background-color: var(--blue-light);
-    color: var(--white-normal);
-    /* border-top: 1px solid rgba(0, 0, 0, 0.125); */
+#about-card .card-footer:hover {
+  padding: 0.75rem 1.25rem;
+  background-color: var(--blue-light);
+  color: var(--white-normal);
 }
 
-#AboutCard span {
-    color: var(--white-normal);
+#about-card span {
+  color: var(--white-normal);
 }
-#AboutCard p {
-    text-align: justify;
+#about-card p {
+  text-align: left;
+}
+
+@media (max-width: 720px) {
+  #about-card .card-deck .card {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 5vh;
+  }
+  #about-card .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 10vw;
+  }
+}
+
+@media (max-width: 602px) {
+  #about-card .container {
+    margin-left: 3vw;
+  }
+}
+
+@media (max-width: 414px) {
+  #about-card .container {
+    margin-left: 0.4vw;
+  }
+}
+
+@media (max-width: 375px) {
+  #about-card .container {
+    margin-left: 0.2vw;
+  }
 }

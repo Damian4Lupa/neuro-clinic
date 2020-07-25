@@ -41,7 +41,7 @@ function Counter() {
               <img src={doctors} alt="doctors" />
               <span data-toggle="counter-up">{doctorsCounterValue}</span>
               <p>
-                <strong>Doctors</strong> consequuntur quae qui deca rode
+                <strong>Doctors</strong> consequuntur quae qui deca rode adipisci commodi
               </p>
             </div>
           </div>
@@ -51,7 +51,7 @@ function Counter() {
               <img src={departments} alt="departments" />
               <span data-toggle="counter-up">{departmentsCounterValue}</span>
               <p>
-                <strong>Departments</strong> adipisci atque cum quia aut numquam
+                <strong>Departments</strong> adipisci atque cum quia aut numquam commodi
                 delectus
               </p>
             </div>

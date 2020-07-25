@@ -4,19 +4,19 @@
 }
 
 #meet-us .col {
+  position: relative;
   margin: 2vh 0;
   padding: 20vh 0;
   width: 50%;
   color: var(--white-normal);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  position: relative;
   z-index: 1;
 }
 
 #meet-us .col.team {
   background: url(../../img/MeetUs/team.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
 }
 
 #meet-us .col.service {
@@ -50,4 +50,44 @@
   font-size: 45px;
   font-weight: 750;
   color: var(--white-normal);
+}
+
+@media (max-width: 1366px) {
+  #meet-us h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #meet-us h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 800px) {
+  #meet-us h2 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 720px) {
+  #meet-us h2 {
+    font-size: 23px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 601px) {
+  #meet-us h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 414px) {
+  #meet-us {
+    display: none;
+  }
 }
