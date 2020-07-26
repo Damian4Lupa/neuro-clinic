@@ -73,22 +73,7 @@
   }
 }
 
-@media (max-width: 414px) {
-  #doctors {
-    margin-left: 9vw;
-  }
-
-  #doctors .col-md-3 {
-    flex: 0 0 45%;
-    max-width: 45%;
-  }
-}
-
 @media (max-width: 375px) {
-  #doctors {
-    margin-left: 0vw;
-  }
-
   #doctors .col-md-3 {
     flex: 0 0 100%;
     max-width: 100%;
