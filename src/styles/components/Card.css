@@ -36,9 +36,10 @@
 }
 
 .blog-entry button {
-  position: absolute;
+  /* position: absolute; */
+  float: right;
   top: 30vh;
-  margin-right: 1.5vw;
+  margin-right: 1vw;
   right: 0;
 }
 
@@ -118,4 +119,28 @@
 .blog-entry p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+@media (max-width: 1440px) {
+  .blog-entry button {
+    margin-top: 2vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .blog-entry button {
+    margin-top: 1vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .blog-entry button {
+    margin-right: 4vw;
+  }
+}
+
+@media (max-width: 720px) {
+  .blog-entry button {
+    margin-right: 0vw;
+  }
 }

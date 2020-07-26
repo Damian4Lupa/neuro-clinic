@@ -12,9 +12,6 @@
   overflow: hidden;
 }
 
-/* .doctor .member-img:hover {
-} */
-
 .doctor .img-fluid {
   max-width: 100%;
   height: auto;
@@ -67,4 +64,33 @@
   font-size: 13px;
   font-weight: 400;
   color: #aaaaaa;
+}
+
+@media (max-width: 720px) {
+  #doctors .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 414px) {
+  #doctors {
+    margin-left: 9vw;
+  }
+
+  #doctors .col-md-3 {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 375px) {
+  #doctors {
+    margin-left: 0vw;
+  }
+
+  #doctors .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
