@@ -34,9 +34,8 @@ function ContactForm() {
       </div>
       <div className="form-group">
         <textarea
-          className="form-control br-radius-zero"
+          className="form-control message br-radius-zero"
           name="message"
-          rows="7"
           data-rule="required"
           placeholder="Message"
         ></textarea>

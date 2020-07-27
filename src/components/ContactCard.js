@@ -7,7 +7,7 @@ import mapMarker from "../img/Contact/map-marker.svg";
 
 function ContactCard() {
   return (
-    <div id="contact-card" class="col text-center">
+    <div id="contact-card" class="col">
       <div class="card-deck">
         <div class="card">
           <img src={mapMarker} alt="map" />
