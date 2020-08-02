@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import $ from "jquery";
+
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 
@@ -16,10 +18,30 @@ import equipment8 from "../img/Equipment/equipment8.jpg";
 import arrowLeft from "../img/Equipment/double-left.png";
 import arrowRight from "../img/Equipment/double-right.png";
 
-const DoubleLeft = <img src={arrowLeft} className="carousel-arrow-left" alt="left arrow" />;
-const DoubleRight = <img src={arrowRight} className="carousel-arrow-rigth" alt="rihtg arrow" />;
+const DoubleLeft = (
+  <img src={arrowLeft} className="carousel-arrow-left" alt="left arrow" />
+);
+const DoubleRight = (
+  <img src={arrowRight} className="carousel-arrow-rigth" alt="rihtg arrow" />
+);
 
 function Equipment() {
+  const [width, setWidth] = useState(0);
+
+  $(window).ready(function () {
+    let width = $(window).width();
+
+    if (width <= 720) {
+      setWidth(1);
+    } else if (width <= 800) {
+      setWidth(2);
+    } else if (width <= 1024) {
+      setWidth(3);
+    } else {
+      setWidth(4);
+    }
+  });
+
   return (
     <section id="equipment" className="home-section">
       <div className="container">
@@ -41,7 +63,7 @@ function Equipment() {
               arrowRight={DoubleRight}
               addArrowClickHandler
               slidesPerScroll={1}
-              slidesPerPage={4}
+              slidesPerPage={width}
               infinite
               autoPlay={4000}
               animationSpeed={1000}
