@@ -1,9 +1,9 @@
-.page-container {
-  margin-top: 20vh !important;
-  margin-bottom: 55vh !important;
+#loading .page-container {
+  /* margin-top: 20vh;
+  margin-bottom: 55vh; */
 }
 
-.loading-container {
+#loading .loading-container {
   position: absolute;
   width: 256px;
   height: 256px;
@@ -192,4 +192,16 @@
 .l2 div,
 .l3 div {
   animation: rot2 3s ease 0s infinite, color 3s linear 0s infinite;
+}
+
+@media (max-width: 1440px) {
+  #loading .loading-container {
+    top: 60%;
+  }
+}
+
+@media (max-width: 375px) {
+  #loading .loading-container {
+    top: 65%;
+  }
 }

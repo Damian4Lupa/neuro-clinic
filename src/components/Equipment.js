@@ -28,6 +28,10 @@ const DoubleRight = (
 function Equipment() {
   const [width, setWidth] = useState(0);
 
+  $(window).resize(function () {
+    window.location.reload();
+  });
+
   $(window).ready(function () {
     let width = $(window).width();
 
