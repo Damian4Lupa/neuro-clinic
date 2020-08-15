@@ -3,7 +3,6 @@ import { ThemeProvider } from "styled-components";
 import {
   BrowserRouter as Router,
   HashRouter,
-  Route,
   Switch,
 } from "react-router-dom";
 
@@ -19,15 +18,9 @@ import Nav from "../components/Nav";
 import Navigation from "../components/Navigation";
 
 import HomePage from "./HomePage";
-// import About from "./About";
-// import News from "./News";
-// import Service from "./Service";
-// import Doctors from "./Doctors";
-// import Pricing from "./Pricing";
-// import Contact from "./Contact";
-// import ErrorPage from "./ErrorPage";
 
-// const HomePage = lazy(() => import("./HomePage"));
+import ScrollToTopRoute from "../components/ScrollToTopRoute"
+
 const About = lazy(() => import("./About"));
 const News = lazy(() => import("./News"));
 const Service = lazy(() => import("./Service"));
@@ -40,7 +33,7 @@ const Footer = lazy(() => import("../components/Footer"));
 
 function App() {
   return (
-    <Router>
+    <Router onUpdate={() => window.scrollTo(0, 0)}>
       <HashRouter basename={"/"}>
         <ThemeProvider theme={theme}>
           <Nav />
@@ -48,14 +41,14 @@ function App() {
 
           <Suspense fallback={<Loading />}>
             <Switch>
-              <Route exact path="/" component={HomePage} />
-              <Route path="/About" component={About} />
-              <Route path="/News" component={News} />
-              <Route path="/Service" component={Service} />
-              <Route path="/Doctors" component={Doctors} />
-              <Route path="/Pricing" component={Pricing} />
-              <Route path="/Contact" component={Contact} />
-              <Route component={ErrorPage} />
+              <ScrollToTopRoute exact path="/" component={HomePage} />
+              <ScrollToTopRoute path="/About" component={About} />
+              <ScrollToTopRoute path="/News" component={News} />
+              <ScrollToTopRoute path="/Service" component={Service} />
+              <ScrollToTopRoute path="/Doctors" component={Doctors} />
+              <ScrollToTopRoute path="/Pricing" component={Pricing} />
+              <ScrollToTopRoute path="/Contact" component={Contact} />
+              <ScrollToTopRoute component={ErrorPage} />
             </Switch>
             <Footer />
           </Suspense>

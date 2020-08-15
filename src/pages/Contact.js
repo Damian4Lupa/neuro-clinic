@@ -1,6 +1,5 @@
 import React from "react";
 
-// import "../styles/GlobalStyle.css";
 import "../styles/pages/Contact.css";
 
 import Map from "../components/Map";

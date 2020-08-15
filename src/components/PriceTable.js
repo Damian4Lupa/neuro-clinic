@@ -39,7 +39,7 @@ function PriceTable() {
                 <li>Nec feugiat nisl</li>
                 <li>Nulla at volutpat dola</li>
                 <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li className="na">Massa ultricies mi</li>
               </ul>
               <div className="btn-wrap">
                 <button type="button" className="btn blue-btn">

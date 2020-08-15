@@ -7,10 +7,10 @@ function Map() {
       title="website-map"
         className="google-map"
         samesite="none"
-        frameborder="0"
+        frameBorder="0"
         scrolling="no"
-        marginheight="0"
-        marginwidth="0"
+        marginHeight="0"
+        marginWidth="0"
         src="https://maps.google.com/maps?width=1000&amp;height=500&amp;hl=en&amp;q=%20New%20York+(NeuroClinic)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
       ></iframe>{" "}
       <script

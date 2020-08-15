@@ -17,8 +17,8 @@ function Card(props) {
     year,
     title,
     admission,
-    content,
-    linkTo,
+    // content,
+    // linkTo,
     cardMini,
   } = props;
 
