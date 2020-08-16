@@ -1,0 +1,1 @@
+{"version":3,"sources":["ErrorPage.css"],"names":[],"mappings":"AAAA,YACI,iBACJ,CAEA,eACG,eACH,CAEA,mBACI,gBACJ","file":"21.29ec5ffb.chunk.css","sourcesContent":["#error-page {\r\n    text-align: center;\r\n}\r\n\r\n#error-page h1 {\r\n   font-weight: 750;\r\n}\r\n\r\n#error-page button {\r\n    margin: 5vh 0 4vh 0;\r\n}"]}
