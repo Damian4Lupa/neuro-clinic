@@ -6,8 +6,6 @@ import mobile from "../img/Nav/mobile.svg";
 import mail from "../img/Nav/envelope-regular.svg";
 import clock from "../img/Nav/clock.svg";
 
-//!elementy wspólne
-
 const Wraper = styled.div`
   width: 100%;
   margin-right: auto;
@@ -32,8 +30,6 @@ const H6 = styled.h6`
   font-weight: 500;
   line-height: 1.2;
 `;
-
-//!stylowanie komponentu
 
 const NavWrapper = styled(Wraper)`
   padding: 40px 0px 40px;

@@ -4,9 +4,7 @@ import "../styles/components/Loading.css";
 
 function Loading() {
   return (
-    <div id="loading"
-    //  className="page-container"
-     >
+    <div id="loading">
       <div className="loading-container">
         <div className="loading">
           <div className="l1">

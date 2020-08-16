@@ -6,10 +6,10 @@ import App from "./pages/App";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <>
     <GlobalStyle />
     <App />
-  </React.StrictMode>,
+  </>,
   document.getElementById("root")
 );
 

@@ -13,11 +13,9 @@ const NewLink = styled(Link)`
   }
 `;
 
-
 const NavigationBackground = styled.div`
 background-color: ${(props) => props.theme.colors.blue.normal};
 `
-
 
 const Wraper = styled.div`
   overflow: hidden;
