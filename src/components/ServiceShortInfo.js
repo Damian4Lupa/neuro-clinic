@@ -31,7 +31,7 @@ function ServiceShortInfo() {
           </div>
 
           <div className="col-4">
-            <div className="service-info">
+            <article className="service-info">
               <div className="icon">
                 <img src={support} alt="support" />
               </div>
@@ -42,9 +42,9 @@ function ServiceShortInfo() {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
-            </div>
+            </article>
 
-            <div className="service-info">
+            <article className="service-info">
               <div className="icon">
                 <img src={emergency} alt="emergency" />
               </div>
@@ -55,11 +55,11 @@ function ServiceShortInfo() {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
-            </div>
+            </article>
           </div>
 
           <div className="col-4">
-            <div className="service-info">
+            <article className="service-info">
               <div className="icon">
                 <img src={counseling} alt="counseling" />
               </div>
@@ -70,9 +70,9 @@ function ServiceShortInfo() {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
-            </div>
+            </article>
 
-            <div className="service-info">
+            <article className="service-info">
               <div className="icon">
                 <img src={surgery} alt="surgery" />
               </div>
@@ -83,7 +83,7 @@ function ServiceShortInfo() {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
-            </div>
+            </article>
           </div>
         </div>
       </div>

@@ -19,7 +19,7 @@ function Intro() {
                 Provide best quality healthcare for you
               </h4>
 
-              <div className="box">
+              <article className="box">
                 <ul className="lead-list">
                   <li>
                     <img src={check} alt="check" height="30" />
@@ -57,11 +57,11 @@ function Intro() {
                     </button>
                   </Link>
                 </p>
-              </div>
+              </article>
             </div>
             <div className="col-lg-6">
               <div className="doctor-bg slideRight">
-                <img src={doctor} alt="doctor bg" />
+                <img src={doctor} alt="" />
               </div>
             </div>
           </div>

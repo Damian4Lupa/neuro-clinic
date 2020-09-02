@@ -25,7 +25,7 @@ function AboutShortInfo() {
 
           <div className="col-md-9 col-sm-8 col-xs-12">
             <div className="features-box">
-              <div id="about-short-info-1" className="features-box-text">
+              <article id="about-short-info-1" className="features-box-text">
                 <div className="features-box-icon">
 
                 </div>
@@ -37,8 +37,8 @@ function AboutShortInfo() {
                     ad minim veniam, quis nostrud.
                   </p>
                 </div>
-              </div>
-              <div id="about-short-info-2"  className="features-box-text">
+              </article>
+              <article id="about-short-info-2"  className="features-box-text">
                 <div className="features-box-icon">
                 </div>
                 <div className="features-box-description">
@@ -49,7 +49,7 @@ function AboutShortInfo() {
                     ad minim veniam, quis nostrud.
                   </p>
                 </div>
-              </div>
+              </article>
             </div>
           </div>
 

@@ -6,7 +6,7 @@ function Motto() {
   return (
     <section id="motto">
       <div className="container">
-        <div className="row">
+        <article className="row">
           <div className="col-md-2"></div>
 
           <div className="motto-text col-md-4 col-sm-4">
@@ -24,7 +24,7 @@ function Motto() {
           </div>
 
           <div className="col-md-2"></div>
-        </div>
+        </article>
       </div>
     </section>
   );

@@ -7,8 +7,8 @@ import mapMarker from "../img/Contact/map-marker.svg";
 
 function ContactCard() {
   return (
-    <div id="contact-card" className="col">
-      <div className="card-deck">
+    <section id="contact-card" className="col">
+      <address className="card-deck">
         <div className="card">
           <img src={mapMarker} alt="map" />
           <div className="card-body">
@@ -22,7 +22,7 @@ function ContactCard() {
         </div>
 
         <div className="card">
-          <img src={mobile} alt="mobile" />
+          <img src={mobile} alt="" />
           <div className="card-body">
             <h5 className="card-title">Phone</h5>
             <p className="card-text">+1 800 123 1234</p>
@@ -30,7 +30,7 @@ function ContactCard() {
         </div>
 
         <div className="card">
-          <img src={mail} alt="mail" />
+          <img src={mail} alt="" />
           <div className="card-body">
             <h5 className="card-title">Email</h5>
             <p className="card-text">info@companyname.com</p>
@@ -38,14 +38,14 @@ function ContactCard() {
         </div>
 
         <div className="card">
-          <img src={clock} alt="clock" />
+          <img src={clock} alt="" />
           <div className="card-body">
             <h5 className="card-title">Opening hours</h5>
             <p className="card-text">Mon-Sat 9:00-12.00</p>
           </div>
         </div>
-      </div>
-    </div>
+      </address>
+    </section>
   );
 }
 

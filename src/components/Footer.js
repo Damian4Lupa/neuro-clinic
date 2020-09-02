@@ -25,9 +25,10 @@ function Footer() {
             </div>
           </div>
 
-          <div className="col-lg-3 ml-lg-auto col-sm-12">
+          <article className="col-lg-3 ml-lg-auto col-sm-12">
             <div className="footer-widget">
               <h3>Account</h3>
+              <nav aria-labelledby="footer-navigation-account">
               <ul className="footer-links">
                 <li>
                   <Link to="#"> Terms and conditions</Link>
@@ -45,13 +46,14 @@ function Footer() {
                   <Link to="#"> Frequently Asked Question</Link>
                 </li>
               </ul>
+              </nav>
             </div>
-          </div>
+          </article>
 
-          <div className="col-lg-2 col-sm-6">
+          <article className="col-lg-2 col-sm-6">
             <div className="footer-widget">
               <h3>About</h3>
-
+              <nav aria-labelledby="footer-navigation-about">
               <ul className="footer-links">
                 <li>
                   <Link to="/About">About</Link>
@@ -70,13 +72,14 @@ function Footer() {
                   <Link to="/Contact">Contact</Link>
                 </li>
               </ul>
+              </nav>
             </div>
-          </div>
+          </article>
 
-          <div className="col-lg-2 col-sm-6">
+          <article className="col-lg-2 col-sm-6">
             <div className="footer-widget">
               <h3>Socials</h3>
-
+              <nav aria-labelledby="footer-navigation-socials">
               <ul className="list-unstyled footer-links">
                 <li>
                   <Link to="#">
@@ -134,8 +137,9 @@ function Footer() {
                   </Link>
                 </li>
               </ul>
+              </nav>
             </div>
-          </div>
+          </article>
         </div>
 
         <div className="row text-right pt-5">

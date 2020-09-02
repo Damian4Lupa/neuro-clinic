@@ -59,7 +59,7 @@ function Equipment() {
         </div>
       </div>
 
-      <div className="container">
+      <article className="container">
         <div className="row">
           <div className="col">
             <Carousel
@@ -72,18 +72,18 @@ function Equipment() {
               autoPlay={4000}
               animationSpeed={1000}
             >
-              <img src={equipment1} className="carouselImg" alt="equipment1" />
-              <img src={equipment2} className="carouselImg" alt="equipment2" />
-              <img src={equipment3} className="carouselImg" alt="equipment3" />
-              <img src={equipment4} className="carouselImg" alt="equipment4" />
-              <img src={equipment5} className="carouselImg" alt="equipment5" />
-              <img src={equipment6} className="carouselImg" alt="equipment6" />
-              <img src={equipment7} className="carouselImg" alt="equipment7" />
-              <img src={equipment8} className="carouselImg" alt="equipment8" />
+              <img src={equipment1} className="carouselImg" alt="" />
+              <img src={equipment2} className="carouselImg" alt="" />
+              <img src={equipment3} className="carouselImg" alt="" />
+              <img src={equipment4} className="carouselImg" alt="" />
+              <img src={equipment5} className="carouselImg" alt="" />
+              <img src={equipment6} className="carouselImg" alt="" />
+              <img src={equipment7} className="carouselImg" alt="" />
+              <img src={equipment8} className="carouselImg" alt="" />
             </Carousel>
           </div>
         </div>
-      </div>
+      </article>
     </section>
   );
 }

@@ -7,7 +7,7 @@ function PriceTable() {
     <section id="price-table" className="home-section-top">
       <div className="container">
         <div className="row">
-          <div className="col-lg-3 col-md-6">
+          <article className="col-lg-3 col-md-6">
             <div className="box">
               <h3>Free</h3>
               <h4>
@@ -26,9 +26,9 @@ function PriceTable() {
                 </button>
               </div>
             </div>
-          </div>
+          </article>
 
-          <div className="col-lg-3 col-md-6 mt-4 mt-md-0">
+          <article className="col-lg-3 col-md-6 mt-4 mt-md-0">
             <div className="box">
               <h3>Personal</h3>
               <h4>
@@ -47,9 +47,9 @@ function PriceTable() {
                 </button>
               </div>
             </div>
-          </div>
+          </article>
 
-          <div className="col-lg-3 col-md-6 mt-4 mt-lg-0">
+          <article className="col-lg-3 col-md-6 mt-4 mt-lg-0">
             <div className="box">
               <span className="recommended">recommend</span>
               <h3>Family</h3>
@@ -69,9 +69,9 @@ function PriceTable() {
                 </button>
               </div>
             </div>
-          </div>
+          </article>
 
-          <div className="col-lg-3 col-md-6 mt-4 mt-lg-0">
+          <article className="col-lg-3 col-md-6 mt-4 mt-lg-0">
             <div className="box">
               <h3>Premium</h3>
               <h4>
@@ -90,7 +90,7 @@ function PriceTable() {
                 </button>
               </div>
             </div>
-          </div>
+          </article>
         </div>
       </div>
     </section>

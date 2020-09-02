@@ -4,7 +4,7 @@ import "../styles/components/Loading.css";
 
 function Loading() {
   return (
-    <div id="loading">
+    <section id="loading">
       <div className="loading-container">
         <div className="loading">
           <div className="l1">
@@ -21,7 +21,7 @@ function Loading() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

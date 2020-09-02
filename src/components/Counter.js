@@ -36,7 +36,7 @@ function Counter() {
     <section id="counter" className="home-section">
       <div className="container">
         <div className="row no-gutters">
-          <div className="col-lg-3 col-md-6 d-md-flex">
+          <article className="col-lg-3 col-md-6 d-md-flex">
             <div className="counter-box">
               <img src={doctors} alt="doctors" />
               <span data-toggle="counter-up">{doctorsCounterValue}</span>
@@ -44,40 +44,37 @@ function Counter() {
                 <strong>Doctors</strong> consequuntur quae qui deca rode adipisci commodi
               </p>
             </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6 d-md-flex">
+          </article>
+          <article className="col-lg-3 col-md-6 d-md-flex">
             <div className="counter-box">
-              <img src={departments} alt="departments" />
+              <img src={departments} alt="" />
               <span data-toggle="counter-up">{departmentsCounterValue}</span>
               <p>
                 <strong>Departments</strong> adipisci atque cum quia aut numquam commodi
                 delectus
               </p>
             </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6 d-md-flex">
+          </article>
+          <article className="col-lg-3 col-md-6 d-md-flex">
             <div className="counter-box">
-              <img src={research} alt="research" />
+              <img src={research} alt="" />
               <span data-toggle="counter-up">{researchCounterValue}</span>
               <p>
                 <strong>Research Lab</strong> aut commodi quaerat. Aliquam
                 ratione
               </p>
             </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6 d-md-flex">
+          </article>
+          <article className="col-lg-3 col-md-6 d-md-flex">
             <div className="counter-box">
-              <img src={awards} alt="awards" />
+              <img src={awards} alt="" />
               <span data-toggle="counter-up">{awardsCounterValue}</span>
               <p>
                 <strong>Awards</strong> rerum asperiores dolor molestiae
                 doloribu
               </p>
             </div>
-          </div>
+          </article>
         </div>
       </div>
     </section>

@@ -8,10 +8,12 @@ import now2 from "../img/About/now2.jpg";
 function AboutHistory() {
   return (
     <section id="about-history">
-      <div className="row">
+      <article className="row">
         <div className="col-7">
           <div className="section-title">
+            <header>
             <h2 className="ser-title">The beginnings...</h2>
+            </header>
             <hr className="botm-line" />
           </div>
 
@@ -34,13 +36,13 @@ function AboutHistory() {
           </p>
         </div>
         <div className="col-5">
-          <img className="responsive img-right" src={history1} alt="" />
+          <img className="responsive img-right" src={history1} alt="first operation in the clinic" />
         </div>
-      </div>
+      </article>
 
-      <div className="row">
+      <article className="row">
         <div className="col-5">
-          <img className="responsive img-left" src={history2} alt="" />
+          <img className="responsive img-left" src={history2} alt="clinic founders: J. Abrams, E. Craft, D. Neddy" />
         </div>
 
         <div className="col-7">
@@ -64,17 +66,14 @@ function AboutHistory() {
             nulla dictum. Ut ac ligula sapien.
           </p>
         </div>
-      </div>
+      </article>
 
-
-
-
-
-
-      <div className="row">
+      <article className="row">
         <div className="col-7">
           <div className="section-title">
+          <header>
             <h2 className="ser-title mt-4">...and now</h2>
+            </header>
             <hr className="botm-line" />
           </div>
 
@@ -97,13 +96,13 @@ function AboutHistory() {
           </p>
         </div>
         <div className="col-5">
-          <img className="responsive img-right-2" src={now2} alt="" />
+          <img className="responsive img-right-2" src={now2} alt="Dave Graham, current medical director and chairman of the board." />
         </div>
-      </div>
+      </article>
 
-      <div className="row">
+      <article className="row">
         <div className="col-5">
-          <img className="responsive img-left" src={now1} alt="" />
+          <img className="responsive img-left" src={now1} alt="Dave Graham, current Chief Medical Officer" />
         </div>
 
         <div className="col-7">
@@ -127,7 +126,7 @@ function AboutHistory() {
             nulla dictum. Ut ac ligula sapien.
           </p>
         </div>
-      </div>
+      </article>
     </section>
   );
 }

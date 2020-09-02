@@ -12,7 +12,7 @@ function Doctor(props) {
   const { id, foto, name, position } = props;
 
   return (
-    <div id={`doctor-${id}`} className="col-md-3 d-flex">
+    <article id={`doctor-${id}`} className="col-md-3 d-flex">
       <div className="doctor">
         <div className="member-img">
           <img src={foto} className="img-fluid" alt={`doctor-img-${id}`} />
@@ -38,7 +38,7 @@ function Doctor(props) {
           <span>{position}</span>
         </div>
       </div>
-    </div>
+    </article>
   );
 }
 

@@ -7,17 +7,17 @@ function MeetUs() {
   return (
     <section id="meet-us">
       <div className="row">
-        <div className="col team">
+        <article className="col team">
           <Link to="/Doctors">
             <h2>meet our team</h2>
           </Link>
-        </div>
+        </article>
 
-        <div className="col service">
+        <article className="col service">
           <Link to="/Service">
             <h2>see our services</h2>
           </Link>
-        </div>
+        </article>
       </div>
     </section>
   );

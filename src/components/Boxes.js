@@ -12,9 +12,9 @@ function Boxes() {
       <div className="container">
         <div className="row">
 
-          <div className="col-sm-3 col-md-3">
+          <article className="col-sm-3 col-md-3">
             <div className="box text-center">
-              <img src={checkmark} alt="checkmark" className="circled" />
+              <img src={checkmark} alt="checkmark icon" className="circled" />
 
               <h4 className="h-bold">Make an appoinment</h4>
               <p>
@@ -22,13 +22,13 @@ function Boxes() {
                 utamur molestiae vix, graecis eligendi ne.
               </p>
             </div>
-          </div>
+          </article>
 
-          <div className="col-sm-3 col-md-3">
+          <article className="col-sm-3 col-md-3">
             <div className="box text-center">
               <img
                 src={databaseSearch}
-                alt="databaseSearch"
+                alt="database search icon"
                 className="circled"
               />
               <h4 className="h-bold">Choose your package</h4>
@@ -37,22 +37,22 @@ function Boxes() {
                 utamur molestiae vix, graecis eligendi ne.
               </p>
             </div>
-          </div>
+          </article>
 
-          <div className="col-sm-3 col-md-3">
+          <article className="col-sm-3 col-md-3">
             <div className="box text-center">
-              <img src={stethoscope} alt="stethoscope" className="circled" />
+              <img src={stethoscope} alt="stethoscope icon" className="circled" />
               <h4 className="h-bold">Help by specialist</h4>
               <p>
                 Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut
                 utamur molestiae vix, graecis eligendi ne.
               </p>
             </div>
-          </div>
+          </article>
 
-          <div className="col-sm-3 col-md-3">
+          <article className="col-sm-3 col-md-3">
             <div className="box text-center">
-              <img src={prognosis} alt="prognosis" className="circled" />
+              <img src={prognosis} alt="prognosis icon" className="circled" />
 
               <h4 className="h-bold">Get diagnostic report</h4>
               <p>
@@ -60,7 +60,7 @@ function Boxes() {
                 utamur molestiae vix, graecis eligendi ne.
               </p>
             </div>
-          </div>
+          </article>
           
         </div>
       </div>

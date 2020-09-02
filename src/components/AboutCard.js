@@ -12,7 +12,7 @@ function AboutCard() {
       <div className="container">
         <div className="card-deck text-center">
 
-          <div className="card">
+          <article className="card">
             <img className="card-img-top" src={about3} alt="card title" />
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
@@ -25,9 +25,9 @@ function AboutCard() {
             <div className="card-footer" type="button">
               <span>read more</span>
             </div>
-          </div>
+          </article>
 
-          <div className="card">
+          <article className="card">
             <img className="card-img-top" src={about1} alt="clinical tests" />
             <div className="card-body">
               <h5 className="card-title">Clinical tests</h5>
@@ -39,9 +39,9 @@ function AboutCard() {
             <div className="card-footer" type="button">
               <span>read more</span>
             </div>
-          </div>
+          </article>
 
-          <div className="card">
+          <article className="card">
             <img className="card-img-top" src={about2} alt="internship program" />
             <div className="card-body">
               <h5 className="card-title">Internship program</h5>
@@ -54,7 +54,7 @@ function AboutCard() {
             <div className="card-footer" type="button">
               <span>read more</span>
             </div>
-          </div>
+          </article>
 
         </div>
       </div>

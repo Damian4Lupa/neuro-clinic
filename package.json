@@ -1,7 +1,7 @@
 {
   "homepage": "https://damian4lupa.github.io/neuro-clinic/",
   "name": "neuroclinic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.18.2",
@@ -17,7 +17,7 @@
     "react-countup": "^4.3.3",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.1",
     "styled-components": "^5.1.1",
     "styled-normalize": "^8.0.7"
   },

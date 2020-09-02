@@ -21,7 +21,7 @@ function Card(props) {
   } = props;
 
   return (
-    <div id={`card-${id}`} className="col-md-4">
+    <article id={`card-${id}`} className="col-md-4">
       <div className={cardMini ? "blog-entry-mini" : "blog-entry"}>
         <div className="news-img">
           <img
@@ -43,7 +43,7 @@ function Card(props) {
           {cardMini ? null : Button}
         </div>
       </div>
-    </div>
+    </article>
   );
 }
 

@@ -10,7 +10,7 @@ function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <div className="home-section-top">
+        <article className="home-section-top">
           <div className="row">
             <div className="col-6">
               <Map />
@@ -19,13 +19,14 @@ function Contact() {
               <ContactForm />
             </div>
           </div>
-        </div>
+        </article>
 
-        <div className="row">
+        <article className="row">
           <div className="home-section">
             <ContactCard />
           </div>
-        </div>
+        </article>
+        
       </div>
     </section>
   );
