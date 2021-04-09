@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import $ from "jquery";
-
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
-
 import "../styles/components/Equipment.css";
-
 import equipment1 from "../img/Equipment/equipment1.jpg";
 import equipment2 from "../img/Equipment/equipment2.jpg";
 import equipment3 from "../img/Equipment/equipment3.jpg";
@@ -14,7 +11,6 @@ import equipment5 from "../img/Equipment/equipment5.jpg";
 import equipment6 from "../img/Equipment/equipment6.jpg";
 import equipment7 from "../img/Equipment/equipment7.jpg";
 import equipment8 from "../img/Equipment/equipment8.jpg";
-
 import arrowLeft from "../img/Equipment/double-left.png";
 import arrowRight from "../img/Equipment/double-right.png";
 

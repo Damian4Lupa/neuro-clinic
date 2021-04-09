@@ -1,5 +1,4 @@
 import React from "react";
-
 import "../styles/components/ServiceDetailedInfo.css";
 
 function ServiceCard(props) {

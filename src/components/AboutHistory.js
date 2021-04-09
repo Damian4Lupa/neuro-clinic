@@ -1,5 +1,4 @@
 import React from "react";
-
 import history1 from "../img/About/history1.jpg";
 import history2 from "../img/About/history2.jpg";
 import now1 from "../img/About/now1.jpg";
@@ -12,7 +11,7 @@ function AboutHistory() {
         <div className="col-7">
           <div className="section-title">
             <header>
-            <h2 className="ser-title">The beginnings...</h2>
+              <h2 className="ser-title">The beginnings...</h2>
             </header>
             <hr className="botm-line" />
           </div>
@@ -36,13 +35,21 @@ function AboutHistory() {
           </p>
         </div>
         <div className="col-5">
-          <img className="responsive img-right" src={history1} alt="first operation in the clinic" />
+          <img
+            className="responsive img-right"
+            src={history1}
+            alt="first operation in the clinic"
+          />
         </div>
       </article>
 
       <article className="row">
         <div className="col-5">
-          <img className="responsive img-left" src={history2} alt="clinic founders: J. Abrams, E. Craft, D. Neddy" />
+          <img
+            className="responsive img-left"
+            src={history2}
+            alt="clinic founders: J. Abrams, E. Craft, D. Neddy"
+          />
         </div>
 
         <div className="col-7">
@@ -71,8 +78,8 @@ function AboutHistory() {
       <article className="row">
         <div className="col-7">
           <div className="section-title">
-          <header>
-            <h2 className="ser-title mt-4">...and now</h2>
+            <header>
+              <h2 className="ser-title mt-4">...and now</h2>
             </header>
             <hr className="botm-line" />
           </div>
@@ -96,13 +103,21 @@ function AboutHistory() {
           </p>
         </div>
         <div className="col-5">
-          <img className="responsive img-right-2" src={now2} alt="Dave Graham, current medical director and chairman of the board." />
+          <img
+            className="responsive img-right-2"
+            src={now2}
+            alt="Dave Graham, current medical director and chairman of the board."
+          />
         </div>
       </article>
 
       <article className="row">
         <div className="col-5">
-          <img className="responsive img-left" src={now1} alt="Dave Graham, current Chief Medical Officer" />
+          <img
+            className="responsive img-left"
+            src={now1}
+            alt="Dave Graham, current Chief Medical Officer"
+          />
         </div>
 
         <div className="col-7">

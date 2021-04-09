@@ -55,14 +55,13 @@
 }
 
 @media (max-width: 414px) {
-
   #motto .container {
     padding-right: 25px;
     padding-left: 25px;
   }
 
   #motto .col-md-2 {
-   display: none;
+    display: none;
   }
 
   #motto .col-md-4 {

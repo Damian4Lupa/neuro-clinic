@@ -1,9 +1,6 @@
 import React from "react";
-
 import "../styles/components/ServiceDetailedInfo.css";
-
 import ServiceCard from "../components/ServiceCard";
-
 import data from "../data/services";
 
 const services = data.map((item) => (

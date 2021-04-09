@@ -1,5 +1,4 @@
 import React, { Suspense, lazy } from "react";
-
 import Loading from "../components/Loading";
 
 const Intro = lazy(() => import("../components/Intro"));

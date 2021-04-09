@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import $ from "jquery";
 import CountUp from "react-countup";
 import "../styles/components/Counter.css";
-
 import awards from "../img/Counter/awards.svg";
 import departments from "../img/Counter/departments.svg";
 import doctors from "../img/Counter/doctors.svg";
@@ -13,7 +12,7 @@ function Counter() {
 
   $(window).scroll(function () {
     let scrollValue = $(document).scrollTop();
-    let counterIdTopValue = 0
+    let counterIdTopValue = 0;
     let counter = $("#counter");
 
     if (counter.length) {
@@ -41,7 +40,8 @@ function Counter() {
               <img src={doctors} alt="doctors" />
               <span data-toggle="counter-up">{doctorsCounterValue}</span>
               <p>
-                <strong>Doctors</strong> consequuntur quae qui deca rode adipisci commodi
+                <strong>Doctors</strong> consequuntur quae qui deca rode
+                adipisci commodi
               </p>
             </div>
           </article>
@@ -50,8 +50,8 @@ function Counter() {
               <img src={departments} alt="" />
               <span data-toggle="counter-up">{departmentsCounterValue}</span>
               <p>
-                <strong>Departments</strong> adipisci atque cum quia aut numquam commodi
-                delectus
+                <strong>Departments</strong> adipisci atque cum quia aut numquam
+                commodi delectus
               </p>
             </div>
           </article>

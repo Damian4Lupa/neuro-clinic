@@ -14,12 +14,12 @@ const NewLink = styled(Link)`
 `;
 
 const NavigationBackground = styled.div`
-background-color: ${(props) => props.theme.colors.blue.normal};
-`
+  background-color: ${(props) => props.theme.colors.blue.normal};
+`;
 
 const Wraper = styled.div`
   overflow: hidden;
-  
+
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -79,7 +79,7 @@ const Item = styled.button`
 
 function Navigation() {
   return (
-   <NavigationBackground>
+    <NavigationBackground>
       <Wraper>
         <VisibleLinks>
           <NavigationMenu>
@@ -119,7 +119,7 @@ function Navigation() {
           </NavigationMenu>
         </VisibleLinks>
       </Wraper>
-   </NavigationBackground>
+    </NavigationBackground>
   );
 }
 

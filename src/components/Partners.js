@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import "../styles/components/Partners.css";
-
 import bma from "../img/Partners/bma.png";
 import cleanMed from "../img/Partners/CleanMed.png";
 import oneHealth from "../img/Partners/one-health.png";

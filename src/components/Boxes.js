@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/components/Boxes.css";
-
 import checkmark from "../img/Boxes/checkmark.png";
 import databaseSearch from "../img/Boxes/database-search.png";
 import prognosis from "../img/Boxes/prognosis.png";
@@ -11,7 +10,6 @@ function Boxes() {
     <section id="boxes" className="home-section-top">
       <div className="container">
         <div className="row">
-
           <article className="col-sm-3 col-md-3">
             <div className="box text-center">
               <img src={checkmark} alt="checkmark icon" className="circled" />
@@ -41,7 +39,11 @@ function Boxes() {
 
           <article className="col-sm-3 col-md-3">
             <div className="box text-center">
-              <img src={stethoscope} alt="stethoscope icon" className="circled" />
+              <img
+                src={stethoscope}
+                alt="stethoscope icon"
+                className="circled"
+              />
               <h4 className="h-bold">Help by specialist</h4>
               <p>
                 Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut
@@ -61,7 +63,6 @@ function Boxes() {
               </p>
             </div>
           </article>
-          
         </div>
       </div>
     </section>

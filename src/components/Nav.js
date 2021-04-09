@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-
 import logo from "../img/Nav/brain.png";
 import mobile from "../img/Nav/mobile.svg";
 import mail from "../img/Nav/envelope-regular.svg";

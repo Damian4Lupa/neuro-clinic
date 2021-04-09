@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import "../styles/components/Intro.css";
-
 import doctor from "../img/Intro/doctor-bg.png";
 import check from "../img/Intro/check.svg";
 

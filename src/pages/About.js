@@ -1,11 +1,9 @@
 import React from "react";
-
 import "../styles/pages/About.css";
-
 import AboutHistory from "../components/AboutHistory";
 import MeetUs from "../components/MeetUs";
 import AboutCard from "../components/AboutCard";
-import Counter from '../components/Counter'
+import Counter from "../components/Counter";
 
 function About() {
   return (

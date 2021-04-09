@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import "../styles/components/ServiceShortInfo.css";
-
 import support from "../img/Service/support.svg";
 import counseling from "../img/Service/counseling.svg";
 import emergency from "../img/Service/emergency.svg";

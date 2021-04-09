@@ -1,7 +1,5 @@
 import React from "react";
-
 import articles from "../data/articles";
-
 import Card from "../components/Card";
 
 let data = articles.map((item) => (
@@ -20,13 +18,10 @@ let data = articles.map((item) => (
 ));
 
 function News() {
-  
   return (
     <section id="news" className="home-section">
       <div className="container">
-        <div className="row">
-          {data}
-        </div>
+        <div className="row">{data}</div>
       </div>
     </section>
   );

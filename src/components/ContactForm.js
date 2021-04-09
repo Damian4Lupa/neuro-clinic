@@ -10,7 +10,6 @@ function ContactForm() {
           className="form-control br-radius-zero"
           id="name"
           placeholder="Your Name"
-         
         />
       </div>
       <div className="form-group">
@@ -29,7 +28,6 @@ function ContactForm() {
           name="subject"
           id="subject"
           placeholder="Subject"
-
         />
       </div>
       <div className="form-group">

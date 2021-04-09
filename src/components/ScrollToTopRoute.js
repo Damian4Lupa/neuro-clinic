@@ -9,24 +9,17 @@ class ScrollToTopRoute extends Component {
       this.props.location.pathname !== prevProps.location.pathname
     ) {
       window.scrollTo({
-        top: 0, 
-        left: 0, 
-        behavior: 'smooth'
+        top: 0,
+        left: 0,
+        behavior: "smooth",
       });
-      
-      
     }
   }
 
   render() {
     const { component: Component, ...rest } = this.props;
 
-    return (
-      <Route
-        {...rest}
-        render={(props) => <Component {...props} />}
-      />
-    );
+    return <Route {...rest} render={(props) => <Component {...props} />} />;
   }
 }
 

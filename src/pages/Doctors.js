@@ -1,7 +1,5 @@
 import React from "react";
-
 import doctors from "../data/doctors";
-
 import Doctor from "../components/Doctor";
 import Motto from '../components/Motto'
 

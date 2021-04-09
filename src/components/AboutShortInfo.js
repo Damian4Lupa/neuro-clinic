@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-import '../styles/components/AboutShortInfo.css'
+import "../styles/components/AboutShortInfo.css";
 
 function AboutShortInfo() {
   return (
@@ -26,10 +25,8 @@ function AboutShortInfo() {
           <div className="col-md-9 col-sm-8 col-xs-12">
             <div className="features-box">
               <article id="about-short-info-1" className="features-box-text">
-                <div className="features-box-icon">
-
-                </div>
-                <div  className="features-box-description">
+                <div className="features-box-icon"></div>
+                <div className="features-box-description">
                   <h3>It's something important you want to know.</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -38,9 +35,8 @@ function AboutShortInfo() {
                   </p>
                 </div>
               </article>
-              <article id="about-short-info-2"  className="features-box-text">
-                <div className="features-box-icon">
-                </div>
+              <article id="about-short-info-2" className="features-box-text">
+                <div className="features-box-icon"></div>
                 <div className="features-box-description">
                   <h3>It's something important you want to know.</h3>
                   <p>
@@ -52,7 +48,6 @@ function AboutShortInfo() {
               </article>
             </div>
           </div>
-
         </div>
       </div>
     </section>

@@ -1,11 +1,11 @@
 #error-page {
-    text-align: center;
+  text-align: center;
 }
 
 #error-page h1 {
-   font-weight: 750;
+  font-weight: 750;
 }
 
 #error-page button {
-    margin: 5vh 0 4vh 0;
+  margin: 5vh 0 4vh 0;
 }

@@ -1,25 +1,15 @@
 import React, { Suspense, lazy } from "react";
 import { ThemeProvider } from "styled-components";
-import {
-  BrowserRouter as Router,
-  HashRouter,
-  Switch,
-} from "react-router-dom";
-
+import { BrowserRouter as Router, HashRouter, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
-import "../styles/GlobalStyle.css"
-import '../styles/Animations.css'
-
+import "../styles/GlobalStyle.css";
+import "../styles/Animations.css";
 import theme from "../styles/theme";
-
 import Loading from "../components/Loading";
-
 import Nav from "../components/Nav";
 import Navigation from "../components/Navigation";
-
 import HomePage from "./HomePage";
-
-import ScrollToTopRoute from "../components/ScrollToTopRoute"
+import ScrollToTopRoute from "../components/ScrollToTopRoute";
 
 const About = lazy(() => import("./About"));
 const News = lazy(() => import("./News"));
@@ -52,7 +42,6 @@ function App() {
             </Switch>
             <Footer />
           </Suspense>
-
         </ThemeProvider>
       </HashRouter>
     </Router>

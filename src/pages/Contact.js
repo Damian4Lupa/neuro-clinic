@@ -1,7 +1,5 @@
 import React from "react";
-
 import "../styles/pages/Contact.css";
-
 import Map from "../components/Map";
 import ContactForm from "../components/ContactForm";
 import ContactCard from "../components/ContactCard";
@@ -26,7 +24,6 @@ function Contact() {
             <ContactCard />
           </div>
         </article>
-        
       </div>
     </section>
   );

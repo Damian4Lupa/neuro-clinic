@@ -1,5 +1,4 @@
 import React from "react";
-
 import mobile from "../img/Contact/mobile.svg";
 import mail from "../img/Contact/envelope-regular.svg";
 import clock from "../img/Contact/clock.svg";

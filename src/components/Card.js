@@ -1,5 +1,4 @@
 import React from "react";
-
 import "../styles/components/Card.css";
 
 const Button = (
@@ -9,26 +8,13 @@ const Button = (
 );
 
 function Card(props) {
-  const {
-    id,
-    foto,
-    day,
-    month,
-    year,
-    title,
-    admission,
-    cardMini,
-  } = props;
+  const { id, foto, day, month, year, title, admission, cardMini } = props;
 
   return (
     <article id={`card-${id}`} className="col-md-4">
       <div className={cardMini ? "blog-entry-mini" : "blog-entry"}>
         <div className="news-img">
-          <img
-            src={foto}
-            alt={`img-card-${id}`}
-            className="card-img"
-          />
+          <img src={foto} alt={`img-card-${id}`} className="card-img" />
           <div className="meta-date">
             <span className="day">{day}</span>
             <span className="mos">{month}</span>
