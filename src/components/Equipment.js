@@ -3,14 +3,24 @@ import $ from "jquery";
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 import "../styles/components/Equipment.css";
-import equipment1 from "../img/Equipment/equipment1.jpg";
-import equipment2 from "../img/Equipment/equipment2.jpg";
-import equipment3 from "../img/Equipment/equipment3.jpg";
-import equipment4 from "../img/Equipment/equipment4.jpg";
-import equipment5 from "../img/Equipment/equipment5.jpg";
-import equipment6 from "../img/Equipment/equipment6.jpg";
-import equipment7 from "../img/Equipment/equipment7.jpg";
-import equipment8 from "../img/Equipment/equipment8.jpg";
+
+import equipment1_300 from "../img/Equipment/equipment1-300.jpg";
+import equipment1_800 from "../img/Equipment/equipment1-800.jpg";
+import equipment2_300 from "../img/Equipment/equipment2-300.jpg";
+import equipment2_800 from "../img/Equipment/equipment2-800.jpg";
+import equipment3_300 from "../img/Equipment/equipment3-300.jpg";
+import equipment3_800 from "../img/Equipment/equipment3-800.jpg";
+import equipment4_300 from "../img/Equipment/equipment4-300.jpg";
+import equipment4_800 from "../img/Equipment/equipment4-800.jpg";
+import equipment5_300 from "../img/Equipment/equipment5-300.jpg";
+import equipment5_800 from "../img/Equipment/equipment5-800.jpg";
+import equipment6_300 from "../img/Equipment/equipment6-300.jpg";
+import equipment6_800 from "../img/Equipment/equipment6-800.jpg";
+import equipment7_300 from "../img/Equipment/equipment7-300.jpg";
+import equipment7_800 from "../img/Equipment/equipment7-800.jpg";
+import equipment8_300 from "../img/Equipment/equipment8-300.jpg";
+import equipment8_800 from "../img/Equipment/equipment8-800.jpg";
+
 import arrowLeft from "../img/Equipment/double-left.png";
 import arrowRight from "../img/Equipment/double-right.png";
 
@@ -68,14 +78,94 @@ function Equipment() {
               autoPlay={4000}
               animationSpeed={1000}
             >
-              <img src={equipment1} className="carouselImg" alt="" />
-              <img src={equipment2} className="carouselImg" alt="" />
-              <img src={equipment3} className="carouselImg" alt="" />
-              <img src={equipment4} className="carouselImg" alt="" />
-              <img src={equipment5} className="carouselImg" alt="" />
-              <img src={equipment6} className="carouselImg" alt="" />
-              <img src={equipment7} className="carouselImg" alt="" />
-              <img src={equipment8} className="carouselImg" alt="" />
+              <picture>
+                <source
+                  srcSet={`${equipment1_300} 1x`}
+                  media="(max-width: 1000px)"
+                />
+                <img
+                  srcSet={`${equipment1_800} 2x`}
+                  className="carouselImg"
+                  alt=""
+                />
+              </picture>
+              <picture>
+                <source
+                  srcSet={`${equipment2_300} 1x`}
+                  media="(max-width: 1000px)"
+                />
+                <img
+                  srcSet={`${equipment2_800} 2x`}
+                  className="carouselImg"
+                  alt=""
+                />
+              </picture>
+              <picture>
+                <source
+                  srcSet={`${equipment3_300} 1x`}
+                  media="(max-width: 1000px)"
+                />
+                <img
+                  srcSet={`${equipment3_800} 2x`}
+                  className="carouselImg"
+                  alt=""
+                />
+              </picture>
+              <picture>
+                <source
+                  srcSet={`${equipment4_300} 1x`}
+                  media="(max-width: 1000px)"
+                />
+                <img
+                  srcSet={`${equipment4_800} 2x`}
+                  className="carouselImg"
+                  alt=""
+                />
+              </picture>
+              <picture>
+                <source
+                  srcSet={`${equipment5_300} 1x`}
+                  media="(max-width: 1000px)"
+                />
+                <img
+                  srcSet={`${equipment5_800} 2x`}
+                  className="carouselImg"
+                  alt=""
+                />
+              </picture>
+              <picture>
+                <source
+                  srcSet={`${equipment6_300} 1x`}
+                  media="(max-width: 1000px)"
+                />
+                <img
+                  srcSet={`${equipment6_800} 2x`}
+                  className="carouselImg"
+                  alt=""
+                />
+              </picture>
+              <picture>
+                <source
+                  srcSet={`${equipment7_300} 1x`}
+                  media="(max-width: 1000px)"
+                />
+                <img
+                  srcSet={`${equipment7_800} 2x`}
+                  className="carouselImg"
+                  alt=""
+                />
+              </picture>
+              <picture>
+                <source
+                  srcSet={`${equipment8_300} 1x`}
+                  media="(max-width: 1000px)"
+                />
+                <img
+                  srcSet={`${equipment8_800} 2x`}
+                  className="carouselImg"
+                  alt=""
+                />
+              </picture>
             </Carousel>
           </div>
         </div>

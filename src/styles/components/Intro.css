@@ -5,7 +5,7 @@
 }
 
 #intro .intro-content {
-  background-image: url(../../img/Intro/bg.jpg);
+  background-image: url(../../img/Intro/bg-1500.jpg);
   padding-top: 10vh;
 }
 
@@ -62,6 +62,10 @@ h6.h-ultra {
 /* 1024 */
 
 @media (max-width: 1024px) {
+  #intro .intro-content {
+    background-image: url(../../img/Intro/bg-1000.jpg);
+  }
+
   h2.h-ultra {
     font-weight: 700;
   }
@@ -117,6 +121,9 @@ h6.h-ultra {
 /* 768 */
 
 @media (max-width: 768px) {
+  #intro .intro-content {
+    background-image: url(../../img/Intro/bg-500.jpg);
+  }
   h4 {
     margin-bottom: 2.5rem;
   }

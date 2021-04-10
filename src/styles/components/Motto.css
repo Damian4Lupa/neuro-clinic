@@ -2,7 +2,7 @@
   padding: 50px 0;
   margin-bottom: 0;
   color: var(--white-normal);
-  background: url(../../img//Motto/motto.jpg);
+  background: url(../../img//Motto/motto-750.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -43,6 +43,10 @@
 }
 
 @media (max-width: 720px) {
+  #motto {
+    background: url(../../img//Motto/motto-400.jpg);
+  }
+
   #motto .col-md-2 {
     flex: 0 0 1%;
     max-width: 1%;

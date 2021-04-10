@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/components/Intro.css";
-import doctor from "../img/Intro/doctor-bg.png";
+import doctor_400 from "../img/Intro/doctor-bg-400.png";
+import doctor_800 from "../img/Intro/doctor-bg-800.png";
 import check from "../img/Intro/check.svg";
 
 function Intro() {
@@ -59,7 +60,17 @@ function Intro() {
             </div>
             <div className="col-lg-6">
               <div className="doctor-bg slideRight">
-                <img src={doctor} alt="" />
+                <picture>
+                  <source
+                    srcSet={`${doctor_400} 1x`}
+                    media="(max-width: 1000px)"
+                  />
+                  <img
+                    srcSet={`${doctor_800} 2x`}
+                    className="card-img-top"
+                    alt=""
+                  />
+                </picture>
               </div>
             </div>
           </div>

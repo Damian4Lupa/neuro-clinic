@@ -1,7 +1,7 @@
 #emergency-intro {
   padding: 50px 0;
   color: var(--white-normal);
-  background: url(../../img/Emergency/bg.jpg);
+  background: url(../../img/Emergency/bg-1500.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -34,6 +34,12 @@
   font-weight: 900;
 }
 
+@media (max-width: 1024px) {
+  #emergency-intro {
+    background: url(../../img/Emergency/bg-1000.jpg);
+  }
+}
+
 @media (max-width: 800px) {
   #emergency-intro h2 {
     font-size: 26px;
@@ -46,6 +52,9 @@
 }
 
 @media (max-width: 414px) {
+  #emergency-intro {
+    background: url(../../img/Emergency/bg-500.jpg);
+  }
   #emergency-intro h2 {
     font-size: 20px;
     font-weight: 550;

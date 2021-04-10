@@ -1,7 +1,7 @@
 footer {
   padding: 80px 0px;
   color: var(--white-normal);
-  background-image: url(../../img/Footer/footer.jpg);
+  background-image: url(../../img/Footer/footer-1000.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -110,6 +110,10 @@ footer .social {
 }
 
 @media (max-width: 720px) {
+  footer {
+    background-image: url(../../img/Footer/footer-500.jpg);
+  }
+
   .footer-copy:before {
     width: 35%;
   }
