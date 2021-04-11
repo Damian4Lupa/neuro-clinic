@@ -24,7 +24,7 @@ function ContactCard() {
           <img src={mobile} alt="" />
           <div className="card-body">
             <h5 className="card-title">Phone</h5>
-            <p className="card-text">123 123 123</p>
+            <p className="card-text">877-528-8974</p>
           </div>
         </div>
 
