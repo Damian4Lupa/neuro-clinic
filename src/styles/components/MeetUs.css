@@ -52,13 +52,13 @@
   color: var(--white-normal);
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1367px) {
   #meet-us h2 {
     font-size: 40px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   #meet-us .col.service {
     background: url(../../img/MeetUs/service-1000.jpg);
   }
@@ -68,7 +68,7 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 801px) {
   #meet-us h2 {
     font-size: 25px;
     font-weight: 700;
@@ -86,14 +86,14 @@
   }
 }
 
-@media (max-width: 601px) {
+@media (max-width: 602px) {
   #meet-us h2 {
     font-size: 20px;
     font-weight: 600;
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   #meet-us {
     display: none;
   }

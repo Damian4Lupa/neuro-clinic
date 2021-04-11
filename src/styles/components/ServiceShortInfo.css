@@ -10,13 +10,13 @@
   margin-bottom: 70px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   #service-short-info .service-info .icon img {
     margin-bottom: 90px;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 801px) {
   #service-short-info .service-info .icon img {
     margin-bottom: 170px;
   }
@@ -47,7 +47,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   #service-short-info .service-info .icon img {
     margin-bottom: 70px;
     margin-left: 10px;
@@ -59,14 +59,14 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   #service-short-info .service-info .icon img {
     margin-bottom: 75px;
     margin-left: 3px;
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 361px) {
   #service-short-info .service-info .icon img {
     margin-bottom: 75px;
     margin-left: 1px;

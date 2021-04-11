@@ -19,7 +19,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   #boxes .col-sm-3 {
     flex: 0 0 100%;
     max-width: 100%;

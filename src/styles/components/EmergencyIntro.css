@@ -34,13 +34,16 @@
   font-weight: 900;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   #emergency-intro {
     background: url(../../img/Emergency/bg-1000.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 801px) {
   #emergency-intro h2 {
     font-size: 26px;
     font-weight: 600;
@@ -51,9 +54,12 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   #emergency-intro {
     background: url(../../img/Emergency/bg-500.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   #emergency-intro h2 {
     font-size: 20px;
@@ -68,7 +74,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 361px) {
   #emergency-intro h2 {
     font-size: 18px;
     font-weight: 550;

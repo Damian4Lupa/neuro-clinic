@@ -43,7 +43,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   #about-short-info .btn {
     display: none;
   }
@@ -54,7 +54,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   #about-short-info .features-box-icon {
     margin-top: 5vh;
     margin-left: 1.5vw;

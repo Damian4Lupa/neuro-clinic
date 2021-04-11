@@ -28,13 +28,13 @@
   font-size: 14px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   #counter .counter-box img {
     margin: -8px -50px 0 35px;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 801px) {
   #counter .col-md-6 {
     flex: 0 0 50%;
     max-width: 50%;
@@ -63,7 +63,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   #counter .col-md-6 {
     flex: 0 0 100%;
     max-width: 100%;
@@ -76,7 +76,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   #counter .counter-box span {
     margin-left: 75px;
   }
@@ -85,7 +85,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 361px) {
   #counter .counter-box span {
     margin-left: 70px;
   }

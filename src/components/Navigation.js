@@ -34,7 +34,7 @@ const VisibleLinks = styled.ul`
   padding: 0;
   margin: 0;
 
-  @media (max-width: 414px) {
+  @media (max-width: 415px) {
     text-align: center;
   }
 `;
@@ -43,8 +43,8 @@ const NavigationMenu = styled.li`
   display: table-cell;
   border-left: 1px solid ${(props) => props.theme.colors.blue.normal};
 
-  @media (max-width: 414px) {
-    display: inherit;
+  @media (max-width: 415px) {
+    display: inline-table;
   }
 `;
 
@@ -64,11 +64,11 @@ const Item = styled.button`
     outline: none;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 801px) {
     padding: 20px 27px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 769px) {
     padding: 20px 25px;
   }
 

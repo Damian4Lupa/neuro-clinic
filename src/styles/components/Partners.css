@@ -28,7 +28,7 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 801px) {
   #partners .col {
     max-width: 100%;
   }
@@ -47,13 +47,13 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   #partners .partner a img {
     margin: 5vh 0vh 0vh 0vh;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   #partners {
     display: none;
   }

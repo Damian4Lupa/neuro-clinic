@@ -14,14 +14,14 @@
   transform: translateX(-2px);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 801px) {
   #equipment .col-3 {
     flex: 0 0 50%;
     max-width: 50%;
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   #equipment .col-3 {
     flex: 0 0 100%;
     max-width: 100%;

@@ -3,7 +3,6 @@ import $ from "jquery";
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 import "../styles/components/Equipment.css";
-
 import equipment1_300 from "../img/Equipment/equipment1-300.jpg";
 import equipment1_800 from "../img/Equipment/equipment1-800.jpg";
 import equipment2_300 from "../img/Equipment/equipment2-300.jpg";
@@ -20,7 +19,6 @@ import equipment7_300 from "../img/Equipment/equipment7-300.jpg";
 import equipment7_800 from "../img/Equipment/equipment7-800.jpg";
 import equipment8_300 from "../img/Equipment/equipment8-300.jpg";
 import equipment8_800 from "../img/Equipment/equipment8-800.jpg";
-
 import arrowLeft from "../img/Equipment/double-left.png";
 import arrowRight from "../img/Equipment/double-right.png";
 

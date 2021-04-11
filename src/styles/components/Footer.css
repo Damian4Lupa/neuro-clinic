@@ -89,7 +89,13 @@ footer .social {
   background-position: top;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1025px) {
+  .footer-copy:before {
+    width: 65%;
+  }
+}
+
+@media (max-width: 801px) {
   footer {
     padding: 40px 0;
   }
@@ -119,7 +125,7 @@ footer .social {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   footer .title {
     text-align: center;
   }
@@ -147,7 +153,7 @@ footer .social {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .footer-widget {
     margin-left: 30vw;
   }
@@ -161,7 +167,7 @@ footer .social {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 361px) {
   footer .footer-copy:before {
     width: 15%;
   }

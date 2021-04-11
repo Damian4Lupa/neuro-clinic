@@ -120,19 +120,19 @@
   margin-bottom: 1rem;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1441px) {
   .blog-entry button {
     margin-top: 2vh;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   .blog-entry button {
     margin-top: 1vh;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 801px) {
   .blog-entry button {
     margin-right: 4vw;
   }

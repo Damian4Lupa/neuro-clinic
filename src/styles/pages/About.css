@@ -19,13 +19,13 @@
   margin-top: 18vh;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   #about .img-right {
-    margin-top: 17vh;
+    margin-top: 15vh;
   }
 
   #about .img-right-2 {
-    margin-top: 20vh;
+    margin-top: 19vh;
   }
 
   #about .img-left {
@@ -37,7 +37,7 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 801px) {
   #about .col-5,
   #about .col-7 {
     flex: 0 0 100%;
@@ -52,7 +52,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   #about .img-left {
     display: none;
   }

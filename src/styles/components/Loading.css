@@ -189,13 +189,13 @@
   animation: rot2 3s ease 0s infinite, color 3s linear 0s infinite;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1441px) {
   #loading .loading-container {
     top: 60%;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   #loading .loading-container {
     top: 65%;
   }

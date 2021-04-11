@@ -24,7 +24,7 @@ function ContactCard() {
           <img src={mobile} alt="" />
           <div className="card-body">
             <h5 className="card-title">Phone</h5>
-            <p className="card-text">+1 800 123 1234</p>
+            <p className="card-text">123 123 123</p>
           </div>
         </div>
 
@@ -32,7 +32,7 @@ function ContactCard() {
           <img src={mail} alt="" />
           <div className="card-body">
             <h5 className="card-title">Email</h5>
-            <p className="card-text">info@companyname.com</p>
+            <p className="card-text">info@neuroclinic.com</p>
           </div>
         </div>
 
@@ -40,7 +40,7 @@ function ContactCard() {
           <img src={clock} alt="" />
           <div className="card-body">
             <h5 className="card-title">Opening hours</h5>
-            <p className="card-text">Mon-Sat 9:00-12.00</p>
+            <p className="card-text">Mon-Sat 9:00-18.00</p>
           </div>
         </div>
       </address>

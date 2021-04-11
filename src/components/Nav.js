@@ -172,7 +172,7 @@ function Nav() {
           <ItemIcon>
             <Icon src={mobile} />
           </ItemIcon>
-          <ArticleFirst>+7809346657</ArticleFirst>
+          <ArticleFirst>123 123 123</ArticleFirst>
           <TextFirst>Call Free</TextFirst>
         </Item>
 
@@ -180,7 +180,7 @@ function Nav() {
           <ItemIcon>
             <Icon src={mail} />
           </ItemIcon>
-          <Article>info@example.com</Article>
+          <Article>info@neuroclinic.com</Article>
           <Text>Email Us</Text>
         </Item>
 
@@ -188,7 +188,7 @@ function Nav() {
           <ItemIcon>
             <Icon src={clock} />
           </ItemIcon>
-          <Article>Mon-Sat 9:00-12.00</Article>
+          <Article>Mon-Sat 9:00-18.00</Article>
           <Text>Sunday Closed</Text>
         </Item>
       </Col2>

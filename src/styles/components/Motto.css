@@ -30,7 +30,7 @@
   align-items: center;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   #motto .col-md-2 {
     flex: 0 0 10%;
     max-width: 10%;
@@ -45,6 +45,9 @@
 @media (max-width: 720px) {
   #motto {
     background: url(../../img//Motto/motto-400.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
   #motto .col-md-2 {
@@ -58,7 +61,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   #motto .container {
     padding-right: 25px;
     padding-left: 25px;
