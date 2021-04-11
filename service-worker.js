@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/neuro-clinic/precache-manifest.70ef066c0209ff331ddb5dc1e467561b.js"
+  "/neuro-clinic/precache-manifest.425c4a2c47e1a77e902b72f26282040f.js"
 );
 
 self.addEventListener('message', (event) => {
